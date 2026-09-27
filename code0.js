@@ -212,6 +212,8 @@ gdjs.copyArray(runtimeScene.getObjects("BtnAvisoSi"), gdjs.Escena_32principalCod
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(0);
 }
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "AvisoCerrado");
+}
 }
 
 }
@@ -307,6 +309,8 @@ gdjs.copyArray(runtimeScene.getObjects("BtnAvisoSi"), gdjs.Escena_32principalCod
     gdjs.Escena_32principalCode.GDBtnAvisoNoObjects2[i].hide();
 }
 }
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "AvisoCerrado");
+}
 }
 
 }
@@ -400,6 +404,8 @@ gdjs.copyArray(runtimeScene.getObjects("BtnAvisoNo"), gdjs.Escena_32principalCod
     gdjs.Escena_32principalCode.GDBtnAvisoNoObjects1[i].hide();
 }
 }
+{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "AvisoCerrado");
+}
 }
 
 }
@@ -434,7 +440,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22941284);
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(19627604);
+}
 }
 }
 }
@@ -473,7 +483,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22942916);
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(30217516);
+}
 }
 }
 }
@@ -510,6 +524,10 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
     }
 }
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+}
 }
 if (isConditionTrue_0) {
 {gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://nearby-temples-map.lovable.app/", null);
@@ -546,7 +564,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22947060);
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11666804);
+}
 }
 }
 }
@@ -585,7 +607,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22940388);
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9601788);
+}
 }
 }
 }
@@ -622,6 +648,10 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
     }
 }
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+}
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(13).setString("VERSICULO DEL DIA");
@@ -671,6 +701,10 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
     }
 }
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+}
 }
 if (isConditionTrue_0) {
 {gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).setString(gdjs.evtTools.string.subStr("0" + gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mon") + 1), gdjs.evtTools.string.strLen(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mon") + 1)) - 1, 2) + "-" + gdjs.evtTools.string.subStr("0" + gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mday")), gdjs.evtTools.string.strLen(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mday"))) - 1, 2));
@@ -713,6 +747,10 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
     }
 }
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+}
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "escena información", false);
@@ -831,6 +869,10 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
     }
 }
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+}
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menú en general", false);
@@ -865,6 +907,10 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
     }
 }
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+}
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Calendario litúrgico", false);
@@ -893,6 +939,7 @@ gdjs.Escena_32principalCode.eventsList2(runtimeScene);
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("AvisoFondo"), gdjs.Escena_32principalCode.GDAvisoFondoObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.Escena_32principalCode.GDNewSprite8Objects1);
 
 let isConditionTrue_0 = false;
@@ -905,6 +952,21 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDNewSprite8Objects1.leng
     }
 }
 gdjs.Escena_32principalCode.GDNewSprite8Objects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length;i<l;++i) {
+    if ( !(gdjs.Escena_32principalCode.GDAvisoFondoObjects1[i].isVisible()) ) {
+        isConditionTrue_0 = true;
+        gdjs.Escena_32principalCode.GDAvisoFondoObjects1[k] = gdjs.Escena_32principalCode.GDAvisoFondoObjects1[i];
+        ++k;
+    }
+}
+gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "AvisoCerrado") > 0.5;
+}
+}
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Apoya el proyecto", false);
 }
