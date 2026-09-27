@@ -21,12 +21,12 @@ gdjs.escena_32informaci_243nCode.GDmisionObjects1= [];
 gdjs.escena_32informaci_243nCode.GDmisionObjects2= [];
 gdjs.escena_32informaci_243nCode.GDcontenidoObjects1= [];
 gdjs.escena_32informaci_243nCode.GDcontenidoObjects2= [];
-gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1= [];
-gdjs.escena_32informaci_243nCode.GDNewSprite2Objects2= [];
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects1= [];
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects2= [];
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects1= [];
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects2= [];
+gdjs.escena_32informaci_243nCode.GDNewSprite4Objects1= [];
+gdjs.escena_32informaci_243nCode.GDNewSprite4Objects2= [];
 
 
 gdjs.escena_32informaci_243nCode.eventsList0 = function(runtimeScene) {
@@ -146,28 +146,6 @@ if (isConditionTrue_0) {
 }
 
 
-{
-
-gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1.length;i<l;++i) {
-    if ( gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1[i].getBehavior("ButtonFSM").IsClicked(null) ) {
-        isConditionTrue_0 = true;
-        gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1[k] = gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1[i];
-        ++k;
-    }
-}
-gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1.length = k;
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Apoya el proyecto", false);
-}
-}
-
-}
-
-
 };
 
 gdjs.escena_32informaci_243nCode.func = function(runtimeScene) {
@@ -193,12 +171,12 @@ gdjs.escena_32informaci_243nCode.GDmisionObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDmisionObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDcontenidoObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDcontenidoObjects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDNewSprite2Objects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite4Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite4Objects2.length = 0;
 
 gdjs.escena_32informaci_243nCode.eventsList0(runtimeScene);
 gdjs.escena_32informaci_243nCode.GDfondo_9595info_95951Objects1.length = 0;
@@ -221,12 +199,12 @@ gdjs.escena_32informaci_243nCode.GDmisionObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDmisionObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDcontenidoObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDcontenidoObjects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDNewSprite2Objects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite4Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite4Objects2.length = 0;
 
 
 return;

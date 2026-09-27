@@ -82,6 +82,9 @@ gdjs.Escena_32principalCode.GDBtnAvisoSiObjects3= [];
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects1= [];
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects2= [];
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects3= [];
+gdjs.Escena_32principalCode.GDNewSprite8Objects1= [];
+gdjs.Escena_32principalCode.GDNewSprite8Objects2= [];
+gdjs.Escena_32principalCode.GDNewSprite8Objects3= [];
 
 
 gdjs.Escena_32principalCode.eventsList0 = function(runtimeScene) {
@@ -431,7 +434,7 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(21509916);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22941284);
 }
 }
 }
@@ -470,7 +473,7 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9832988);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22942916);
 }
 }
 }
@@ -509,7 +512,7 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 }
 if (isConditionTrue_0) {
-{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "", null);
+{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://nearby-temples-map.lovable.app/", null);
 }
 }
 
@@ -543,7 +546,7 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10024372);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22947060);
 }
 }
 }
@@ -582,7 +585,7 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDAvisoFondoObjects1.leng
 gdjs.Escena_32principalCode.GDAvisoFondoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12596628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(22940388);
 }
 }
 }
@@ -888,6 +891,28 @@ gdjs.Escena_32principalCode.eventsList2(runtimeScene);
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.Escena_32principalCode.GDNewSprite8Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDNewSprite8Objects1.length;i<l;++i) {
+    if ( gdjs.Escena_32principalCode.GDNewSprite8Objects1[i].getBehavior("ButtonFSM").IsClicked(null) ) {
+        isConditionTrue_0 = true;
+        gdjs.Escena_32principalCode.GDNewSprite8Objects1[k] = gdjs.Escena_32principalCode.GDNewSprite8Objects1[i];
+        ++k;
+    }
+}
+gdjs.Escena_32principalCode.GDNewSprite8Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Apoya el proyecto", false);
+}
+}
+
+}
+
+
 };
 
 gdjs.Escena_32principalCode.func = function(runtimeScene) {
@@ -974,6 +999,9 @@ gdjs.Escena_32principalCode.GDBtnAvisoSiObjects3.length = 0;
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects1.length = 0;
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects2.length = 0;
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects3.length = 0;
+gdjs.Escena_32principalCode.GDNewSprite8Objects1.length = 0;
+gdjs.Escena_32principalCode.GDNewSprite8Objects2.length = 0;
+gdjs.Escena_32principalCode.GDNewSprite8Objects3.length = 0;
 
 gdjs.Escena_32principalCode.eventsList3(runtimeScene);
 gdjs.Escena_32principalCode.GDfondo_9595principalObjects1.length = 0;
@@ -1057,6 +1085,9 @@ gdjs.Escena_32principalCode.GDBtnAvisoSiObjects3.length = 0;
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects1.length = 0;
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects2.length = 0;
 gdjs.Escena_32principalCode.GDBtnAvisoNoObjects3.length = 0;
+gdjs.Escena_32principalCode.GDNewSprite8Objects1.length = 0;
+gdjs.Escena_32principalCode.GDNewSprite8Objects2.length = 0;
+gdjs.Escena_32principalCode.GDNewSprite8Objects3.length = 0;
 
 
 return;

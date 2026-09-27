@@ -48,7 +48,7 @@ gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects4= [];
 gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects5= [];
 
 
-gdjs.Apoya_32el_32proyectoCode.asyncCallback24874220 = function (runtimeScene, asyncObjectsList) {
+gdjs.Apoya_32el_32proyectoCode.asyncCallback24879396 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects5);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects5.length ;i < len;++i) {
@@ -73,7 +73,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.Apoya_32el_32proyecto
 }
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24874220, gdjs.Apoya_32el_32proyectoCode.asyncCallback24874220);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24879396, gdjs.Apoya_32el_32proyectoCode.asyncCallback24879396);
 gdjs.Apoya_32el_32proyectoCode.eventsList0 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -84,14 +84,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24874220(runtimeScene, asyncObjectsList)), 24874220, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24879396(runtimeScene, asyncObjectsList)), 24879396, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback24874532 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback24879708 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects4);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects4.length ;i < len;++i) {
@@ -119,7 +119,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList0(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24874532, gdjs.Apoya_32el_32proyectoCode.asyncCallback24874532);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24879708, gdjs.Apoya_32el_32proyectoCode.asyncCallback24879708);
 gdjs.Apoya_32el_32proyectoCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -130,14 +130,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24874532(runtimeScene, asyncObjectsList)), 24874532, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24879708(runtimeScene, asyncObjectsList)), 24879708, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback24873004 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback24878180 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3.length ;i < len;++i) {
@@ -165,7 +165,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24873004, gdjs.Apoya_32el_32proyectoCode.asyncCallback24873004);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24878180, gdjs.Apoya_32el_32proyectoCode.asyncCallback24878180);
 gdjs.Apoya_32el_32proyectoCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -175,14 +175,14 @@ gdjs.Apoya_32el_32proyectoCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24873004(runtimeScene, asyncObjectsList)), 24873004, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24878180(runtimeScene, asyncObjectsList)), 24878180, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback24880588 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback24885764 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects5);
 
@@ -210,7 +210,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewSprite6"), gdjs.Apoya_32el_32proy
 }
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24880588, gdjs.Apoya_32el_32proyectoCode.asyncCallback24880588);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24885764, gdjs.Apoya_32el_32proyectoCode.asyncCallback24885764);
 gdjs.Apoya_32el_32proyectoCode.eventsList3 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -225,14 +225,14 @@ for (const obj of gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects4) asyncObje
 /* Don't save NewSprite4 as it will be provided by the parent asyncObjectsList. */
 /* Don't save NewSprite5 as it will be provided by the parent asyncObjectsList. */
 /* Don't save NewSprite6 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.24), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24880588(runtimeScene, asyncObjectsList)), 24880588, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.24), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24885764(runtimeScene, asyncObjectsList)), 24885764, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback24879236 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback24884412 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects4);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects4.length ;i < len;++i) {
@@ -248,7 +248,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24879236, gdjs.Apoya_32el_32proyectoCode.asyncCallback24879236);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24884412, gdjs.Apoya_32el_32proyectoCode.asyncCallback24884412);
 gdjs.Apoya_32el_32proyectoCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -262,14 +262,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.l
 for (const obj of gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3) asyncObjectsList.addObject("NewSprite4", obj);
 /* Don't save NewSprite5 as it will be provided by the parent asyncObjectsList. */
 /* Don't save NewSprite6 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24879236(runtimeScene, asyncObjectsList)), 24879236, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24884412(runtimeScene, asyncObjectsList)), 24884412, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback24879308 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback24884484 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3.length ;i < len;++i) {
@@ -285,7 +285,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList4(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24879308, gdjs.Apoya_32el_32proyectoCode.asyncCallback24879308);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24884484, gdjs.Apoya_32el_32proyectoCode.asyncCallback24884484);
 gdjs.Apoya_32el_32proyectoCode.eventsList5 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -298,14 +298,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 for (const obj of gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects2) asyncObjectsList.addObject("NewSprite5", obj);
 /* Don't save NewSprite6 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24879308(runtimeScene, asyncObjectsList)), 24879308, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24884484(runtimeScene, asyncObjectsList)), 24884484, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback24878204 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback24883380 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects2);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects2.length ;i < len;++i) {
@@ -321,7 +321,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList5(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24878204, gdjs.Apoya_32el_32proyectoCode.asyncCallback24878204);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(24883380, gdjs.Apoya_32el_32proyectoCode.asyncCallback24883380);
 gdjs.Apoya_32el_32proyectoCode.eventsList6 = function(runtimeScene) {
 
 {
@@ -332,7 +332,7 @@ gdjs.Apoya_32el_32proyectoCode.eventsList6 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 for (const obj of gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1) asyncObjectsList.addObject("NewSprite6", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24878204(runtimeScene, asyncObjectsList)), 24878204, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback24883380(runtimeScene, asyncObjectsList)), 24883380, asyncObjectsList);
 }
 }
 
