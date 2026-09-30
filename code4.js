@@ -64,6 +64,9 @@ gdjs.Misterios_32gozososCode.GDBola7Objects3= [];
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects1= [];
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects2= [];
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects3= [];
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects1= [];
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects2= [];
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects3= [];
 
 
 gdjs.Misterios_32gozososCode.mapOfGDgdjs_9546Misterios_959532gozososCode_9546GDbot_959595243n_95959595otro_95959595ave_95959595Mar_959595237a_95959595Objects1Objects = Hashtable.newFrom({"botón_otro_ave_María_": gdjs.Misterios_32gozososCode.GDbot_95243n_9595otro_9595ave_9595Mar_95237a_9595Objects1});
@@ -332,6 +335,20 @@ gdjs.Misterios_32gozososCode.eventsList1 = function(runtimeScene) {
 
 
 let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Click_03.aac", false, 70, 1);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("Texto_doloroso"), gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1);
 {for(var i = 0, len = gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1.length ;i < len;++i) {
@@ -375,7 +392,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32gozososCode.mapOfGDgdjs_9546Misterios_959532gozososCode_9546GDbot_959595243n_95959595otro_95959595ave_95959595Mar_959595237a_95959595Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23438108);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23787756);
 }
 }
 }
@@ -416,7 +433,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32gozososCode.mapOfGDgdjs_9546Misterios_959532gozososCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23450820);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23801380);
 }
 }
 }
@@ -640,6 +657,9 @@ gdjs.Misterios_32gozososCode.GDBola7Objects3.length = 0;
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects1.length = 0;
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects2.length = 0;
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects3.length = 0;
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects1.length = 0;
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects2.length = 0;
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects3.length = 0;
 
 gdjs.Misterios_32gozososCode.eventsList1(runtimeScene);
 gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1.length = 0;
@@ -705,6 +725,9 @@ gdjs.Misterios_32gozososCode.GDBola7Objects3.length = 0;
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects1.length = 0;
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects2.length = 0;
 gdjs.Misterios_32gozososCode.GDNewSpriteObjects3.length = 0;
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects1.length = 0;
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects2.length = 0;
+gdjs.Misterios_32gozososCode.GDNewSprite2Objects3.length = 0;
 
 
 return;

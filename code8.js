@@ -19,9 +19,27 @@ gdjs.Escena_32modo_32misaCode.GDNewSprite2Objects1= [];
 gdjs.Escena_32modo_32misaCode.GDNewSprite2Objects2= [];
 gdjs.Escena_32modo_32misaCode.GDNewSprite3Objects1= [];
 gdjs.Escena_32modo_32misaCode.GDNewSprite3Objects2= [];
+gdjs.Escena_32modo_32misaCode.GDfondo_9595de_9595verdadObjects1= [];
+gdjs.Escena_32modo_32misaCode.GDfondo_9595de_9595verdadObjects2= [];
+gdjs.Escena_32modo_32misaCode.GDNewSprite4Objects1= [];
+gdjs.Escena_32modo_32misaCode.GDNewSprite4Objects2= [];
 
 
 gdjs.Escena_32modo_32misaCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Click_03.aac", false, 70, 1);
+}
+}
+
+}
+
 
 {
 
@@ -67,7 +85,7 @@ for (var i = 0, k = 0, l = gdjs.Escena_32modo_32misaCode.GDBotonLecturasObjects1
 gdjs.Escena_32modo_32misaCode.GDBotonLecturasObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23872460);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24222892);
 }
 }
 if (isConditionTrue_0) {
@@ -129,6 +147,10 @@ gdjs.Escena_32modo_32misaCode.GDNewSprite2Objects1.length = 0;
 gdjs.Escena_32modo_32misaCode.GDNewSprite2Objects2.length = 0;
 gdjs.Escena_32modo_32misaCode.GDNewSprite3Objects1.length = 0;
 gdjs.Escena_32modo_32misaCode.GDNewSprite3Objects2.length = 0;
+gdjs.Escena_32modo_32misaCode.GDfondo_9595de_9595verdadObjects1.length = 0;
+gdjs.Escena_32modo_32misaCode.GDfondo_9595de_9595verdadObjects2.length = 0;
+gdjs.Escena_32modo_32misaCode.GDNewSprite4Objects1.length = 0;
+gdjs.Escena_32modo_32misaCode.GDNewSprite4Objects2.length = 0;
 
 gdjs.Escena_32modo_32misaCode.eventsList0(runtimeScene);
 gdjs.Escena_32modo_32misaCode.GDNewSpriteObjects1.length = 0;
@@ -149,6 +171,10 @@ gdjs.Escena_32modo_32misaCode.GDNewSprite2Objects1.length = 0;
 gdjs.Escena_32modo_32misaCode.GDNewSprite2Objects2.length = 0;
 gdjs.Escena_32modo_32misaCode.GDNewSprite3Objects1.length = 0;
 gdjs.Escena_32modo_32misaCode.GDNewSprite3Objects2.length = 0;
+gdjs.Escena_32modo_32misaCode.GDfondo_9595de_9595verdadObjects1.length = 0;
+gdjs.Escena_32modo_32misaCode.GDfondo_9595de_9595verdadObjects2.length = 0;
+gdjs.Escena_32modo_32misaCode.GDNewSprite4Objects1.length = 0;
+gdjs.Escena_32modo_32misaCode.GDNewSprite4Objects2.length = 0;
 
 
 return;

@@ -332,6 +332,20 @@ gdjs.Misterios_32luminososCode.eventsList1 = function(runtimeScene) {
 
 
 let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Click_03.aac", false, 70, 1);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("Texto_doloroso"), gdjs.Misterios_32luminososCode.GDTexto_9595dolorosoObjects1);
 {for(var i = 0, len = gdjs.Misterios_32luminososCode.GDTexto_9595dolorosoObjects1.length ;i < len;++i) {
@@ -375,7 +389,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32luminososCode.mapOfGDgdjs_9546Misterios_959532luminososCode_9546GDbot_959595243n_95959595otro_95959595ave_95959595Mar_959595237a_95959595Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23548084);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23898484);
 }
 }
 }
@@ -416,7 +430,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32luminososCode.mapOfGDgdjs_9546Misterios_959532luminososCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23560796);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23912108);
 }
 }
 }

@@ -3394,6 +3394,20 @@ let isConditionTrue_0 = false;
 
 {
 
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Click_03.aac", false, 70, 1);
+}
+}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1);
 
 let isConditionTrue_0 = false;

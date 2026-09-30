@@ -65,6 +65,20 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Click_03.aac", false, 70, 1);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
@@ -364,7 +378,7 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595fundamentalObje
 gdjs.menu_32oracionesCode.GDboton_9595fundamentalObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23765700);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24116020);
 }
 }
 if (isConditionTrue_0) {
@@ -395,7 +409,7 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595ma_95241ana_959
 gdjs.menu_32oracionesCode.GDboton_9595ma_95241ana_9595y_9595nocheObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23767132);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24117116);
 }
 }
 if (isConditionTrue_0) {
@@ -426,7 +440,7 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595momento_9595del
 gdjs.menu_32oracionesCode.GDboton_9595momento_9595del_9595diaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23768172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24118532);
 }
 }
 if (isConditionTrue_0) {
@@ -457,7 +471,7 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595viaObjects1.len
 gdjs.menu_32oracionesCode.GDboton_9595viaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23769756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24120148);
 }
 }
 if (isConditionTrue_0) {
@@ -488,7 +502,7 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595virgenObjects1.
 gdjs.menu_32oracionesCode.GDboton_9595virgenObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23771220);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24121412);
 }
 }
 if (isConditionTrue_0) {
@@ -519,7 +533,7 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595espiritu_9595sa
 gdjs.menu_32oracionesCode.GDboton_9595espiritu_9595santoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23772292);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24122660);
 }
 }
 if (isConditionTrue_0) {
@@ -550,7 +564,7 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595novenaObjects1.
 gdjs.menu_32oracionesCode.GDboton_9595novenaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23773708);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24124292);
 }
 }
 if (isConditionTrue_0) {
@@ -581,7 +595,7 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595petici_95243n_9
 gdjs.menu_32oracionesCode.GDboton_9595petici_95243n_9595y_9595amparoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23775100);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24125364);
 }
 }
 if (isConditionTrue_0) {

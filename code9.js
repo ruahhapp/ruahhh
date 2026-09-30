@@ -33,9 +33,25 @@ gdjs.Escenario_32menu_32rosarioCode.GDNewSprite7Objects1= [];
 gdjs.Escenario_32menu_32rosarioCode.GDNewSprite7Objects2= [];
 gdjs.Escenario_32menu_32rosarioCode.GDabajoObjects1= [];
 gdjs.Escenario_32menu_32rosarioCode.GDabajoObjects2= [];
+gdjs.Escenario_32menu_32rosarioCode.GDNewSprite8Objects1= [];
+gdjs.Escenario_32menu_32rosarioCode.GDNewSprite8Objects2= [];
 
 
 gdjs.Escenario_32menu_32rosarioCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Click_03.aac", false, 70, 1);
+}
+}
+
+}
+
 
 {
 
@@ -282,6 +298,8 @@ gdjs.Escenario_32menu_32rosarioCode.GDNewSprite7Objects1.length = 0;
 gdjs.Escenario_32menu_32rosarioCode.GDNewSprite7Objects2.length = 0;
 gdjs.Escenario_32menu_32rosarioCode.GDabajoObjects1.length = 0;
 gdjs.Escenario_32menu_32rosarioCode.GDabajoObjects2.length = 0;
+gdjs.Escenario_32menu_32rosarioCode.GDNewSprite8Objects1.length = 0;
+gdjs.Escenario_32menu_32rosarioCode.GDNewSprite8Objects2.length = 0;
 
 gdjs.Escenario_32menu_32rosarioCode.eventsList0(runtimeScene);
 gdjs.Escenario_32menu_32rosarioCode.GDfondo_9595Rosario_9595menu_9595Objects1.length = 0;
@@ -316,6 +334,8 @@ gdjs.Escenario_32menu_32rosarioCode.GDNewSprite7Objects1.length = 0;
 gdjs.Escenario_32menu_32rosarioCode.GDNewSprite7Objects2.length = 0;
 gdjs.Escenario_32menu_32rosarioCode.GDabajoObjects1.length = 0;
 gdjs.Escenario_32menu_32rosarioCode.GDabajoObjects2.length = 0;
+gdjs.Escenario_32menu_32rosarioCode.GDNewSprite8Objects1.length = 0;
+gdjs.Escenario_32menu_32rosarioCode.GDNewSprite8Objects2.length = 0;
 
 
 return;

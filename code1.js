@@ -13,23 +13,37 @@ gdjs.escena_32informaci_243nCode.GDmenjObjects1= [];
 gdjs.escena_32informaci_243nCode.GDmenjObjects2= [];
 gdjs.escena_32informaci_243nCode.GDNewSpriteObjects1= [];
 gdjs.escena_32informaci_243nCode.GDNewSpriteObjects2= [];
-gdjs.escena_32informaci_243nCode.GDquienes_9595somos_9595Objects1= [];
-gdjs.escena_32informaci_243nCode.GDquienes_9595somos_9595Objects2= [];
-gdjs.escena_32informaci_243nCode.GDhistoriaObjects1= [];
-gdjs.escena_32informaci_243nCode.GDhistoriaObjects2= [];
-gdjs.escena_32informaci_243nCode.GDmisionObjects1= [];
-gdjs.escena_32informaci_243nCode.GDmisionObjects2= [];
-gdjs.escena_32informaci_243nCode.GDcontenidoObjects1= [];
-gdjs.escena_32informaci_243nCode.GDcontenidoObjects2= [];
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects1= [];
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects2= [];
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects1= [];
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects2= [];
 gdjs.escena_32informaci_243nCode.GDNewSprite4Objects1= [];
 gdjs.escena_32informaci_243nCode.GDNewSprite4Objects2= [];
+gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1= [];
+gdjs.escena_32informaci_243nCode.GDNewSprite2Objects2= [];
+gdjs.escena_32informaci_243nCode.GDhistoria2Objects1= [];
+gdjs.escena_32informaci_243nCode.GDhistoria2Objects2= [];
+gdjs.escena_32informaci_243nCode.GDNewSprite5Objects1= [];
+gdjs.escena_32informaci_243nCode.GDNewSprite5Objects2= [];
+gdjs.escena_32informaci_243nCode.GDNewSprite6Objects1= [];
+gdjs.escena_32informaci_243nCode.GDNewSprite6Objects2= [];
 
 
 gdjs.escena_32informaci_243nCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playSound(runtimeScene, "Click_03.aac", false, 70, 1);
+}
+}
+
+}
+
 
 {
 
@@ -95,7 +109,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.clamp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), 1300, 3000), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.clamp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), 1300, 3600), "", 0);
 }
 }
 
@@ -163,20 +177,20 @@ gdjs.escena_32informaci_243nCode.GDmenjObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDmenjObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSpriteObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSpriteObjects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDquienes_9595somos_9595Objects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDquienes_9595somos_9595Objects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDhistoriaObjects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDhistoriaObjects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDmisionObjects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDmisionObjects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDcontenidoObjects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDcontenidoObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite4Objects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite4Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite2Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDhistoria2Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDhistoria2Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite5Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite5Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite6Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite6Objects2.length = 0;
 
 gdjs.escena_32informaci_243nCode.eventsList0(runtimeScene);
 gdjs.escena_32informaci_243nCode.GDfondo_9595info_95951Objects1.length = 0;
@@ -191,20 +205,20 @@ gdjs.escena_32informaci_243nCode.GDmenjObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDmenjObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSpriteObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSpriteObjects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDquienes_9595somos_9595Objects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDquienes_9595somos_9595Objects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDhistoriaObjects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDhistoriaObjects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDmisionObjects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDmisionObjects2.length = 0;
-gdjs.escena_32informaci_243nCode.GDcontenidoObjects1.length = 0;
-gdjs.escena_32informaci_243nCode.GDcontenidoObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite3Objects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDtapa_9595infoObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite4Objects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite4Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite2Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite2Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDhistoria2Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDhistoria2Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite5Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite5Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite6Objects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDNewSprite6Objects2.length = 0;
 
 
 return;
