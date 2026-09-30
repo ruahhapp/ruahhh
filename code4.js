@@ -335,20 +335,6 @@ gdjs.Misterios_32gozososCode.eventsList1 = function(runtimeScene) {
 
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.playSound(runtimeScene, "Click_03.aac", false, 70, 1);
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
 {
 gdjs.copyArray(runtimeScene.getObjects("Texto_doloroso"), gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1);
 {for(var i = 0, len = gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1.length ;i < len;++i) {

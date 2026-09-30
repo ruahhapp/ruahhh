@@ -139,18 +139,6 @@ let elseEventsChainSatisfied = false;
 
 {
 
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-}
-
-}
-
-
-{
-
 gdjs.copyArray(runtimeScene.getObjects("atras"), gdjs.Visor_32viaCode.GDatrasObjects1);
 
 let isConditionTrue_0 = false;
