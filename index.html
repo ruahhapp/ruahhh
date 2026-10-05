@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <meta name="theme-color" content="#000000" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<style>
 		body {
@@ -174,7 +174,36 @@
 	<script src="code15.js" crossorigin="anonymous"></script>
 	<script src="code16.js" crossorigin="anonymous"></script>
 	<script src="data.js" crossorigin="anonymous"></script>
+        <style>
+body {
+margin: 0;
+padding: 0;
+background-color: #000000;
+}
 
+/* Asegura que la página y el Canvas no se salgan en pantallas pequeñas */
+html, body {
+width: 100%;
+max-width: 100% !important;
+overflow-x: hidden !important;
+}
+
+#canvasArea, canvas {
+max-width: 100% !important;
+height: auto !important;
+margin-left: auto;
+margin-right: auto;
+}
+
+*, *::before, *::after {
+box-sizing: border-box !important;
+}
+
+img, video, iframe {
+max-width: 100% !important;
+height: auto !important;
+}
+</style>
 
 </head>
 <body>
