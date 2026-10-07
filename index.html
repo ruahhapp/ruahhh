@@ -236,5 +236,44 @@ height: auto !important;
     })();
 
 	</script>
+<!-- Carga de SDKs de Firebase desde CDN -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js"></script>
+
+  <script>
+    // Configuración real de tu proyecto Firebase "ruah"
+    const firebaseConfig = {
+      apiKey: "AIzaSyDrg0wr99QuU5e_bSKO67jjpcFykleaYGA",
+      authDomain: "ruah-7d117.firebaseapp.com",
+      projectId: "ruah-7d117",
+      storageBucket: "ruah-7d117.firebasestorage.app",
+      messagingSenderId: "885341528492",
+      appId: "1:885341528492:web:58dc30eecfa9bc9b889a09",
+      measurementId: "G-6PMWYMNXBL"
+    };
+
+    // Inicializar Firebase
+    firebase.initializeApp(firebaseConfig);
+    const messaging = firebase.messaging();
+    // Pedir permiso al usuario para enviar notificaciones
+    Notification.requestPermission().then((permission) => {
+      if (permission === 'granted') {
+        console.log('Permiso concedido.');
+        
+        // Obtener el Token FCM del usuario
+        messaging.getToken({ 
+          vapidKey: BEqQBSGKqHmu-n1utoLR-ZsFqAYhbrKVeh3T5SwwcqoI3vAAdL8EsbjpUFXcFuuXph7UFg3lUxMtpgTtJpDzKM4
+        }).then((currentToken) => {
+          if (currentToken) {
+            console.log('TOKEN DEL USUARIO:', currentToken);
+          } else {
+            console.log('No se pudo obtener el token.');
+          }
+        });
+      } else {
+        console.log('El usuario denegó las notificaciones.');
+      }
+    });
+</script>
 </body>
 </html>
