@@ -255,25 +255,47 @@ height: auto !important;
     // Inicializar Firebase
     firebase.initializeApp(firebaseConfig);
     const messaging = firebase.messaging();
-    // Pedir permiso al usuario para enviar notificaciones
-    Notification.requestPermission().then((permission) => {
-      if (permission === 'granted') {
-        console.log('Permiso concedido.');
-        
-        // Obtener el Token FCM del usuario
-        messaging.getToken({ 
-          vapidKey: BEqQBSGKqHmu-n1utoLR-ZsFqAYhbrKVeh3T5SwwcqoI3vAAdL8EsbjpUFXcFuuXph7UFg3lUxMtpgTtJpDzKM4
-        }).then((currentToken) => {
-          if (currentToken) {
-            console.log('TOKEN DEL USUARIO:', currentToken);
-          } else {
-            console.log('No se pudo obtener el token.');
-          }
-        });
-      } else {
-        console.log('El usuario denegó las notificaciones.');
-      }
-    });
-</script>
+   <!-- 1. El botón va FUERA de las etiquetas <script> -->
+  <button onclick="pedirPermisoNotificaciones()" style="padding: 12px 24px; font-size: 16px; margin: 20px auto; display: block;">
+    🔔 Activar Notificaciones
+  </button>
+
+  <!-- 2. Scripts de Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging-compat.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyDrg0wr99QuU5e_bSKO67jjpcFykleaYGA",
+      authDomain: "ruah-7d117.firebaseapp.com",
+      projectId: "ruah-7d117",
+      storageBucket: "ruah-7d117.firebasestorage.app",
+      messagingSenderId: "885341528492",
+      appId: "1:885341528492:web:58dc30eecfa9bc9b889a09",
+      measurementId: "G-6PMWYMNXBL"
+    };
+
+    // Inicializar Firebase
+    firebase.initializeApp(firebaseConfig);
+    const messaging = firebase.messaging();
+
+    // Función del botón
+    function pedirPermisoNotificaciones() {
+      Notification.requestPermission().then((permission) => {
+        if (permission === 'granted') {
+          messaging.getToken({ vapidKey: 'BEqQBSGKqHmu-n1utoLR-ZsFqAYhbrKVeh3T5SwwcqoI3vAAdL8EsbjpUFXcFuuXph7UFg3lUxMptgTtJpDzKM4' })
+            .then((token) => {
+              alert('¡Notificaciones activadas con éxito!');
+              console.log('TOKEN:', token);
+            })
+            .catch((err) => {
+              alert('Error al obtener el token: ' + err.message);
+            });
+        } else {
+          alert('Permiso denegado en el dispositivo.');
+        }
+      });
+    }
+  </script>
 </body>
 </html>
