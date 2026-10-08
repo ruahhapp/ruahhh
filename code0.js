@@ -243,7 +243,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{gdjs.adMob.loadInterstitial("ca-app-pub-4028765325839808/4797737898", "ca-app-pub-4028765325839808/3352794280", false);
+{gdjs.adMob.loadAppOpen("ca-app-pub-4028765325839808/4797737898", "ca-app-pub-4028765325839808/3352794280", false, false);
 }
 }
 
@@ -255,9 +255,9 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.adMob.isInterstitialReady();
+isConditionTrue_0 = gdjs.adMob.isAppOpenReady();
 if (isConditionTrue_0) {
-{gdjs.adMob.showInterstitial();
+{gdjs.adMob.showAppOpen();
 }
 {runtimeScene.getScene().getVariables().getFromIndex(15).setNumber(1);
 }
