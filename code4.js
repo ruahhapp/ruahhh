@@ -378,7 +378,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32gozososCode.mapOfGDgdjs_9546Misterios_959532gozososCode_9546GDbot_959595243n_95959595otro_95959595ave_95959595Mar_959595237a_95959595Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23787756);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23944396);
 }
 }
 }
@@ -419,7 +419,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32gozososCode.mapOfGDgdjs_9546Misterios_959532gozososCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23801380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23957108);
 }
 }
 }
@@ -539,12 +539,17 @@ for (var i = 0, k = 0, l = gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObje
 }
 gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber()) > 2);
+}
+}
+if (isConditionTrue_0) {
 /* Reuse gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1 */
 {for(var i = 0, len = gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1.length ;i < len;++i) {
-    gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1[i].setY(gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1[i].getY() + (gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))));
+    gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1[i].setY(gdjs.Misterios_32gozososCode.GDTexto_9595dolorosoObjects1[i].getY() + (runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber()));
 }
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).mul(0.92);
+{runtimeScene.getScene().getVariables().getFromIndex(1).mul(0.88);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
 }

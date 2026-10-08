@@ -31,6 +31,8 @@ gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1= [];
 gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects2= [];
 gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1= [];
 gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects2= [];
+gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1= [];
+gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects2= [];
 
 
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
@@ -69,9 +71,9 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + ((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) * 0.6) + ((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) * 0.4)), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)), "", 0);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
 }
@@ -88,13 +90,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))) > 0.5);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()) > 2);
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0))), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()), "", 0);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(0).mul(0.95);
+{runtimeScene.getScene().getVariables().getFromIndex(0).mul(0.88);
 }
 }
 
@@ -391,6 +393,8 @@ gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length = 0;
 gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects2.length = 0;
 gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length = 0;
 gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects2.length = 0;
+gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length = 0;
+gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects2.length = 0;
 
 gdjs.Men_250_32en_32generalCode.eventsList0(runtimeScene);
 gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length = 0;
@@ -423,6 +427,8 @@ gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length = 0;
 gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects2.length = 0;
 gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length = 0;
 gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects2.length = 0;
+gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length = 0;
+gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects2.length = 0;
 
 
 return;

@@ -118,6 +118,21 @@ gdjs.Escena_32principalCode.GDentendidoObjects3= [];
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects1= [];
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects2= [];
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects3= [];
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects1= [];
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects2= [];
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects3= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects1= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects2= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects3= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects1= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects2= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects3= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects1= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects2= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects3= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects1= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects2= [];
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects3= [];
 
 
 gdjs.Escena_32principalCode.eventsList0 = function(runtimeScene) {
@@ -133,7 +148,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.variableChildExists(runtimeScene.getScene().getVariables().getFromIndex(4), gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).getAsString());
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(12).setString(runtimeScene.getScene().getVariables().getFromIndex(4).getChild(gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).getAsString()).getChild("nombre").getAsString() + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "¿QUIEN FUE?" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(4).getChild(gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).getAsString()).getChild("resumen").getAsString() + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(4).getChild(gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).getAsString()).getChild("biografia").getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(15).setString(runtimeScene.getScene().getVariables().getFromIndex(4).getChild(gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).getAsString()).getChild("nombre").getAsString() + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "¿QUIEN FUE?" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(4).getChild(gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).getAsString()).getChild("resumen").getAsString() + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(4).getChild(gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).getAsString()).getChild("biografia").getAsString());
 }
 elseEventsChainSatisfied = true;
 }
@@ -147,7 +162,7 @@ elseEventsChainSatisfied = true;
 if (!elseEventsChainSatisfied) {
 let isConditionTrue_0 = false;
 if (!elseEventsChainSatisfied) {
-{runtimeScene.getGame().getVariables().getFromIndex(12).setString("No hay santo disponible para hoy.");
+{runtimeScene.getGame().getVariables().getFromIndex(15).setString("No hay santo disponible para hoy.");
 }
 elseEventsChainSatisfied = true;
 }
@@ -163,7 +178,7 @@ let isConditionTrue_0 = false;
 {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("escena principal");
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("escena principal");
 }
 }
 
@@ -218,6 +233,41 @@ elseEventsChainSatisfied = true;
 
 {
 
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(15).getAsNumber() == 0);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.adMob.loadInterstitial("ca-app-pub-4028765325839808/4797737898", "ca-app-pub-4028765325839808/3352794280", false);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.adMob.isInterstitialReady();
+if (isConditionTrue_0) {
+{gdjs.adMob.showInterstitial();
+}
+{runtimeScene.getScene().getVariables().getFromIndex(15).setNumber(1);
+}
+}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("botón_modomisa"), gdjs.Escena_32principalCode.GDbot_95243n_9595modomisaObjects1);
 
 let isConditionTrue_0 = false;
@@ -232,7 +282,12 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDbot_95243n_9595modomisa
 gdjs.Escena_32principalCode.GDbot_95243n_9595modomisaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23239732);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23360100);
+}
 }
 }
 if (isConditionTrue_0) {
@@ -259,7 +314,12 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDbot_95243n_9595rosarioO
 gdjs.Escena_32principalCode.GDbot_95243n_9595rosarioObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23241196);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23362844);
+}
 }
 }
 if (isConditionTrue_0) {
@@ -285,6 +345,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDbot_95243n_9595misas_95
 }
 gdjs.Escena_32principalCode.GDbot_95243n_9595misas_9595cerca_9595de_9595m_95237_9595Objects1.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+}
+if (isConditionTrue_0) {
 {gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://nearby-temples-map.lovable.app/", null);
 }
 }
@@ -308,7 +373,12 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDbot_95243n_9595cancione
 gdjs.Escena_32principalCode.GDbot_95243n_9595cancioneroObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23244692);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23368956);
+}
 }
 }
 if (isConditionTrue_0) {
@@ -335,7 +405,12 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDbot_95243n_9595oracione
 gdjs.Escena_32principalCode.GDbot_95243n_9595oracionesObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23241412);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23025068);
+}
 }
 }
 if (isConditionTrue_0) {
@@ -361,11 +436,16 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDbot_95243n_9595evangeli
 }
 gdjs.Escena_32principalCode.GDbot_95243n_9595evangeliodiarioObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(13).setString("VERSICULO DEL DIA");
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(12).setString(runtimeScene.getScene().getVariables().getFromIndex(3).getChild(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber()).getChild("referencia").getAsString() + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(3).getChild(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber()).getChild("versiculo").getAsString() + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "— REFLEXIÓN —" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(3).getChild(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber()).getChild("explicacion").getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("escena principal");
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(16).setString("VERSICULO DEL DIA");
+}
+{runtimeScene.getGame().getVariables().getFromIndex(15).setString(runtimeScene.getScene().getVariables().getFromIndex(3).getChild(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber()).getChild("referencia").getAsString() + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(3).getChild(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber()).getChild("versiculo").getAsString() + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "— REFLEXIÓN —" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + runtimeScene.getScene().getVariables().getFromIndex(3).getChild(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber()).getChild("explicacion").getAsString());
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("escena principal");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -398,11 +478,16 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDsantoObjects1.length;i<
 }
 gdjs.Escena_32principalCode.GDsantoObjects1.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+}
+if (isConditionTrue_0) {
 {gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).setString(gdjs.evtTools.string.subStr("0" + gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mon") + 1), gdjs.evtTools.string.strLen(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mon") + 1)) - 1, 2) + "-" + gdjs.evtTools.string.subStr("0" + gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mday")), gdjs.evtTools.string.strLen(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mday"))) - 1, 2));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(13).setString("SANTO");
+{runtimeScene.getGame().getVariables().getFromIndex(16).setString("SANTO");
 }
-{gdjs.evtTools.network.jsonToVariableStructure(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(4));
+{gdjs.evtTools.network.jsonToVariableStructure(runtimeScene.getGame().getVariables().getFromIndex(10).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(4));
 }
 
 { //Subevents
@@ -428,6 +513,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDinfoObjects1.length;i<l
 }
 gdjs.Escena_32principalCode.GDinfoObjects1.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "escena información", false);
 }
 }
@@ -444,7 +534,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("texto_refe"), gdjs.Escena_32principalCode.GDtexto_9595refeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("versiculo_diario"), gdjs.Escena_32principalCode.GDversiculo_9595diarioObjects1);
-{gdjs.evtTools.network.jsonToVariableStructure(runtimeScene.getGame().getVariables().getFromIndex(17).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(3));
+{gdjs.evtTools.network.jsonToVariableStructure(runtimeScene.getGame().getVariables().getFromIndex(20).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(3));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(Math.floor((gdjs.evtTools.runtimeScene.getTime(runtimeScene, "timestamp") - (gdjs.evtTools.runtimeScene.getTime(runtimeScene, "hour") * 3600 + gdjs.evtTools.runtimeScene.getTime(runtimeScene, "min") * 60 + gdjs.evtTools.runtimeScene.getTime(runtimeScene, "sec")) * 1000) / 86400000));
 }
@@ -481,7 +571,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 {gdjs.Escena_32principalCode.localVariables[0].getFromIndex(0).setString(gdjs.evtTools.string.subStr("0" + gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mon") + 1), gdjs.evtTools.string.strLen(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mon") + 1)) - 1, 2) + "-" + gdjs.evtTools.string.subStr("0" + gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mday")), gdjs.evtTools.string.strLen(gdjs.evtTools.common.toString(gdjs.evtTools.runtimeScene.getTime(runtimeScene, "mday"))) - 1, 2));
 }
-{gdjs.evtTools.network.jsonToVariableStructure(runtimeScene.getGame().getVariables().getFromIndex(7).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(4));
+{gdjs.evtTools.network.jsonToVariableStructure(runtimeScene.getGame().getVariables().getFromIndex(10).getAsString(), runtimeScene.getScene().getVariables().getFromIndex(4));
 }
 
 { //Subevents
@@ -534,6 +624,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDmenuObjects1.length;i<l
 }
 gdjs.Escena_32principalCode.GDmenuObjects1.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Menú en general", false);
 }
 }
@@ -555,6 +650,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDcalendaeioObjects1.leng
     }
 }
 gdjs.Escena_32principalCode.GDcalendaeioObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+}
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Calendario litúrgico", false);
 }
@@ -588,6 +688,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32principalCode.GDNewSprite8Objects1.leng
 }
 gdjs.Escena_32principalCode.GDNewSprite8Objects1.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)) < 30);
+}
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Apoya el proyecto", false);
 }
 }
@@ -602,11 +707,11 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(6).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(6).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(7).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(9).setNumber(0);
 }
@@ -622,11 +727,11 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + ((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(9)) * 0.6) + ((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(8)) - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) * 0.4)), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (runtimeScene.getScene().getVariables().getFromIndex(8).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0)), "", 0);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(9).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(8)) - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(9).setNumber(runtimeScene.getScene().getVariables().getFromIndex(8).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(8).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "Capa abajo", 0));
 }
 }
 
@@ -641,13 +746,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(9))) > 0.5);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(9).getAsNumber()) > 2);
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(9))), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (runtimeScene.getScene().getVariables().getFromIndex(9).getAsNumber()), "", 0);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(9).mul(0.95);
+{runtimeScene.getScene().getVariables().getFromIndex(9).mul(0.88);
 }
 }
 
@@ -1122,6 +1227,21 @@ gdjs.Escena_32principalCode.GDentendidoObjects3.length = 0;
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects1.length = 0;
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects2.length = 0;
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects3.length = 0;
 
 gdjs.Escena_32principalCode.eventsList2(runtimeScene);
 gdjs.Escena_32principalCode.GDfondo_9595principalObjects1.length = 0;
@@ -1241,6 +1361,21 @@ gdjs.Escena_32principalCode.GDentendidoObjects3.length = 0;
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects1.length = 0;
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects2.length = 0;
 gdjs.Escena_32principalCode.GDTextoEntendidoObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595modo_9595oscuroObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595verdeObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595azulObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595amarilloObjects3.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects1.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects2.length = 0;
+gdjs.Escena_32principalCode.GDboton_9595color_9595rosaObjects3.length = 0;
 
 
 return;

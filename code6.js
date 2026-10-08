@@ -47,11 +47,11 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).setNumber(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0));
 }
 {runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(0);
 }
@@ -67,11 +67,11 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + ((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1)) * 0.6) + ((gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) * 0.4)), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)), "", 0);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0));
 }
-{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0));
 }
 }
 
@@ -86,13 +86,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))) > 0.5);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber()) > 2);
 }
 }
 if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(1))), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber()), "", 0);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).mul(0.95);
+{runtimeScene.getScene().getVariables().getFromIndex(1).mul(0.88);
 }
 }
 
@@ -361,6 +361,11 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length;i<l
 }
 gdjs.menu_32cancioneroCode.GDAtrasObjects1.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
+}
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Escena principal", false);
 }
 }
@@ -383,9 +388,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects
 }
 gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(1);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(1);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -409,9 +419,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjec
 }
 gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(2);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(2);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -435,9 +450,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.l
 }
 gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(3);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(3);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -461,9 +481,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDsantoObjects1.length;i<l
 }
 gdjs.menu_32cancioneroCode.GDsantoObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(4);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(4);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -487,9 +512,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjec
 }
 gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(5);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(5);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -513,9 +543,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects
 }
 gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(7);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(7);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -539,9 +574,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObject
 }
 gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(8);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(8);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -565,9 +605,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.leng
 }
 gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(9);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(9);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -591,9 +636,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObj
 }
 gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(10);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(10);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -617,9 +667,14 @@ for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length;i
 }
 gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(10).setNumber(6);
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(14).setString("menu cancionero");
+}
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setNumber(6);
+}
+{runtimeScene.getGame().getVariables().getFromIndex(17).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
