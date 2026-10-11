@@ -42,6 +42,7 @@ gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532gener
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
+gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -341,7 +342,34 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects, runtimeScene, true, true);
 }
 if (isConditionTrue_0) {
-{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "", null);
+{gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://nearby-temples-map.lovable.app/", null);
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("cambiar_color"), gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length;i<l;++i) {
+    if ( gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("ButtonFSM").IsClicked(null) ) {
+        isConditionTrue_0 = true;
+        gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[k] = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i];
+        ++k;
+    }
+}
+gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects, runtimeScene, true, true);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "tema", false);
 }
 }
 
