@@ -375,7 +375,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32luminososCode.mapOfGDgdjs_9546Misterios_959532luminososCode_9546GDbot_959595243n_95959595otro_95959595ave_95959595Mar_959595237a_95959595Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24057332);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24603948);
 }
 }
 }
@@ -416,7 +416,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32luminososCode.mapOfGDgdjs_9546Misterios_959532luminososCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24070044);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(24616660);
 }
 }
 }

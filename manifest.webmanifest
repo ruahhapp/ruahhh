@@ -1,7 +1,7 @@
 {
   "name": "ruah app",
   "short_name": "ruah app",
-  "id": "com.example.gamename",
+  "id": "com.ruah.app",
   "description": "",
   "orientation": "portrait",
   "start_url": "./index.html",
