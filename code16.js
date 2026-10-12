@@ -63,7 +63,7 @@ gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects4= [];
 gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects5= [];
 
 
-gdjs.Apoya_32el_32proyectoCode.asyncCallback25960468 = function (runtimeScene, asyncObjectsList) {
+gdjs.Apoya_32el_32proyectoCode.asyncCallback33358012 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects5);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects5.length ;i < len;++i) {
@@ -88,7 +88,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.Apoya_32el_32proyecto
 }
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(25960468, gdjs.Apoya_32el_32proyectoCode.asyncCallback25960468);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(33358012, gdjs.Apoya_32el_32proyectoCode.asyncCallback33358012);
 gdjs.Apoya_32el_32proyectoCode.eventsList0 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -99,14 +99,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback25960468(runtimeScene, asyncObjectsList)), 25960468, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback33358012(runtimeScene, asyncObjectsList)), 33358012, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback25960780 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback33356468 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects4);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects4.length ;i < len;++i) {
@@ -134,7 +134,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList0(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(25960780, gdjs.Apoya_32el_32proyectoCode.asyncCallback25960780);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(33356468, gdjs.Apoya_32el_32proyectoCode.asyncCallback33356468);
 gdjs.Apoya_32el_32proyectoCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -145,14 +145,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback25960780(runtimeScene, asyncObjectsList)), 25960780, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback33356468(runtimeScene, asyncObjectsList)), 33356468, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback25959252 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback33354788 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3.length ;i < len;++i) {
@@ -180,7 +180,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(25959252, gdjs.Apoya_32el_32proyectoCode.asyncCallback25959252);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(33354788, gdjs.Apoya_32el_32proyectoCode.asyncCallback33354788);
 gdjs.Apoya_32el_32proyectoCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -190,14 +190,14 @@ gdjs.Apoya_32el_32proyectoCode.eventsList2 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback25959252(runtimeScene, asyncObjectsList)), 25959252, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.09), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback33354788(runtimeScene, asyncObjectsList)), 33354788, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback25966836 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback33362796 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects5);
 
@@ -225,7 +225,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("NewSprite6"), gdjs.Apoya_32el_32proy
 }
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(25966836, gdjs.Apoya_32el_32proyectoCode.asyncCallback25966836);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(33362796, gdjs.Apoya_32el_32proyectoCode.asyncCallback33362796);
 gdjs.Apoya_32el_32proyectoCode.eventsList3 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -240,14 +240,14 @@ for (const obj of gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects4) asyncObje
 /* Don't save NewSprite4 as it will be provided by the parent asyncObjectsList. */
 /* Don't save NewSprite5 as it will be provided by the parent asyncObjectsList. */
 /* Don't save NewSprite6 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.24), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback25966836(runtimeScene, asyncObjectsList)), 25966836, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.24), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback33362796(runtimeScene, asyncObjectsList)), 33362796, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback25965484 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback33361172 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects4);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects4.length ;i < len;++i) {
@@ -263,7 +263,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList3(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(25965484, gdjs.Apoya_32el_32proyectoCode.asyncCallback25965484);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(33361172, gdjs.Apoya_32el_32proyectoCode.asyncCallback33361172);
 gdjs.Apoya_32el_32proyectoCode.eventsList4 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -277,14 +277,14 @@ asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.l
 for (const obj of gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3) asyncObjectsList.addObject("NewSprite4", obj);
 /* Don't save NewSprite5 as it will be provided by the parent asyncObjectsList. */
 /* Don't save NewSprite6 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback25965484(runtimeScene, asyncObjectsList)), 25965484, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback33361172(runtimeScene, asyncObjectsList)), 33361172, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback25965556 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback33361428 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects3.length ;i < len;++i) {
@@ -300,7 +300,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList4(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(25965556, gdjs.Apoya_32el_32proyectoCode.asyncCallback25965556);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(33361428, gdjs.Apoya_32el_32proyectoCode.asyncCallback33361428);
 gdjs.Apoya_32el_32proyectoCode.eventsList5 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -313,14 +313,14 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 for (const obj of gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects2) asyncObjectsList.addObject("NewSprite5", obj);
 /* Don't save NewSprite6 as it will be provided by the parent asyncObjectsList. */
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback25965556(runtimeScene, asyncObjectsList)), 25965556, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback33361428(runtimeScene, asyncObjectsList)), 33361428, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.Apoya_32el_32proyectoCode.asyncCallback25964452 = function (runtimeScene, asyncObjectsList) {
+};gdjs.Apoya_32el_32proyectoCode.asyncCallback33360660 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects2);
 {for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects2.length ;i < len;++i) {
@@ -336,7 +336,7 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyecto
 gdjs.Apoya_32el_32proyectoCode.eventsList5(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.Apoya_32el_32proyectoCode.localVariables.length = 0;
 }
-gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(25964452, gdjs.Apoya_32el_32proyectoCode.asyncCallback25964452);
+gdjs.Apoya_32el_32proyectoCode.idToCallbackMap.set(33360660, gdjs.Apoya_32el_32proyectoCode.asyncCallback33360660);
 gdjs.Apoya_32el_32proyectoCode.eventsList6 = function(runtimeScene) {
 
 {
@@ -347,7 +347,7 @@ gdjs.Apoya_32el_32proyectoCode.eventsList6 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Apoya_32el_32proyectoCode.localVariables);
 for (const obj of gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1) asyncObjectsList.addObject("NewSprite6", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback25964452(runtimeScene, asyncObjectsList)), 25964452, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.07), (runtimeScene) => (gdjs.Apoya_32el_32proyectoCode.asyncCallback33360660(runtimeScene, asyncObjectsList)), 33360660, asyncObjectsList);
 }
 }
 
@@ -613,6 +613,1010 @@ for (var i = 0, k = 0, l = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.l
 gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtsExt__URLTools__Redirect.func(runtimeScene, "https://buy.stripe.com/8x2dR9aBtd7j08t4XSgw000", null);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == "verde");
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite9"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1);
+gdjs.copyArray(runtimeScene.getObjects("mensual"), gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1);
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == "azul");
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite9"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1);
+gdjs.copyArray(runtimeScene.getObjects("mensual"), gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1);
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == "amarillo");
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite9"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1);
+gdjs.copyArray(runtimeScene.getObjects("mensual"), gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1);
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == "rosa");
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite9"), gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1);
+gdjs.copyArray(runtimeScene.getObjects("mensual"), gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1);
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+}
+{for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDmensualObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite9Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Apoya_32el_32proyectoCode.GDNewSprite10Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
 }
 }
 
