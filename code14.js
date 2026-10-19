@@ -42,7 +42,6 @@ gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532gener
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
-gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -356,38 +355,6 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "tema", false);
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Icono_cancionero"), gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1);
-gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length;i<l;++i) {
-    if ( gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("ButtonFSM").IsClicked(null) ) {
-        isConditionTrue_0 = true;
-        gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[k] = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i];
-        ++k;
-    }
-}
-gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects, runtimeScene, true, true);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Otra", 0)) < 30);
-}
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "menu cancionero", false);
 }
 }
 

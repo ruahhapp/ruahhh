@@ -71,7 +71,7 @@ for (var i = 0, k = 0, l = gdjs.Escena_32modo_32misaCode.GDBotonLecturasObjects1
 gdjs.Escena_32modo_32misaCode.GDBotonLecturasObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(30623532);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32420924);
 }
 }
 if (isConditionTrue_0) {

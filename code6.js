@@ -41,30 +41,6 @@ gdjs.menu_32cancioneroCode.GDcanta_9595tu_9595feObjects1= [];
 gdjs.menu_32cancioneroCode.GDcanta_9595tu_9595feObjects2= [];
 gdjs.menu_32cancioneroCode.GDentObjects1= [];
 gdjs.menu_32cancioneroCode.GDentObjects2= [];
-gdjs.menu_32cancioneroCode.GDTapa_9595botonesObjects1= [];
-gdjs.menu_32cancioneroCode.GDTapa_9595botonesObjects2= [];
-gdjs.menu_32cancioneroCode.GDofObjects1= [];
-gdjs.menu_32cancioneroCode.GDofObjects2= [];
-gdjs.menu_32cancioneroCode.GDalObjects1= [];
-gdjs.menu_32cancioneroCode.GDalObjects2= [];
-gdjs.menu_32cancioneroCode.GDcorObjects1= [];
-gdjs.menu_32cancioneroCode.GDcorObjects2= [];
-gdjs.menu_32cancioneroCode.GDsanObjects1= [];
-gdjs.menu_32cancioneroCode.GDsanObjects2= [];
-gdjs.menu_32cancioneroCode.GDaccObjects1= [];
-gdjs.menu_32cancioneroCode.GDaccObjects2= [];
-gdjs.menu_32cancioneroCode.GDcomObjects1= [];
-gdjs.menu_32cancioneroCode.GDcomObjects2= [];
-gdjs.menu_32cancioneroCode.GDadObjects1= [];
-gdjs.menu_32cancioneroCode.GDadObjects2= [];
-gdjs.menu_32cancioneroCode.GDvirObjects1= [];
-gdjs.menu_32cancioneroCode.GDvirObjects2= [];
-gdjs.menu_32cancioneroCode.GDvillObjects1= [];
-gdjs.menu_32cancioneroCode.GDvillObjects2= [];
-gdjs.menu_32cancioneroCode.GDshem_95225Objects1= [];
-gdjs.menu_32cancioneroCode.GDshem_95225Objects2= [];
-gdjs.menu_32cancioneroCode.GDNewSprite3Objects1= [];
-gdjs.menu_32cancioneroCode.GDNewSprite3Objects2= [];
 
 
 gdjs.menu_32cancioneroCode.mapOfGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595entradaObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDacciondegrasiabotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDofertoriobotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDsantoObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595villancicosObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDcomunion_95959595botonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDvirgenbotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595adoracionObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDaleluyaObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDcordero_95959595botonObjects1Objects = Hashtable.newFrom({"boton_entrada": gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1, "acciondegrasiaboton": gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1, "ofertorioboton": gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1, "santo": gdjs.menu_32cancioneroCode.GDsantoObjects1, "boton_villancicos": gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1, "comunion_boton": gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1, "virgenboton": gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1, "boton_adoracion": gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1, "aleluya": gdjs.menu_32cancioneroCode.GDaleluyaObjects1, "cordero_boton": gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1});
@@ -134,7 +110,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.clamp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), 1300, 2300), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.clamp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), 1300, 1700), "", 0);
 }
 }
 
@@ -703,37 +679,6 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(14).setNumber(6);
-}
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString("menu cancionero");
-}
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
-}
-}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.menu_32cancioneroCode.GDNewSprite3Objects1);
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.menu_32cancioneroCode.GDNewSprite3Objects1.length;i<l;++i) {
-    if ( gdjs.menu_32cancioneroCode.GDNewSprite3Objects1[i].getBehavior("ButtonFSM").IsClicked(null) ) {
-        isConditionTrue_0 = true;
-        gdjs.menu_32cancioneroCode.GDNewSprite3Objects1[k] = gdjs.menu_32cancioneroCode.GDNewSprite3Objects1[i];
-        ++k;
-    }
-}
-gdjs.menu_32cancioneroCode.GDNewSprite3Objects1.length = k;
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "Capa cancionero", 0)) < 30);
-}
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(14).setNumber(28);
 }
 {runtimeScene.getGame().getVariables().getFromIndex(18).setString("menu cancionero");
 }
@@ -2263,30 +2208,6 @@ gdjs.menu_32cancioneroCode.GDcanta_9595tu_9595feObjects1.length = 0;
 gdjs.menu_32cancioneroCode.GDcanta_9595tu_9595feObjects2.length = 0;
 gdjs.menu_32cancioneroCode.GDentObjects1.length = 0;
 gdjs.menu_32cancioneroCode.GDentObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDTapa_9595botonesObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDTapa_9595botonesObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDofObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDofObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDalObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDalObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDcorObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDcorObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDsanObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDsanObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDaccObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDaccObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDcomObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDcomObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDadObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDadObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDvirObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDvirObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDvillObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDvillObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDshem_95225Objects1.length = 0;
-gdjs.menu_32cancioneroCode.GDshem_95225Objects2.length = 0;
-gdjs.menu_32cancioneroCode.GDNewSprite3Objects1.length = 0;
-gdjs.menu_32cancioneroCode.GDNewSprite3Objects2.length = 0;
 
 gdjs.menu_32cancioneroCode.eventsList0(runtimeScene);
 gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length = 0;
@@ -2329,30 +2250,6 @@ gdjs.menu_32cancioneroCode.GDcanta_9595tu_9595feObjects1.length = 0;
 gdjs.menu_32cancioneroCode.GDcanta_9595tu_9595feObjects2.length = 0;
 gdjs.menu_32cancioneroCode.GDentObjects1.length = 0;
 gdjs.menu_32cancioneroCode.GDentObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDTapa_9595botonesObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDTapa_9595botonesObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDofObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDofObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDalObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDalObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDcorObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDcorObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDsanObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDsanObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDaccObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDaccObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDcomObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDcomObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDadObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDadObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDvirObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDvirObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDvillObjects1.length = 0;
-gdjs.menu_32cancioneroCode.GDvillObjects2.length = 0;
-gdjs.menu_32cancioneroCode.GDshem_95225Objects1.length = 0;
-gdjs.menu_32cancioneroCode.GDshem_95225Objects2.length = 0;
-gdjs.menu_32cancioneroCode.GDNewSprite3Objects1.length = 0;
-gdjs.menu_32cancioneroCode.GDNewSprite3Objects2.length = 0;
 
 
 return;
