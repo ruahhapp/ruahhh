@@ -31,6 +31,8 @@ gdjs.escena_32informaci_243nCode.GDNewTiledSpriteObjects1= [];
 gdjs.escena_32informaci_243nCode.GDNewTiledSpriteObjects2= [];
 gdjs.escena_32informaci_243nCode.GDNewSprite7Objects1= [];
 gdjs.escena_32informaci_243nCode.GDNewSprite7Objects2= [];
+gdjs.escena_32informaci_243nCode.GDcanta_9595tu_9595feObjects1= [];
+gdjs.escena_32informaci_243nCode.GDcanta_9595tu_9595feObjects2= [];
 
 
 gdjs.escena_32informaci_243nCode.eventsList0 = function(runtimeScene) {
@@ -158,7 +160,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -428,7 +430,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -698,7 +700,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -968,7 +970,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -1265,6 +1267,8 @@ gdjs.escena_32informaci_243nCode.GDNewTiledSpriteObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewTiledSpriteObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite7Objects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite7Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDcanta_9595tu_9595feObjects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDcanta_9595tu_9595feObjects2.length = 0;
 
 gdjs.escena_32informaci_243nCode.eventsList0(runtimeScene);
 gdjs.escena_32informaci_243nCode.GDfondo_9595info_95951Objects1.length = 0;
@@ -1297,6 +1301,8 @@ gdjs.escena_32informaci_243nCode.GDNewTiledSpriteObjects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewTiledSpriteObjects2.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite7Objects1.length = 0;
 gdjs.escena_32informaci_243nCode.GDNewSprite7Objects2.length = 0;
+gdjs.escena_32informaci_243nCode.GDcanta_9595tu_9595feObjects1.length = 0;
+gdjs.escena_32informaci_243nCode.GDcanta_9595tu_9595feObjects2.length = 0;
 
 
 return;
