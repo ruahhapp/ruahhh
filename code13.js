@@ -52,6 +52,9 @@ gdjs.Visor_32viaCode.GDSliderTextoObjects3= [];
 gdjs.Visor_32viaCode.GDLblTamObjects1= [];
 gdjs.Visor_32viaCode.GDLblTamObjects2= [];
 gdjs.Visor_32viaCode.GDLblTamObjects3= [];
+gdjs.Visor_32viaCode.GDNewSprite3Objects1= [];
+gdjs.Visor_32viaCode.GDNewSprite3Objects2= [];
+gdjs.Visor_32viaCode.GDNewSprite3Objects3= [];
 
 
 gdjs.Visor_32viaCode.mapOfGDgdjs_9546Visor_959532viaCode_9546GDatrasObjects1Objects = Hashtable.newFrom({"atras": gdjs.Visor_32viaCode.GDatrasObjects1});
@@ -2260,6 +2263,9 @@ gdjs.Visor_32viaCode.GDSliderTextoObjects3.length = 0;
 gdjs.Visor_32viaCode.GDLblTamObjects1.length = 0;
 gdjs.Visor_32viaCode.GDLblTamObjects2.length = 0;
 gdjs.Visor_32viaCode.GDLblTamObjects3.length = 0;
+gdjs.Visor_32viaCode.GDNewSprite3Objects1.length = 0;
+gdjs.Visor_32viaCode.GDNewSprite3Objects2.length = 0;
+gdjs.Visor_32viaCode.GDNewSprite3Objects3.length = 0;
 
 gdjs.Visor_32viaCode.eventsList2(runtimeScene);
 gdjs.Visor_32viaCode.GDFondoObjects1.length = 0;
@@ -2313,6 +2319,9 @@ gdjs.Visor_32viaCode.GDSliderTextoObjects3.length = 0;
 gdjs.Visor_32viaCode.GDLblTamObjects1.length = 0;
 gdjs.Visor_32viaCode.GDLblTamObjects2.length = 0;
 gdjs.Visor_32viaCode.GDLblTamObjects3.length = 0;
+gdjs.Visor_32viaCode.GDNewSprite3Objects1.length = 0;
+gdjs.Visor_32viaCode.GDNewSprite3Objects2.length = 0;
+gdjs.Visor_32viaCode.GDNewSprite3Objects3.length = 0;
 
 
 return;

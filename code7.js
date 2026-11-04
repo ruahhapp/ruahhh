@@ -115,7 +115,7 @@ gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects3= [];
 
 
 gdjs.menu_32cancioneroCode.mapOfGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595entradaObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDacciondegrasiabotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDofertoriobotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDsantoObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595villancicosObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDcomunion_95959595botonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDvirgenbotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595adoracionObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDaleluyaObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDcordero_95959595botonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595shemaObjects1Objects = Hashtable.newFrom({"boton_entrada": gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1, "acciondegrasiaboton": gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1, "ofertorioboton": gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1, "santo": gdjs.menu_32cancioneroCode.GDsantoObjects1, "boton_villancicos": gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1, "comunion_boton": gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1, "virgenboton": gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1, "boton_adoracion": gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1, "aleluya": gdjs.menu_32cancioneroCode.GDaleluyaObjects1, "cordero_boton": gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1, "boton_shema": gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1});
-gdjs.menu_32cancioneroCode.userFunc0xb32b40 = function GDJSInlineCode(runtimeScene) {
+gdjs.menu_32cancioneroCode.userFunc0x13493c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   const norm = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const CAT = [
@@ -152,7 +152,7 @@ gdjs.menu_32cancioneroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.menu_32cancioneroCode.userFunc0xb32b40(runtimeScene);
+gdjs.menu_32cancioneroCode.userFunc0x13493c8(runtimeScene);
 
 }
 
@@ -197,7 +197,7 @@ gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GD
 }
 
 
-};gdjs.menu_32cancioneroCode.userFunc0xc11728 = function GDJSInlineCode(runtimeScene) {
+};gdjs.menu_32cancioneroCode.userFunc0x1286978 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   const vars = runtimeScene.getVariables();
   const email = runtimeScene.getGame().getVariables().get("EmailPropuestas").getAsString();
@@ -211,7 +211,7 @@ gdjs.menu_32cancioneroCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.menu_32cancioneroCode.userFunc0xc11728(runtimeScene);
+gdjs.menu_32cancioneroCode.userFunc0x1286978(runtimeScene);
 
 }
 
