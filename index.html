@@ -49,6 +49,7 @@
 	<script src="RuntimeCustomObjectLayer.js" crossorigin="anonymous"></script>
 	<script src="timer.js" crossorigin="anonymous"></script>
 	<script src="runtimewatermark.js" crossorigin="anonymous"></script>
+	<script src="named-easings-manager.js" crossorigin="anonymous"></script>
 	<script src="runtimegame.js" crossorigin="anonymous"></script>
 	<script src="variable.js" crossorigin="anonymous"></script>
 	<script src="variablescontainer.js" crossorigin="anonymous"></script>
@@ -96,6 +97,10 @@
 	<script src="gdjs-evtsext__panelspritebutton__isingameedition-func.js" crossorigin="anonymous"></script>
 	<script src="gdjs-evtsext__panelspritebutton__panelspritebutton.js" crossorigin="anonymous"></script>
 	<script src="gdjs-evtsext__panelspritebutton__textstylestate.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__panelspriteslider__buttonfsm.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__panelspriteslider__isingameedition-func.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__panelspriteslider__panelspriteslider.js" crossorigin="anonymous"></script>
+	<script src="gdjs-evtsext__panelspriteslider__slider.js" crossorigin="anonymous"></script>
 	<script src="gdjs-evtsext__scrollableviewport__movetozero-func.js" crossorigin="anonymous"></script>
 	<script src="gdjs-evtsext__spritemultitouchjoystick__acceleratedspeed-func.js" crossorigin="anonymous"></script>
 	<script src="gdjs-evtsext__spritemultitouchjoystick__angleto4way-func.js" crossorigin="anonymous"></script>
@@ -199,6 +204,14 @@
 	<script>
 
     (function() {
+        //Check the game files were all loaded (in a preview, they can be exported
+        //again while this page is still loading them).
+        if (!gdjs.projectData) {
+            throw new Error(
+                "The game data was not loaded: some files of the game are missing or could not be read."
+            );
+        }
+
         //Initialization
         var game = new gdjs.RuntimeGame(gdjs.projectData, gdjs.runtimeGameOptions);
 

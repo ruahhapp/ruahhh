@@ -46,11 +46,11 @@ for (var i = 0, k = 0, l = gdjs.Escena_32modo_32misaCode.GDcomObjects1.length;i<
 }
 gdjs.Escena_32modo_32misaCode.GDcomObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString("COMUNIÓN ESPIRITUAL");
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString("COMUNIÓN ESPIRITUAL");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString("ORACIÓN PARA LA COMUNIÓN ESPIRITUAL" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Jesús mío, creo que estás verdaderamente presente en el Santísimo Sacramento del Altar." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Te amo sobre todas las cosas y deseo fervientemente recibirte dentro de mi alma." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Ya que deseando recibirte no puedo hacerlo ahora sacramentalmente, ven al menos espiritualmente a mi corazón." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Y como si ya te hubiese recibido, te abrazo y me uno del todo a Ti. Señor, no permitas que jamás me aparte de Ti." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Amén.");
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString("ORACIÓN PARA LA COMUNIÓN ESPIRITUAL" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Jesús mío, creo que estás verdaderamente presente en el Santísimo Sacramento del Altar." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Te amo sobre todas las cosas y deseo fervientemente recibirte dentro de mi alma." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Ya que deseando recibirte no puedo hacerlo ahora sacramentalmente, ven al menos espiritualmente a mi corazón." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Y como si ya te hubiese recibido, te abrazo y me uno del todo a Ti. Señor, no permitas que jamás me aparte de Ti." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Amén.");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("modomisa");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("modomisa");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -75,15 +75,15 @@ for (var i = 0, k = 0, l = gdjs.Escena_32modo_32misaCode.GDBotonLecturasObjects1
 gdjs.Escena_32modo_32misaCode.GDBotonLecturasObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(35126836);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32093188);
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("modomisa");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("modomisa");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString("LECTURAS DE HOY");
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString("LECTURAS DE HOY");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(11).setNumber(0);
+{runtimeScene.getGame().getVariables().getFromIndex(12).setNumber(0);
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "elegir", false);
 }
@@ -122,7 +122,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -360,7 +360,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -598,7 +598,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -836,7 +836,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {

@@ -58,7 +58,7 @@ gdjs.lista_32viaCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32viaCode.GDcancioneroObjects1);
@@ -76,7 +76,7 @@ gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32viaCode.GDcan
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32viaCode.GDcancioneroObjects1);
@@ -105,7 +105,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton1Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton1Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -113,11 +113,11 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -142,7 +142,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton2Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -150,13 +150,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(2);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -181,7 +181,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton3Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -189,13 +189,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(3);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(3);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -220,7 +220,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton4Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton4Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -228,13 +228,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(4);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(4);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -259,7 +259,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton5Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton5Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -267,13 +267,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(5);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(5);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -298,7 +298,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton6Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton6Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -306,13 +306,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(6);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(6);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -337,7 +337,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton7Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton7Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -345,13 +345,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(7);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(7);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -376,7 +376,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton8Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton8Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -384,13 +384,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(8);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(8);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -415,7 +415,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton9Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton9Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -423,13 +423,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(9);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(9);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -454,7 +454,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton10Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton10Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -462,13 +462,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(10);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(10);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -493,7 +493,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton11Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton11Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -501,13 +501,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(11);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(11);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -532,7 +532,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton12Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton12Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -540,13 +540,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(12);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(12);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -571,7 +571,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton13Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton13Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -579,13 +579,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(13);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(13);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -610,7 +610,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton14Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton14Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -618,13 +618,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(14);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(14);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -649,7 +649,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton15Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton15Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 1);
 }
 }
 if (isConditionTrue_0) {
@@ -657,13 +657,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Crucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(1)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(0)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(15);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(15);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -688,7 +688,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton12Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton12Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -696,13 +696,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(12);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(12);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -727,7 +727,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton13Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton13Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -735,13 +735,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(13);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(13);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -766,7 +766,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton14Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton14Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -774,13 +774,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(14);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(14);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -805,7 +805,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton15Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton15Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -813,13 +813,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(15);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(15);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -844,7 +844,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton1Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton1Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -852,13 +852,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -883,7 +883,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton2Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -891,13 +891,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(2);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -922,7 +922,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton3Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton3Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -930,13 +930,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(3);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(3);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -961,7 +961,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton4Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton4Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -969,13 +969,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(4);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(4);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -1000,7 +1000,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton5Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton5Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -1008,13 +1008,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(5);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(5);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -1039,7 +1039,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton6Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton6Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -1047,13 +1047,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(6);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(6);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -1078,7 +1078,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton7Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton7Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -1086,13 +1086,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(7);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(7);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -1117,7 +1117,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton8Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton8Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -1125,13 +1125,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(8);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(8);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -1156,7 +1156,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton9Objects1.length;i<l;++i)
 gdjs.lista_32viaCode.GDboton9Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -1164,13 +1164,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(9);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(9);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -1195,7 +1195,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton10Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton10Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -1203,13 +1203,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(10);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(10);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -1234,7 +1234,7 @@ for (var i = 0, k = 0, l = gdjs.lista_32viaCode.GDboton11Objects1.length;i<l;++i
 gdjs.lista_32viaCode.GDboton11Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(18).getAsNumber() == 2);
 }
 }
 if (isConditionTrue_0) {
@@ -1242,13 +1242,13 @@ if (isConditionTrue_0) {
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("Via Lucis");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setNumber(11);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(11);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("via");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("via");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Visor via", false);
 }
@@ -1368,7 +1368,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -1834,7 +1834,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -2300,7 +2300,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -2766,7 +2766,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -3232,7 +3232,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "en");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "en");
 }
 }
 if (isConditionTrue_0) {
@@ -3250,7 +3250,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "de");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "de");
 }
 }
 if (isConditionTrue_0) {
@@ -3268,7 +3268,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "fr");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "fr");
 }
 }
 if (isConditionTrue_0) {

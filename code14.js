@@ -76,7 +76,7 @@ gdjs.lista_32can_32orCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 2);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 2);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -126,11 +126,11 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 }
 {runtimeScene.getScene().getVariables().getFromIndex(6).setString("Hoy vengo a decirte:¡GRACIAS!");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("RE sim" + gdjs.evtTools.string.newLine() + "En mi debilidad, me haces fuerte." + gdjs.evtTools.string.newLine() + "fa#m SOL LA RE LA" + gdjs.evtTools.string.newLine() + "en mi debilidad, me haces fuerte." + gdjs.evtTools.string.newLine() + "RE RE7" + gdjs.evtTools.string.newLine() + "sólo en tu amor me haces fuerte." + gdjs.evtTools.string.newLine() + "SOL solm" + gdjs.evtTools.string.newLine() + "sólo en tu vida me haces fuerte." + gdjs.evtTools.string.newLine() + "fa#m SOL LA RE" + gdjs.evtTools.string.newLine() + "en mi debilidad, te haces fuerte en mí");
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString("RE       sim" + gdjs.evtTools.string.newLine() + "En mi debilidad, me haces fuerte." + gdjs.evtTools.string.newLine() + "fa#m      SOL      LA       RE       LA" + gdjs.evtTools.string.newLine() + "en mi debilidad, me haces fuerte." + gdjs.evtTools.string.newLine() + "RE       RE7" + gdjs.evtTools.string.newLine() + "sólo en tu amor me haces fuerte." + gdjs.evtTools.string.newLine() + "SOL      solm" + gdjs.evtTools.string.newLine() + "sólo en tu vida me haces fuerte." + gdjs.evtTools.string.newLine() + "fa#m      SOL      LA       RE" + gdjs.evtTools.string.newLine() + "en mi debilidad, te haces fuerte en mí");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(7).setString("DO FA DO FA" + gdjs.evtTools.string.newLine() + "Nada nos separará," + gdjs.evtTools.string.newLine() + "DO FA DO FA" + gdjs.evtTools.string.newLine() + "Nada nos separará," + gdjs.evtTools.string.newLine() + "DO SOL LAm" + gdjs.evtTools.string.newLine() + "Nada nos separará" + gdjs.evtTools.string.newLine() + "FA SOL DO" + gdjs.evtTools.string.newLine() + "del Amor de Dios.");
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString("DO       FA       DO       FA" + gdjs.evtTools.string.newLine() + "Nada nos separará," + gdjs.evtTools.string.newLine() + "DO       FA       DO       FA" + gdjs.evtTools.string.newLine() + "Nada nos separará," + gdjs.evtTools.string.newLine() + "DO       SOL      LAm" + gdjs.evtTools.string.newLine() + "Nada nos separará" + gdjs.evtTools.string.newLine() + "FA       SOL      DO" + gdjs.evtTools.string.newLine() + "del Amor de Dios.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setString("SOL DO RE SOL" + gdjs.evtTools.string.newLine() + "No adoréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "SOL DO RE" + gdjs.evtTools.string.newLine() + "No adoréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "DO RE SOL" + gdjs.evtTools.string.newLine() + "No adoréis a nadie, a nadie más, no adoréis a nadie," + gdjs.evtTools.string.newLine() + "MIm SOL DO RE SOL" + gdjs.evtTools.string.newLine() + "a nadie más, no adoréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "SOL DO RE SOL" + gdjs.evtTools.string.newLine() + "Porque sólo El os puede sostener." + gdjs.evtTools.string.newLine() + "SOL DO RE" + gdjs.evtTools.string.newLine() + "Porque sólo El os puede sostener." + gdjs.evtTools.string.newLine() + "DO RE SOL" + gdjs.evtTools.string.newLine() + "No adoréis a nadie, a nadie más, no adoréis a nadie," + gdjs.evtTools.string.newLine() + "MIm SOL DO RE SOL" + gdjs.evtTools.string.newLine() + "a nadie más, no adoréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "SOL DO RE SOL" + gdjs.evtTools.string.newLine() + "No alabéis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "SOL DO RE" + gdjs.evtTools.string.newLine() + "No alabéis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "DO RE SOL" + gdjs.evtTools.string.newLine() + "No alabéis a nadie, a nadie más, no alabéis a nadie," + gdjs.evtTools.string.newLine() + "MIm SOL DO RE SOL" + gdjs.evtTools.string.newLine() + "a nadie más, no alabéis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "SOL DO RE SOL" + gdjs.evtTools.string.newLine() + "No miréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "SOL DO RE" + gdjs.evtTools.string.newLine() + "No miréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "DO RE SOL" + gdjs.evtTools.string.newLine() + "No miréis a nadie, a nadie más, no miréis a nadie," + gdjs.evtTools.string.newLine() + "MIm SOL DO RE SOL" + gdjs.evtTools.string.newLine() + "a nadie más, no miréis a nadie, a nadie más que a él.");
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString("SOL      DO       RE       SOL" + gdjs.evtTools.string.newLine() + "No adoréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "SOL      DO       RE" + gdjs.evtTools.string.newLine() + "No adoréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + "DO       RE       SOL" + gdjs.evtTools.string.newLine() + "No adoréis a nadie, a nadie más, no adoréis a nadie," + gdjs.evtTools.string.newLine() + "MIm      SOL      DO       RE       SOL" + gdjs.evtTools.string.newLine() + "a nadie más, no adoréis a nadie, a nadie más que a él." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "SOL      DO       RE       SOL" + gdjs.evtTools.string.newLine() + "Porque sólo El os puede sostener." + gdjs.evtTools.string.newLine() + "SOL      DO       RE" + gdjs.evtTools.string.newLine() + "Porque sólo El os puede sostener." + gdjs.evtTools.string.newLine() + "DO       RE       SOL" + gdjs.evtTools.string.newLine() + "No adoréis a nadie, a nadie más, no adoréis a nadie," + gdjs.evtTools.string.newLine() + "MIm      SOL      DO       RE       SOL" + gdjs.evtTools.string.newLine() + "a nadie más, no adoréis a nadie, a nadie más que a él.");
 }
 {runtimeScene.getScene().getVariables().getFromIndex(9).setString("E C#m" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Gracias Señor" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "A" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "B" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Gracias Señor" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "E" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "C#m B" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Gracias Señor, por tu amor" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "B" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Por tu bondad" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "E" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Te alabanos," + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "B" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Te bendecimos" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "C#m B A" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Te adoranos, Selior" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "E" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Dios poderoso" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "B" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Dios de victoria" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "C#m B" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Te alabanos, Señor" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "E C#m" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Gracias, Señor" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "A B" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Gracias Señor" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "C#m B/D# E" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Gracias, Señor," + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "G#m A" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "por tu anor," + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "B" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Por tu bondad" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "A" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Te alabanos Te bendecimnos Te adoranos, Sellor Dios poderoso Dios de victoria Te alabanos, Señor" + gdjs.evtTools.string.newLine() + "Te danos gracias, Señor");
 }
@@ -148,7 +148,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 1);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -198,17 +198,17 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 }
 {runtimeScene.getScene().getVariables().getFromIndex(6).setString("Y alabandote");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("DO SOL LAm FA SOL\nDios está aquí, tan cierto como el aire MI SOL RE MI DO DO LA\nDO DO7 FA SOL\nque respiro, tan cierto como la mañana\nDO MIm LAm FA\nse levanta. Tan cierto como que este\nSOL DO\ncanto lo puedes oír.\n\nSOL FA SOL\nLo puedes sentir moviéndose entre los que MI MI RE DO RE SOL DO\nDO SOL FA SOL\naman, lo puedes oír cantando con nosotros\nDO SOL FA SOL\naquí. Lo puedes llevar cuando por esa puerta\nDO SOL FA SOL\nsalgas, lo puedes guardar muy dentro de tu\nDO\ncorazón.\n\nDios está aquí……\n\nSOL FA SOL\nLo puedes notar, junto a ti en cualquier MI MI RE DO RE SOL DO\nDO SOL FA SOL\nmomento, le puedes hablar de esa vida que\nDO SOL FA\nte quiere dar. No temas ya más, Él es Dios y\nSOL DO SOL FA\nnos perdona a todos, Jesús está aquí, si tú\nSOL DO\nquieres lo puedes seguir.");
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString("DO SOL LAm FA SOL" + gdjs.evtTools.string.newLine() + "Dios está aquí, tan cierto como el aire" + gdjs.evtTools.string.newLine() + "DO DO7 FA SOL" + gdjs.evtTools.string.newLine() + "que respiro, tan cierto como la mañana" + gdjs.evtTools.string.newLine() + "DO MIm LAm FA" + gdjs.evtTools.string.newLine() + "se levanta. Tan cierto como que este" + gdjs.evtTools.string.newLine() + "SOL DO" + gdjs.evtTools.string.newLine() + "canto lo puedes oír." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "SOL FA SOL" + gdjs.evtTools.string.newLine() + "Lo puedes sentir moviéndose entre los que aman," + gdjs.evtTools.string.newLine() + "DO SOL FA SOL" + gdjs.evtTools.string.newLine() + "lo puedes oír cantando con nosotros" + gdjs.evtTools.string.newLine() + "DO SOL FA SOL" + gdjs.evtTools.string.newLine() + "aquí. Lo puedes llevar cuando por esa puerta" + gdjs.evtTools.string.newLine() + "DO SOL FA SOL" + gdjs.evtTools.string.newLine() + "salgas, lo puedes guardar muy dentro de tu" + gdjs.evtTools.string.newLine() + "DO" + gdjs.evtTools.string.newLine() + "corazón." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Dios está aquí..." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "SOL FA SOL" + gdjs.evtTools.string.newLine() + "Lo puedes notar, junto a ti en cualquier" + gdjs.evtTools.string.newLine() + "DO SOL FA SOL" + gdjs.evtTools.string.newLine() + "momento, le puedes hablar de esa vida que" + gdjs.evtTools.string.newLine() + "DO SOL FA" + gdjs.evtTools.string.newLine() + "te quiere dar. No temas ya más, Él es Dios y" + gdjs.evtTools.string.newLine() + "SOL DO SOL FA" + gdjs.evtTools.string.newLine() + "nos perdona a todos, Jesús está aquí, si tú" + gdjs.evtTools.string.newLine() + "SOL DO" + gdjs.evtTools.string.newLine() + "quieres lo puedes seguir.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(7).setString("Do                           Sol               Lam    Fa\nEl Señor nos ha reunido junto a El.\nDo                            Fa                     Sol\nEl Señor nos ha invitado a estar con El.\n            Lam           Mim\nEn su mesa hay amor.\n            Fa                Do    \nLa promesa del perdón.\n            Rem            Sol        Do\nY en el vino y pan, su corazón.\n            Lam           Mim\nEn su mesa hay amor.\n            Fa                Do    \nLa promesa del perdón.\n            Lam            Sol         Do\nY en el vino y pan, su corazón.\n\nDo                       Rem\nCuando, Señor, tu voz,\n            Sol          Do\nllega en silencio a mí\n             Fa                 Sol     Do\ny mis hermanos me hablan de ti,\n                           Rem\nsé que a mi lado estás,\n                Mi      Lam           \nte sientas junto a mí, \n   Rem       Sol              Do\nacoges mi vida y mi oración.");
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString("Do Sol Lam Fa" + gdjs.evtTools.string.newLine() + "El Señor nos ha reunido junto a Él." + gdjs.evtTools.string.newLine() + "Do Fa Sol" + gdjs.evtTools.string.newLine() + "El Señor nos ha invitado a estar con Él." + gdjs.evtTools.string.newLine() + "Lam Mim" + gdjs.evtTools.string.newLine() + "En su mesa hay amor." + gdjs.evtTools.string.newLine() + "Fa Do" + gdjs.evtTools.string.newLine() + "La promesa del perdón." + gdjs.evtTools.string.newLine() + "Rem Sol Do" + gdjs.evtTools.string.newLine() + "Y en el vino y pan, su corazón." + gdjs.evtTools.string.newLine() + "Lam Mim" + gdjs.evtTools.string.newLine() + "En su mesa hay amor." + gdjs.evtTools.string.newLine() + "Fa Do" + gdjs.evtTools.string.newLine() + "La promesa del perdón." + gdjs.evtTools.string.newLine() + "Lam Sol Do" + gdjs.evtTools.string.newLine() + "Y en el vino y pan, su corazón." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Do Rem" + gdjs.evtTools.string.newLine() + "Cuando, Señor, tu voz," + gdjs.evtTools.string.newLine() + "Sol Do" + gdjs.evtTools.string.newLine() + "llega en silencio a mí" + gdjs.evtTools.string.newLine() + "Fa Sol Do" + gdjs.evtTools.string.newLine() + "y mis hermanos me hablan de ti," + gdjs.evtTools.string.newLine() + "Rem" + gdjs.evtTools.string.newLine() + "sé que a mi lado estás," + gdjs.evtTools.string.newLine() + "Mi Lam" + gdjs.evtTools.string.newLine() + "te sientas junto a mí," + gdjs.evtTools.string.newLine() + "Rem Sol Do" + gdjs.evtTools.string.newLine() + "acoges mi vida y mi oración.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setString("Intro: RE LA mim SOL RE LA SOL\nRE LA mim SOL\nTú eres la luz que bajó a las tinieblas\nRE LA SOL\nGracias a ti pude ver.\nRE LA mim SOL\nPor tu belleza aprendí a adorarte,\nRE LA SOL\nY junto a ti quiero estar\nRE LA\nVengo a adorarte, vengo a postrarme\nsim SOL\nVengo a decir que eres mi Dios.\nRE LA\nSolo Tú eres grande, sólo Tú eres digno\nsim SOL\nEres asombroso para mí.\nRE LA mim SOL\nRey y señor, cielo y tierran te exaltan,\nRE LA SOL\nCantan tu gloria y tu bondad.\nRE LA mim SOL\nEntre los hombres humildes viniste,\nRE LA SOL\npobre te hiciste por amor.\nRE LA\nVengo a adorarte, vengo a postrarme\nsim SOL\nVengo a decir que eres mi Dios.\nRE LA\nSolo Tú eres grande, sólo Tú eres digno\nsim SOL\nEres asombroso para mí.\nLA SIm SOL LA SIm SOL\nNunca sabré cuanto costo, Ver mi pecado en esa cruz.\nLA SIm SOL LA SIm SOL\nNunca sabré cuanto costo, Ver mi pecado en esa cruz.\nRE LA\nVengo a adorarte, vengo a postrarme\nsim SOL\nVengo a decir que eres mi Dios.\nRE LA\nSolo Tú eres grande, sólo Tú eres digno\nsim SOL\nEres asombroso para mí. (BIS)");
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString("Intro: RE LA mim SOL RE LA SOL" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "RE LA mim SOL" + gdjs.evtTools.string.newLine() + "Tú eres la luz que bajó a las tinieblas" + gdjs.evtTools.string.newLine() + "RE LA SOL" + gdjs.evtTools.string.newLine() + "Gracias a ti pude ver." + gdjs.evtTools.string.newLine() + "RE LA mim SOL" + gdjs.evtTools.string.newLine() + "Por tu belleza aprendí a adorarte," + gdjs.evtTools.string.newLine() + "RE LA SOL" + gdjs.evtTools.string.newLine() + "Y junto a ti quiero estar" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "RE LA" + gdjs.evtTools.string.newLine() + "Vengo a adorarte, vengo a postrarme" + gdjs.evtTools.string.newLine() + "sim SOL" + gdjs.evtTools.string.newLine() + "Vengo a decir que eres mi Dios." + gdjs.evtTools.string.newLine() + "RE LA" + gdjs.evtTools.string.newLine() + "Solo Tú eres grande, sólo Tú eres digno" + gdjs.evtTools.string.newLine() + "sim SOL" + gdjs.evtTools.string.newLine() + "Eres asombroso para mí." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "RE LA mim SOL" + gdjs.evtTools.string.newLine() + "Rey y Señor, cielo y tierra te exaltan," + gdjs.evtTools.string.newLine() + "RE LA SOL" + gdjs.evtTools.string.newLine() + "Cantan tu gloria y tu bondad." + gdjs.evtTools.string.newLine() + "RE LA mim SOL" + gdjs.evtTools.string.newLine() + "Entre los hombres humildes viniste," + gdjs.evtTools.string.newLine() + "RE LA SOL" + gdjs.evtTools.string.newLine() + "pobre te hiciste por amor." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "RE LA" + gdjs.evtTools.string.newLine() + "Vengo a adorarte, vengo a postrarme" + gdjs.evtTools.string.newLine() + "sim SOL" + gdjs.evtTools.string.newLine() + "Vengo a decir que eres mi Dios." + gdjs.evtTools.string.newLine() + "RE LA" + gdjs.evtTools.string.newLine() + "Solo Tú eres grande, sólo Tú eres digno" + gdjs.evtTools.string.newLine() + "sim SOL" + gdjs.evtTools.string.newLine() + "Eres asombroso para mí." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "LA SIm SOL LA SIm SOL" + gdjs.evtTools.string.newLine() + "Nunca sabré cuánto costó ver mi pecado en esa cruz. (x2)" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "RE LA" + gdjs.evtTools.string.newLine() + "Vengo a adorarte, vengo a postrarme" + gdjs.evtTools.string.newLine() + "sim SOL" + gdjs.evtTools.string.newLine() + "Vengo a decir que eres mi Dios." + gdjs.evtTools.string.newLine() + "RE LA" + gdjs.evtTools.string.newLine() + "Solo Tú eres grande, sólo Tú eres digno" + gdjs.evtTools.string.newLine() + "sim SOL" + gdjs.evtTools.string.newLine() + "Eres asombroso para mí. (BIS)");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(9).setString("DO FA\nHoy quiero, Señor, ponerlo todo en tu presencia\nLAm SOL\nDarme hasta gastarme contigo y por Ti.\nHoy quiero, Señor, ponerlo todo ante tu puerta\nPara en todo amarte y servir.\n DO FA\nENCIÉNDEME Y DÉJAME ARDER DONDE HAGA FALTA,\n DO FA\nENCIÉNDEME Y DÉJAME SER TU LUZ,\n DO FA\nY ASÍ PODER LLEVARTE HASTA TODAS LAS ALMAS,\n DO SOL DO\nSACIAR LA SED QUE TIENES TÚ DESDE LA CRUZ.\nHoy quisiera madre, poner todo en tu presencia,\nDarme hasta gastarme, decirle que sí,\nHoy te pido madre, que dejes mi puerta abierta,\nPara en todo amarle y servir");
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString("DO FA" + gdjs.evtTools.string.newLine() + "Hoy quiero, Señor, ponerlo todo en tu presencia" + gdjs.evtTools.string.newLine() + "LAm SOL" + gdjs.evtTools.string.newLine() + "Darme hasta gastarme contigo y por Ti." + gdjs.evtTools.string.newLine() + "Hoy quiero, Señor, ponerlo todo ante tu puerta" + gdjs.evtTools.string.newLine() + "Para en todo amarte y servir." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO FA" + gdjs.evtTools.string.newLine() + "ENCIÉNDEME Y DÉJAME ARDER DONDE HAGA FALTA," + gdjs.evtTools.string.newLine() + "DO FA" + gdjs.evtTools.string.newLine() + "ENCIÉNDEME Y DÉJAME SER TU LUZ," + gdjs.evtTools.string.newLine() + "DO FA" + gdjs.evtTools.string.newLine() + "Y ASÍ PODER LLEVARTE HASTA TODAS LAS ALMAS," + gdjs.evtTools.string.newLine() + "DO SOL DO" + gdjs.evtTools.string.newLine() + "SACIAR LA SED QUE TIENES TÚ DESDE LA CRUZ." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Hoy quisiera, Madre, poner todo en tu presencia," + gdjs.evtTools.string.newLine() + "Darme hasta gastarme, decirle que sí," + gdjs.evtTools.string.newLine() + "Hoy te pido, Madre, que dejes mi puerta abierta," + gdjs.evtTools.string.newLine() + "Para en todo amarle y servir.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(10).setString("LAm FA SOL MI LAm FA MI\n¡Cómo podré agradecer tanta bendición? ¿Cómo podré responder a tu amor?\nDO FA DO FA\nLevantando mis manos, Señor, declarando que Tú eres Dios\nDO SOL FA MI\ny dejándome llevar por el soplo de tu amor\n LAm SOL MI LAm FA SOL LAm\nY ALABÁNDOTE, Y ALABÁNDOTE, Y ALABÁNDOTE SEÑOR, MI DIOS.\nQuiero adorarte Señor, desde el corazón, y descalzarme ante ti, Santo Dios.\nTu perfume me inunda, Señor, tu presencia está dentro de mí\ny tu gracia se derrama por todo este lugar.\nESTRIBILLO");
+{runtimeScene.getScene().getVariables().getFromIndex(10).setString("LAm FA SOL MI LAm FA MI" + gdjs.evtTools.string.newLine() + "¡Cómo podré agradecer tanta bendición? ¿Cómo podré responder a tu amor?" + gdjs.evtTools.string.newLine() + "DO FA DO FA" + gdjs.evtTools.string.newLine() + "Levantando mis manos, Señor, declarando que Tú eres Dios" + gdjs.evtTools.string.newLine() + "DO SOL FA MI" + gdjs.evtTools.string.newLine() + "y dejándome llevar por el soplo de tu amor" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "LAm SOL MI LAm FA SOL LAm" + gdjs.evtTools.string.newLine() + "Y ALABÁNDOTE, Y ALABÁNDOTE, Y ALABÁNDOTE SEÑOR, MI DIOS." + gdjs.evtTools.string.newLine() + "Quiero adorarte Señor, desde el corazón, y descalzarme ante ti, Santo Dios." + gdjs.evtTools.string.newLine() + "Tu perfume me inunda, Señor, tu presencia está dentro de mí" + gdjs.evtTools.string.newLine() + "y tu gracia se derrama por todo este lugar." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "ESTRIBILLO");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(11).setString("DO SOL LAm MIm FA DO SOL\nYendo contigo, nada me inquieta, marcho con paz y fuerza.\nDO SOL LAm MIm FA SOL DO\nYendo contigo todo se espera cada mañana es nueva.");
+{runtimeScene.getScene().getVariables().getFromIndex(11).setString("DO SOL LAm MIm FA DO SOL" + gdjs.evtTools.string.newLine() + "Yendo contigo, nada me inquieta, marcho con paz y fuerza." + gdjs.evtTools.string.newLine() + "DO SOL LAm MIm FA SOL DO" + gdjs.evtTools.string.newLine() + "Yendo contigo todo se espera, cada mañana es nueva.");
 }
 }
 
@@ -220,7 +220,44 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 3);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 1);
+}
+if (isConditionTrue_0) {
+{runtimeScene.getScene().getVariables().getFromIndex(0).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("T1").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(2).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("T2").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(4).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("T3").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(5).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("T4").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(6).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("T5").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(3).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("T6").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("L1").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("L2").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("L3").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("L4").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(10).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("L5").getAsString());
+}
+{runtimeScene.getScene().getVariables().getFromIndex(11).setString(runtimeScene.getGame().getVariables().getFromIndex(0).getChild("L6").getAsString());
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 3);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -270,17 +307,17 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).setString("Ofrece tu vida");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("RE LA\n¿Qué te puedo dar\nSOL RE\nque no me hayas dado Tú?\nsim LA\n¿Qué te puedo decir\nSOL LA\nque no me hayas dicho Tú?\nRE LA\n¿Qué puedo hacer por Tí ?\nSOL sim\nSi yo no puedo hacer nada,\nRE LA7\nsi yo no puedo hacer nada\nSOL LA7\nsi no es por Tí , Señor.\nSOL LA\nTODO LO QUE SÉ,\nfa#m sim\nTODO LO QUE SOY,\nSOL LA SOL-RE\nTODO LO QUE TENGO ES TUYO. ( B i s )\n\nRE LA\n¿Quién pudiera hablar\nSOL RE\ncomo me has hablado tú?\nsim LA\n¿Quién pudiera mirar\nSOL LA\ncomo me has mirado tú?\nRE LA\n¿Quién pudiera dar\nSOL sim\ncomo diste Tú la vida,\nRE LA7\ncomo diste Tú la vida,\nSOL LA7\nsólo Tú, mi Dios?.");
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString("RE        LA" + gdjs.evtTools.string.newLine() + "¿Qué te puedo dar" + gdjs.evtTools.string.newLine() + "SOL             RE" + gdjs.evtTools.string.newLine() + "que no me hayas dado Tú?" + gdjs.evtTools.string.newLine() + "sim           LA" + gdjs.evtTools.string.newLine() + "¿Qué te puedo decir" + gdjs.evtTools.string.newLine() + "SOL                   LA" + gdjs.evtTools.string.newLine() + "que no me hayas dicho Tú?" + gdjs.evtTools.string.newLine() + "RE                   LA" + gdjs.evtTools.string.newLine() + "¿Qué puedo hacer por Tí ?" + gdjs.evtTools.string.newLine() + "SOL                  sim" + gdjs.evtTools.string.newLine() + "Si yo no puedo hacer nada," + gdjs.evtTools.string.newLine() + "RE                   LA7" + gdjs.evtTools.string.newLine() + "si yo no puedo hacer nada" + gdjs.evtTools.string.newLine() + "SOL               LA7" + gdjs.evtTools.string.newLine() + "si no es por Tí , Señor." + gdjs.evtTools.string.newLine() + "SOL          LA" + gdjs.evtTools.string.newLine() + "TODO LO QUE SÉ," + gdjs.evtTools.string.newLine() + "fa#m        sim" + gdjs.evtTools.string.newLine() + "TODO LO QUE SOY," + gdjs.evtTools.string.newLine() + "SOL         LA      SOL-RE" + gdjs.evtTools.string.newLine() + "TODO LO QUE TENGO ES TUYO. ( B i s )" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "RE             LA" + gdjs.evtTools.string.newLine() + "¿Quién pudiera hablar" + gdjs.evtTools.string.newLine() + "SOL                 RE" + gdjs.evtTools.string.newLine() + "como me has hablado tú?" + gdjs.evtTools.string.newLine() + "sim            LA" + gdjs.evtTools.string.newLine() + "¿Quién pudiera mirar" + gdjs.evtTools.string.newLine() + "SOL                LA" + gdjs.evtTools.string.newLine() + "como me has mirado tú?" + gdjs.evtTools.string.newLine() + "RE             LA" + gdjs.evtTools.string.newLine() + "¿Quién pudiera dar" + gdjs.evtTools.string.newLine() + "SOL              sim" + gdjs.evtTools.string.newLine() + "como diste Tú la vida," + gdjs.evtTools.string.newLine() + "RE               LA7" + gdjs.evtTools.string.newLine() + "como diste Tú la vida," + gdjs.evtTools.string.newLine() + "SOL          LA7" + gdjs.evtTools.string.newLine() + "sólo Tú, mi Dios?.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(7).setString("SOL DO SOL mim SOL DO RE\nEn este mundo que Cristo nos da, hacemos la ofrenda del pan,\nSOL DO sim mim SOL DO RE\nel pan de nuestro trabajo sin fin, y el vino de nuestro cantar.\nSOL DO sim mim SOL DO RE\nTraigo ante Ti nuestra justa inquietud: amar la justicia y la paz.\n\nDO RE SOL mim\nSaber que vendrás, saber que estarás,\nDO RE SOL\npartiendo a los pobres tu pan.(BIS)\n\nSOL DO SOL mim SOL DO RE\nLa sed de todos los hombres sin luz, la pena y el triste llorar,\nSOL DO sim mim SOL DO RE\nel odio de los que mueren sin fe, cansados de tanto luchar.\nSOL DO sim mim SOL DO RE\nEn la patena de nuestra oblación, acepta la vida, Señor.\n\nDO RE SOL mim\nSaber que vendrás, saber que estarás,\nDO RE SOL\npartiendo a los pobres tu pan.(BIS)");
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString("SOL     DO        SOL            mim         SOL     DO  RE" + gdjs.evtTools.string.newLine() + "En este mundo que Cristo nos da, hacemos la ofrenda del pan," + gdjs.evtTools.string.newLine() + "SOL    DO        sim     mim           SOL     DO      RE" + gdjs.evtTools.string.newLine() + "el pan de nuestro trabajo sin fin, y el vino de nuestro cantar." + gdjs.evtTools.string.newLine() + "SOL    DO      sim     mim              SOL     DO            RE" + gdjs.evtTools.string.newLine() + "Traigo ante Ti nuestra justa inquietud: amar la justicia y la paz." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO        RE       SOL       mim" + gdjs.evtTools.string.newLine() + "Saber que vendrás, saber que estarás," + gdjs.evtTools.string.newLine() + "DO              RE        SOL" + gdjs.evtTools.string.newLine() + "partiendo a los pobres tu pan. (BIS)" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "SOL     DO        SOL            mim         SOL     DO      RE" + gdjs.evtTools.string.newLine() + "La sed de todos los hombres sin luz, la pena y el triste llorar," + gdjs.evtTools.string.newLine() + "SOL    DO        sim     mim           SOL     DO      RE" + gdjs.evtTools.string.newLine() + "el odio de los que mueren sin fe, cansados de tanto luchar." + gdjs.evtTools.string.newLine() + "SOL    DO      sim     mim              SOL     DO            RE" + gdjs.evtTools.string.newLine() + "En la patena de nuestra oblación, acepta la vida, Señor." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO        RE       SOL       mim" + gdjs.evtTools.string.newLine() + "Saber que vendrás, saber que estarás," + gdjs.evtTools.string.newLine() + "DO              RE        SOL" + gdjs.evtTools.string.newLine() + "partiendo a los pobres tu pan. (BIS)");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setString("DO SOL LAm\nPara que mi amor no sea un sentimiento\n FA REm SOL\ntan solo un deslumbramiento pasajero.\nMim LAm\nPara no gastar mis palabras mas mias\n FA REm SOL\nni vaciar de contenido mi 'Te Quiero'.\nQuiero hundir más hondo mis raíces en ti\ny cimentar en solidez este mi afecto.\nPues mi corazón que es inquieto y es frágil\nsolo acierta si se abraza a tu proyecto.\nDO SOL\nMAS ALLÁ DE MIS MIEDOS\n LAm MIm FA\nMAS ALLÁ DE MI INSEGURIDAD\nREm SOL\nQUIERO DARTE MI RESPUESTA. \n DO SOL LAm\nAQUÍ ESTOY PARA HACER TU VOLUNTAD\n MIm FA SOL\nPARA QUE MI AMOR SEA DECIR QUE SI\n DO\nHASTA EL FINAL.\nDuerme su sopor y temen en el huerto\nni sus amigos acompañan al maestro.\nSi es hora de cruz es de fidelidades\npero el mundo nunca quiere aceptar esto.\nDame a comprender señor tu amor tan puro\namor que persevera en la cruz amor perfecto.\nDame serte fiel cuando todo es oscuro\npara que mi amor no sea un sentimiento.");
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString("DO     SOL      LAm" + gdjs.evtTools.string.newLine() + "Para que mi amor no sea un sentimiento" + gdjs.evtTools.string.newLine() + "FA     REm      SOL" + gdjs.evtTools.string.newLine() + "tan solo un deslumbramiento pasajero." + gdjs.evtTools.string.newLine() + "Mim      LAm" + gdjs.evtTools.string.newLine() + "Para no gastar mis palabras mas mias" + gdjs.evtTools.string.newLine() + "FA     REm      SOL" + gdjs.evtTools.string.newLine() + "ni vaciar de contenido mi 'Te Quiero'." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Quiero hundir más hondo mis raíces en ti" + gdjs.evtTools.string.newLine() + "y cimentar en solidez este mi afecto." + gdjs.evtTools.string.newLine() + "Pues mi corazón que es inquieto y es frágil" + gdjs.evtTools.string.newLine() + "solo acierta si se abraza a tu proyecto." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL" + gdjs.evtTools.string.newLine() + "MAS ALLÁ DE MIS MIEDOS" + gdjs.evtTools.string.newLine() + "LAm      MIm      FA" + gdjs.evtTools.string.newLine() + "MAS ALLÁ DE MI INSEGURIDAD" + gdjs.evtTools.string.newLine() + "REm      SOL" + gdjs.evtTools.string.newLine() + "QUIERO DARTE MI RESPUESTA." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL      LAm" + gdjs.evtTools.string.newLine() + "AQUÍ ESTOY PARA HACER TU VOLUNTAD" + gdjs.evtTools.string.newLine() + "MIm      FA       SOL" + gdjs.evtTools.string.newLine() + "PARA QUE MI AMOR SEA DECIR QUE SI" + gdjs.evtTools.string.newLine() + "DO" + gdjs.evtTools.string.newLine() + "HASTA EL FINAL." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Duerme su sopor y temen en el huerto" + gdjs.evtTools.string.newLine() + "ni sus amigos acompañan al maestro." + gdjs.evtTools.string.newLine() + "Si es hora de cruz es de fidelidades" + gdjs.evtTools.string.newLine() + "pero el mundo nunca quiere aceptar esto." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Dame a comprender señor tu amor tan puro" + gdjs.evtTools.string.newLine() + "amor que persevera en la cruz amor perfecto." + gdjs.evtTools.string.newLine() + "Dame serte fiel cuando todo es oscuro" + gdjs.evtTools.string.newLine() + "para que mi amor no sea un sentimiento.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(9).setString("DO SOL\nHoy es tiempo de dar\n LAm SOL\na manos llenas lo que se nos dio\n DO SOL\nbrillar, hasta consumirse\n LAm SOL\niluminar a un mundo en penumbras\n FA SOL\nhasta que no quede yo.\n DO\nRECIBEME\n SOL LAm\nCON TODA LA MISERIA QUE HAY EN MI\n MIm FA\nCON TODOS LOS DESEOS DE SEGUIR\n REm SOL\nPOR TU CAMINO.\n DO\nILUMINAR\n SOL LAm\nES HOY EL RETO EN LA OSCURIDAD\n MIm FA\nSERVICIO ENTREGA EN FIDELIDAD\n REm SOL\nHASTA LA MUERTE");
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString("DO       SOL" + gdjs.evtTools.string.newLine() + "Hoy es tiempo de dar" + gdjs.evtTools.string.newLine() + "LAm      SOL" + gdjs.evtTools.string.newLine() + "a manos llenas lo que se nos dio" + gdjs.evtTools.string.newLine() + "DO       SOL" + gdjs.evtTools.string.newLine() + "brillar, hasta consumirse" + gdjs.evtTools.string.newLine() + "LAm      SOL" + gdjs.evtTools.string.newLine() + "iluminar a un mundo en penumbras" + gdjs.evtTools.string.newLine() + "FA       SOL" + gdjs.evtTools.string.newLine() + "hasta que no quede yo." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO" + gdjs.evtTools.string.newLine() + "RECÍBEME" + gdjs.evtTools.string.newLine() + "SOL      LAm" + gdjs.evtTools.string.newLine() + "CON TODA LA MISERIA QUE HAY EN MI" + gdjs.evtTools.string.newLine() + "MIm      FA" + gdjs.evtTools.string.newLine() + "CON TODOS LOS DESEOS DE SEGUIR" + gdjs.evtTools.string.newLine() + "REm      SOL" + gdjs.evtTools.string.newLine() + "POR TU CAMINO." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO" + gdjs.evtTools.string.newLine() + "ILUMINAR" + gdjs.evtTools.string.newLine() + "SOL      LAm" + gdjs.evtTools.string.newLine() + "ES HOY EL RETO EN LA OSCURIDAD" + gdjs.evtTools.string.newLine() + "MIm      FA" + gdjs.evtTools.string.newLine() + "SERVICIO ENTREGA EN FIDELIDAD" + gdjs.evtTools.string.newLine() + "REm      SOL" + gdjs.evtTools.string.newLine() + "HASTA LA MUERTE.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(10).setString("DO SOL LAm\nVEN, ESPÍRITU, VEN\n DO FA\nY LLÉNAME, SEÑOR\n REm SOL\nCON TU PRECIOSA UNCIÓN\nPurifícame y lávame, renuévame\nRestáurame, Señor\nCon tu poder\nPurifícame y lávame, renuévame\nRestáurame, Señor\n SOL DO SOL\nTe quiero conocer");
+{runtimeScene.getScene().getVariables().getFromIndex(10).setString("DO       SOL      LAm" + gdjs.evtTools.string.newLine() + "VEN, ESPÍRITU, VEN" + gdjs.evtTools.string.newLine() + "DO       FA" + gdjs.evtTools.string.newLine() + "Y LLÉNAME, SEÑOR" + gdjs.evtTools.string.newLine() + "REm      SOL" + gdjs.evtTools.string.newLine() + "CON TU PRECIOSA UNCIÓN" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Purifícame y lávame, renuévame" + gdjs.evtTools.string.newLine() + "Restáurame, Señor" + gdjs.evtTools.string.newLine() + "Con tu poder" + gdjs.evtTools.string.newLine() + "Purifícame y lávame, renuévame" + gdjs.evtTools.string.newLine() + "Restáurame, Señor" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "SOL      DO       SOL" + gdjs.evtTools.string.newLine() + "Te quiero conocer");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(11).setString("LAm DO\nUna noche de sudor, en una barca en alta mar\n SOL DO FA LAm\ncon el primer rayo de sol, ves tus redes nada hay\n DO SOL DO\ny la voz que dentro te habla, otro mar te mostrará\n FA DO FA DO MI\nal corazón de cada hombre, tus redes arrojarás\n\nLAm DO SOL DO FA LAm\nOFRECE TU VIDA, COMO MARÍA, AL PIE DE LA CRUZ\n DO SOL FA\nY SERÁS, SIERVO DE CADA HOMBRE, SIERVO POR AMOR\nDO FA DO MI\nSACERDOTE DE LA HUMANIDAD.\n\nAvanzabas en silencio, entre lágrimas y surcos,\nesperando que, en la tierra, su semilla se haga fruto.\nHoy tu casa es una fiesta, porque el trigo ondea ya,\nha madurado bajo el sol, ya lo puedes cosechar.");
+{runtimeScene.getScene().getVariables().getFromIndex(11).setString("LAm      DO" + gdjs.evtTools.string.newLine() + "Una noche de sudor, en una barca en alta mar" + gdjs.evtTools.string.newLine() + "SOL      DO       FA       LAm" + gdjs.evtTools.string.newLine() + "con el primer rayo de sol, ves tus redes nada hay" + gdjs.evtTools.string.newLine() + "DO       SOL      DO" + gdjs.evtTools.string.newLine() + "y la voz que dentro te habla, otro mar te mostrará" + gdjs.evtTools.string.newLine() + "FA       DO       FA       DO       MI" + gdjs.evtTools.string.newLine() + "al corazón de cada hombre, tus redes arrojarás" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "LAm      DO       SOL      DO       FA       LAm" + gdjs.evtTools.string.newLine() + "OFRECE TU VIDA, COMO MARÍA, AL PIE DE LA CRUZ" + gdjs.evtTools.string.newLine() + "DO       SOL      FA" + gdjs.evtTools.string.newLine() + "Y SERÁS, SIERVO DE CADA HOMBRE, SIERVO POR AMOR" + gdjs.evtTools.string.newLine() + "DO       FA       DO       MI" + gdjs.evtTools.string.newLine() + "SACERDOTE DE LA HUMANIDAD." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Avanzabas en silencio, entre lágrimas y surcos," + gdjs.evtTools.string.newLine() + "esperando que, en la tierra, su semilla se haga fruto." + gdjs.evtTools.string.newLine() + "Hoy tu casa es una fiesta, porque el trigo ondea ya," + gdjs.evtTools.string.newLine() + "ha madurado bajo el sol, ya lo puedes cosechar.");
 }
 }
 
@@ -292,15 +329,20 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 4);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 4);
 }
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion"), gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects2);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion2"), gdjs.lista_32can_32orCode.GDtexto_9595cancion2Objects2);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion3"), gdjs.lista_32can_32orCode.GDtexto_9595cancion3Objects2);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion4"), gdjs.lista_32can_32orCode.GDtexto_9595cancion4Objects2);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion5"), gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects2);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects2);
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDcancioneroObjects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDcancioneroObjects2[i].getBehavior("Text").setText("Santo");
+}
+}
 {for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects2.length ;i < len;++i) {
     gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects2[i].getBehavior("Text").setText("Santo (Luna)");
 }
@@ -337,17 +379,17 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).setString("Santo Ávila");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("RUEDA: LAm REm SOL DO LAm REm MI LAm\nSanto, santo, santo es el Señor, Dios del universo.\nLlenos están el cielo y la tierra de tu gloria hosanna.\nHOSANNA, HOSANNA, HOSANNA EN EL CIELO (BIS)\nBendito el que viene en nombre del Señor,\nHosanna en el cielo, hosanna.\nHOSANNA, HOSANNA, HOSANNA EN EL CIELO (BIS)");
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString("RUEDA: LAm REm SOL DO LAm REm MI LAm" + gdjs.evtTools.string.newLine() + "Santo, santo, santo es el Señor, Dios del universo." + gdjs.evtTools.string.newLine() + "Llenos están el cielo y la tierra de tu gloria hosanna." + gdjs.evtTools.string.newLine() + "HOSANNA, HOSANNA, HOSANNA EN EL CIELO (BIS)" + gdjs.evtTools.string.newLine() + "Bendito el que viene en nombre del Señor," + gdjs.evtTools.string.newLine() + "Hosanna en el cielo, hosanna." + gdjs.evtTools.string.newLine() + "HOSANNA, HOSANNA, HOSANNA EN EL CIELO (BIS)");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(7).setString("Intro: MI-LA-MI-SI7\nMI LA\nsanto (Santo),\nMI LA\nSanto es el Señor (Santo es el Señor),\nMI LA\nDios del universo (Dios del universo),\nSI 7\nllenos están (llenos están)\nMI LA\nCielos (cielos),\nMI LA\ncielos y tierra (cielos y tierra),\nMI LA\nbendito el que viene (bendito el que viene),\nSI 7\nen nombre de Dios (en nombre de Dios).\nLA MI LA MI\nHosanna en el cielo, bendito el que viene\nSI7\nen nombre del Señor…en nombre del Señor.\n(Todo B i s ) LA lam MI");
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString("Intro: MI-LA-MI-SI7" + gdjs.evtTools.string.newLine() + "MI LA" + gdjs.evtTools.string.newLine() + "santo (Santo)," + gdjs.evtTools.string.newLine() + "MI LA" + gdjs.evtTools.string.newLine() + "Santo es el Señor (Santo es el Señor)," + gdjs.evtTools.string.newLine() + "MI LA" + gdjs.evtTools.string.newLine() + "Dios del universo (Dios del universo)," + gdjs.evtTools.string.newLine() + "SI 7" + gdjs.evtTools.string.newLine() + "llenos están (llenos están)" + gdjs.evtTools.string.newLine() + "MI LA" + gdjs.evtTools.string.newLine() + "Cielos (cielos)," + gdjs.evtTools.string.newLine() + "MI LA" + gdjs.evtTools.string.newLine() + "cielos y tierra (cielos y tierra)," + gdjs.evtTools.string.newLine() + "MI LA" + gdjs.evtTools.string.newLine() + "bendito el que viene (bendito el que viene)," + gdjs.evtTools.string.newLine() + "SI 7" + gdjs.evtTools.string.newLine() + "en nombre de Dios (en nombre de Dios)." + gdjs.evtTools.string.newLine() + "LA MI LA MI" + gdjs.evtTools.string.newLine() + "Hosanna en el cielo, bendito el que viene" + gdjs.evtTools.string.newLine() + "SI7" + gdjs.evtTools.string.newLine() + "en nombre del Señor…en nombre del Señor." + gdjs.evtTools.string.newLine() + "(Todo B i s ) LA lam MI");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setString("DO FA DO FA\nSeñor santo Dios del universo… tú… u,\n DO FA SOL\nllenos están cielo y tierra de tu Gloria.\n FA SOL DO LAm\nBendito aquel que viene en nombre del Señor,\n FA SOL FA DO\nHosanna en el cielo.");
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString("DO       FA       DO" + gdjs.evtTools.string.newLine() + "Señor, Santo Dios del universo, Tu." + gdjs.evtTools.string.newLine() + "FA       SOL" + gdjs.evtTools.string.newLine() + "Llenos están cielo y tierra de tu Gloria." + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm" + gdjs.evtTools.string.newLine() + "Bendito aquel que viene en nombre del Señor" + gdjs.evtTools.string.newLine() + "FA       SOL      FA       DO" + gdjs.evtTools.string.newLine() + "Hosanna en el cielo." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       FA       DO" + gdjs.evtTools.string.newLine() + "Señor, Santo Dios del universo, Tu." + gdjs.evtTools.string.newLine() + "FA       SOL" + gdjs.evtTools.string.newLine() + "Llenos están cielo y tierra de tu Gloria." + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm" + gdjs.evtTools.string.newLine() + "Bendito aquel que viene en nombre del Señor" + gdjs.evtTools.string.newLine() + "FA       SOL      FA       FAm      DO" + gdjs.evtTools.string.newLine() + "Hosanna en el cielo.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(9).setString("DO SOL DO FA SOL\nSanto, Santo, Santo, Santo es el Señor\nDO FA DO FA SOL DO\nSanto es el Señor, Dios del universo\nDO FA DO FA SOL DO\nSanto es el Señor, Dios del universo\nDO FA DO SOL LAm FA SOL\nLlenos están el cielo y la tierra de tu gloria\nDO MIm FA DO FA DO SOL\nHosanna, hosanna, hosanna en el cielo\nDO MIm FA DO FA SOL DO\nHosanna, hosanna, hosanna en el cielo\n DO SOL DO LAm MIm FA SOL\nBendito el que viene en nombre del Señor\nHosanna, hosanna…");
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString("DO       SOL      DO       FA       SOL" + gdjs.evtTools.string.newLine() + "Santo, Santo, Santo, Santo es el Señor" + gdjs.evtTools.string.newLine() + "DO       FA       DO       FA       SOL      DO" + gdjs.evtTools.string.newLine() + "Santo es el Señor, Dios del universo" + gdjs.evtTools.string.newLine() + "DO       FA       DO       FA       SOL      DO" + gdjs.evtTools.string.newLine() + "Santo es el Señor, Dios del universo" + gdjs.evtTools.string.newLine() + "DO       SOL      DO       LAm      FA       SOL" + gdjs.evtTools.string.newLine() + "Llenos están el cielo y la tierra de tu gloria" + gdjs.evtTools.string.newLine() + "DO       MIm      FA       DO       FA       SOL      DO" + gdjs.evtTools.string.newLine() + "Hosanna, hosanna, hosanna en el cielo" + gdjs.evtTools.string.newLine() + "DO       MIm      FA       DO       FA       SOL      DO" + gdjs.evtTools.string.newLine() + "Hosanna, hosanna, hosanna en el cielo" + gdjs.evtTools.string.newLine() + "DO       SOL      DO       LAm      MIm      FA       SOL" + gdjs.evtTools.string.newLine() + "Bendito el que viene en nombre del Señor" + gdjs.evtTools.string.newLine() + "Hosanna, hosanna...");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(10).setString("Sol Do9 Sol Do9 Re\nSanto, santo es el Señor, Dios, Dios del universo, llenos están\nMim Re Sol Do Re Sol\nel cielo y la tierra de su gloria, hosanna en el cielo.\nSol Do9 Sol Do9\nBendito, bendito es el que viene en nombre del Señor, hosanna en el cielo\n Re Mim Re Sol Do9 Re Sol\nLlenos están el cielo y la tierra de su gloria, hosanna en el cielo");
+{runtimeScene.getScene().getVariables().getFromIndex(10).setString("Sol      Do9      Sol      Do9      Re" + gdjs.evtTools.string.newLine() + "Santo, santo es el Señor, Dios, Dios del universo, llenos están" + gdjs.evtTools.string.newLine() + "Mim      Re       Sol      Do       Re       Sol" + gdjs.evtTools.string.newLine() + "el cielo y la tierra de su gloria, hosanna en el cielo." + gdjs.evtTools.string.newLine() + "Sol      Do9      Sol      Do9" + gdjs.evtTools.string.newLine() + "Bendito, bendito es el que viene en nombre del Señor, hosanna en el cielo" + gdjs.evtTools.string.newLine() + "Re       Mim      Re       Sol      Do9      Re       Sol" + gdjs.evtTools.string.newLine() + "Llenos están el cielo y la tierra de su gloria, hosanna en el cielo");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(11).setString("Sol Re Sim La Sol Re Sim La\nSanto, santo, santo el Señor, Dios del universo.\nSol Re Sim La Sol La Re\nSanto, santo, el cielo y la tierra están llenos de tu inmensa gloria.\nSol (Sol) (Sol) ((Re La))\nHOSANNA EN LO ALTO DEL CIELO (x3)\nLa Sol Re La\nBendito aquel que viene en nombre del Señor.");
+{runtimeScene.getScene().getVariables().getFromIndex(11).setString("Sol      Re       Sim      La       Sol      Re       Sim      La" + gdjs.evtTools.string.newLine() + "Santo, santo, santo el Señor, Dios del universo." + gdjs.evtTools.string.newLine() + "Sol      Re       Sim      La       Sol      La       Re" + gdjs.evtTools.string.newLine() + "Santo, santo, el cielo y la tierra están llenos de tu inmensa gloria." + gdjs.evtTools.string.newLine() + "Sol      (Sol)    (Sol)    ((Re La))" + gdjs.evtTools.string.newLine() + "HOSANNA EN LO ALTO DEL CIELO (x3)" + gdjs.evtTools.string.newLine() + "La       Sol      Re       La" + gdjs.evtTools.string.newLine() + "Bendito aquel que viene en nombre del Señor.");
 }
 }
 
@@ -359,7 +401,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 5);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 5);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -431,7 +473,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 6);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 6);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -481,17 +523,17 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).setString("Tu palabra me da vida");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("DO FA SOL DO\nAleluya cantará,\nquién perdió la esperanza,\ny la tierra sonreirá.\nAleluya.");
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString("DO FA SOL DO" + gdjs.evtTools.string.newLine() + "Aleluya cantará," + gdjs.evtTools.string.newLine() + "quién perdió la esperanza," + gdjs.evtTools.string.newLine() + "y la tierra sonreirá." + gdjs.evtTools.string.newLine() + "Aleluya.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(7).setString("Sol Re Do Re Sol Re Do Re Sol\nALELUYA, ALELUYA, ALELUYA, ALELUYA. (BIS)\nSol Re Mim Sim Do Lam Re\nAlégrate, llena de gracia, el Señor es contigo.\nBendita tú, entre las mujeres, Santa Madre de Dios.\nALELUYA…\n");
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString("Sol      Re       Do       Re       Sol      Re       Do       Re       Sol" + gdjs.evtTools.string.newLine() + "ALELUYA, ALELUYA, ALELUYA, ALELUYA. (BIS)" + gdjs.evtTools.string.newLine() + "Sol      Re       Mim      Sim      Do       Lam      Re" + gdjs.evtTools.string.newLine() + "Alégrate, llena de gracia, el Señor es contigo." + gdjs.evtTools.string.newLine() + "Bendita tú, entre las mujeres, Santa Madre de Dios." + gdjs.evtTools.string.newLine() + "ALELUYA...");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setString("LAm MIm LAm MIm MI\nCanta aleluya al Señor canta aleluya al Señor\nFA SOL REm DO LAm MIm LAm\nCanta aleluya, Canta aleluya, canta aleluya al Señor");
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString("LAm      MIm      LAm      MIm      MI" + gdjs.evtTools.string.newLine() + "Canta aleluya al Señor canta aleluya al Señor" + gdjs.evtTools.string.newLine() + "FA       SOL      REm      DO       LAm      MIm      LAm" + gdjs.evtTools.string.newLine() + "Canta aleluya, Canta aleluya, canta aleluya al Señor");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(9).setString("Sol Mim Sol Mim\nYa no hay más miedo ni temor, no quedan penas sólo amor,\n Do Re Sol Re\nPorque por nosotros Él murió.\n Sol Do Re Mim Do Re\nHoy la esperanza abierta está, mi corazón quiere cantar\n Do Si7 Mim\npor eso mi alma grita ¡Aleluya!\n Do Mim Do Sol Re Sol\nALELUYA, ALELUYA, ALEUYA, ALELUUUUYA…\n");
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString("Sol      Mim      Sol      Mim" + gdjs.evtTools.string.newLine() + "Ya no hay más miedo ni temor, no quedan penas sólo amor." + gdjs.evtTools.string.newLine() + "Do       Re       Sol      Re" + gdjs.evtTools.string.newLine() + "Porque por nosotros Él murió." + gdjs.evtTools.string.newLine() + "Sol      Do       Re       Mim      Do       Re" + gdjs.evtTools.string.newLine() + "Hoy la esperanza abierta está, mi corazón quiere cantar" + gdjs.evtTools.string.newLine() + "Do       Si7      Mim" + gdjs.evtTools.string.newLine() + "por eso mi alma grita ¡Aleluya!" + gdjs.evtTools.string.newLine() + "Do       Mim      Do       Sol      Re       Sol" + gdjs.evtTools.string.newLine() + "ALELUYA, ALELUYA, ALELUYA, ALELUUUYA...");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(10).setString("Mi Si7 Mi\nAleluya, Aleluya (Bis)");
+{runtimeScene.getScene().getVariables().getFromIndex(10).setString("Mi Si7 Mi" + gdjs.evtTools.string.newLine() + "Aleluya, Aleluya (Bis)");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(11).setString("DO             mim   FA   DO                 lam     SOL \nTu palabra me da vi__da, confío en ti, Señor,         \n        DO    mim FA/DO   lam      SOL DO \nTu palabra es eterna, en ella esperaré. \n                            FA           DO  \nDichoso el que con vida intachable, \n      rem         SOL         DO \ncamina en la ley del Señor. \n                             FA                DO \nDichoso el que guardando sus preceptos, \n   rem       SOL         DO \nlo busca de todo corazón. \nEscogí el camino verdadero \ny he tenido presentes tus decretos.  \nCorreré por el camino del Señor \ncuando me hayas ensanchado el corazón. \nRepleta está la tierra de tu gracia,  \nenséñame, Señor tus decretos.  \nMi herencia son tus mandatos,\nalegría de nuestro corazón.");
+{runtimeScene.getScene().getVariables().getFromIndex(11).setString("DO       mim      FA       DO       lam      SOL" + gdjs.evtTools.string.newLine() + "Tu palabra me da vi__da, confío en ti, Señor," + gdjs.evtTools.string.newLine() + "DO       mim      FA/DO    lam      SOL      DO" + gdjs.evtTools.string.newLine() + "Tu palabra es eterna, en ella esperaré." + gdjs.evtTools.string.newLine() + "FA       DO" + gdjs.evtTools.string.newLine() + "Dichoso el que con vida intachable," + gdjs.evtTools.string.newLine() + "rem      SOL      DO" + gdjs.evtTools.string.newLine() + "camina en la ley del Señor." + gdjs.evtTools.string.newLine() + "FA       DO" + gdjs.evtTools.string.newLine() + "Dichoso el que guardando sus preceptos," + gdjs.evtTools.string.newLine() + "rem      SOL      DO" + gdjs.evtTools.string.newLine() + "lo busca de todo corazón." + gdjs.evtTools.string.newLine() + "Escogí el camino verdadero" + gdjs.evtTools.string.newLine() + "y he tenido presentes tus decretos." + gdjs.evtTools.string.newLine() + "Correré por el camino del Señor" + gdjs.evtTools.string.newLine() + "cuando me hayas ensanchado el corazón." + gdjs.evtTools.string.newLine() + "Repleta está la tierra de tu gracia," + gdjs.evtTools.string.newLine() + "enséñame, Señor tus decretos." + gdjs.evtTools.string.newLine() + "Mi herencia son tus mandatos," + gdjs.evtTools.string.newLine() + "alegría de nuestro corazón.");
 }
 }
 
@@ -503,7 +545,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 7);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 7);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -553,17 +595,17 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).setString("Cordero jubileo");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString("DO SOL FA SOL DO DO7\nCordero de Dios que quitas, El pecado del mundo, MI MI MI FA SOL DO RE RE\nFA SOL DO LAm REm SOL\nten piedad de nosotros, ten piedad de nosotros.\n\nDO SOL FA SOL DO DO7\nCordero de Dios que quitas, El pecado del mundo, MI MI MI FA SOL DO RE RE\nFA SOL DO LAm FA SOL DO\nten piedad de nosotros, y danos la paz.");
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString("INTRO --------------  DO       FA       SOL      DO" + gdjs.evtTools.string.newLine() + "DO       SOL      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "Cordero de Dios que quitas, El pecado del mundo," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm      REm      SOL" + gdjs.evtTools.string.newLine() + "ten piedad de nosotros, ten piedad de nosotros." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "Cordero de Dios que quitas, El pecado del mundo," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm      FA       SOL      DO" + gdjs.evtTools.string.newLine() + "ten piedad de nosotros, y danos la paz.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(7).setString("DO SOL LAm SOL DO SOL LAm SOL\nPaz en la Tierra,  paz en las alturas MI RE SI DO SI LA\nFA SOL DO LAm REm SOL\nque el gozo eterno reine,  en nuestro corazón\n\nDO SOL LAm SOL DO SOL LAm SOL\nPaz en la Tierra,  paz en las alturas\nFA SOL DO LAm REm SOL DO\nque el gozo eterno reine,   en nuestro corazón\n\nDO SOL FA DO FA SOL\nDa la paz hermano, da la paz. Constrúyela DO RE MI SOL LA SOL\nLAm MI FA\nen tu corazón y con tu gesto afirmarás que\nREm SOL SOL7\nquieres la paz.\n\nDO SOL FA DO FA SOL\nQue tu paz hermano,  sea don es el mejor\nLAm MI FA\nsigno de amor que tú nos puedes ofrecer.\nREm SOL\nAbrazo de paz");
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString("DO       SOL      LAm      SOL      DO       SOL      LAm      SOL" + gdjs.evtTools.string.newLine() + "Paz en la Tierra, paz en las alturas" + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm      REm      SOL" + gdjs.evtTools.string.newLine() + "que el gozo eterno reine, en nuestro corazón" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL      LAm      SOL      DO       SOL      LAm      SOL" + gdjs.evtTools.string.newLine() + "Paz en la Tierra, paz en las alturas" + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm      REm      SOL      DO" + gdjs.evtTools.string.newLine() + "que el gozo eterno reine, en nuestro corazón" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL      FA       DO       FA       SOL" + gdjs.evtTools.string.newLine() + "Da la paz hermano, da la paz. Constrúyela" + gdjs.evtTools.string.newLine() + "LAm      MI       FA" + gdjs.evtTools.string.newLine() + "en tu corazón y con tu gesto afirmarás que" + gdjs.evtTools.string.newLine() + "REm      SOL      SOL7" + gdjs.evtTools.string.newLine() + "quieres la paz." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL      FA       DO       FA       SOL" + gdjs.evtTools.string.newLine() + "Que tu paz hermano, sea don es el mejor" + gdjs.evtTools.string.newLine() + "LAm      MI       FA" + gdjs.evtTools.string.newLine() + "signo de amor que tú nos puedes ofrecer." + gdjs.evtTools.string.newLine() + "REm      SOL" + gdjs.evtTools.string.newLine() + "Abrazo de paz");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setString("SOL RE DO RE SOL SOL7\nCordero de Dios, que quitas el pecado del mundo,\n DO RE SOL MIm DO RE\nten piedad de nosotros, ten piedad de nosotros.\nSOL RE DO RE SOL SOL7\nCordero de Dios que quitas el pecado del mundo,\n DO RE SOL MIm DO RE SOL\nten piedad de nosotros y danos la paz.");
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString("SOL      RE       DO       RE       SOL      SOL7" + gdjs.evtTools.string.newLine() + "Cordero de Dios, que quitas el pecado del mundo," + gdjs.evtTools.string.newLine() + "DO       RE       SOL      MIm      DO       RE" + gdjs.evtTools.string.newLine() + "ten piedad de nosotros, ten piedad de nosotros." + gdjs.evtTools.string.newLine() + "SOL      RE       DO       RE       SOL      SOL7" + gdjs.evtTools.string.newLine() + "Cordero de Dios que quitas el pecado del mundo," + gdjs.evtTools.string.newLine() + "DO       RE       SOL      MIm      DO       RE       SOL" + gdjs.evtTools.string.newLine() + "ten piedad de nosotros y danos la paz.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(9).setString("DO LAm FA SOL\nCordero de Dios, que quitas el pecado del mundo, ten piedad de nosotros.\n DO LAm FA SOL\nCordero de Dios, que quitas el pecado del mundo, ten piedad de nosotros.\n DO LAm FA SOL DO FA SOL DO\nCordero de Dios, que quitas el pecado del mundo, danos la paz, danos la paz");
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString("DO       LAm      FA       SOL" + gdjs.evtTools.string.newLine() + "Cordero de Dios, que quitas el pecado del mundo, ten piedad de nosotros." + gdjs.evtTools.string.newLine() + "DO       LAm      FA       SOL" + gdjs.evtTools.string.newLine() + "Cordero de Dios, que quitas el pecado del mundo, ten piedad de nosotros." + gdjs.evtTools.string.newLine() + "DO       LAm      FA       SOL      DO       FA       SOL      DO" + gdjs.evtTools.string.newLine() + "Cordero de Dios, que quitas el pecado del mundo, danos la paz, danos la paz");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(10).setString("DO SOL LAm FA SOL\nCordero de Dios, que quitas el pecado del mundo,\nFA SOL DO LAm\nten piedad de nosotros,\nFA SOL FA DO SOL\nten piedad de nosotros.\n DO SOL LAm FA SOL\nCordero de Dios, que quitas el pecado del mundo,\nFA SOL DO LAm\ndanos la paz,\nFA SOL FA DO\ndanos la paz.");
+{runtimeScene.getScene().getVariables().getFromIndex(10).setString("DO       SOL      LAm      FA       SOL" + gdjs.evtTools.string.newLine() + "Cordero de Dios, que quitas el pecado del mundo," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm" + gdjs.evtTools.string.newLine() + "ten piedad de nosotros," + gdjs.evtTools.string.newLine() + "FA       SOL      FA       DO       SOL" + gdjs.evtTools.string.newLine() + "ten piedad de nosotros." + gdjs.evtTools.string.newLine() + "DO       SOL      LAm      FA       SOL" + gdjs.evtTools.string.newLine() + "Cordero de Dios, que quitas el pecado del mundo," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm" + gdjs.evtTools.string.newLine() + "danos la paz," + gdjs.evtTools.string.newLine() + "FA       SOL      FA       DO" + gdjs.evtTools.string.newLine() + "danos la paz.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(11).setString("Lam\nCordero de dios\n Rem Lam\nTú que quitas el pecado del\nRem Mi\nmundo\nDo Sol Rem Lam\nMiserere nobis\nFa Sol Rem - Mim - Lam\nMiserere nobis (Bis)\n\n Lam\nCordero de dios\n Rem Lam\nTú que quitas el pecado del\nRem Mi\nmundo\nDo Sol Rem Lam\nDona nobis pacem\nFa Sol Rem - Mim - Lam\nDona nobis pacem");
+{runtimeScene.getScene().getVariables().getFromIndex(11).setString("Lam" + gdjs.evtTools.string.newLine() + "Cordero de dios" + gdjs.evtTools.string.newLine() + "Rem      Lam" + gdjs.evtTools.string.newLine() + "Tú que quitas el pecado del" + gdjs.evtTools.string.newLine() + "Rem      Mi" + gdjs.evtTools.string.newLine() + "mundo" + gdjs.evtTools.string.newLine() + "Do       Sol      Rem      Lam" + gdjs.evtTools.string.newLine() + "Miserere nobis" + gdjs.evtTools.string.newLine() + "Fa       Sol      Rem      Mim      Lam" + gdjs.evtTools.string.newLine() + "Miserere nobis (Bis)" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Lam" + gdjs.evtTools.string.newLine() + "Cordero de dios" + gdjs.evtTools.string.newLine() + "Rem      Lam" + gdjs.evtTools.string.newLine() + "Tú que quitas el pecado del" + gdjs.evtTools.string.newLine() + "Rem      Mi" + gdjs.evtTools.string.newLine() + "mundo" + gdjs.evtTools.string.newLine() + "Do       Sol      Rem      Lam" + gdjs.evtTools.string.newLine() + "Dona nobis pacem" + gdjs.evtTools.string.newLine() + "Fa       Sol      Rem      Mim      Lam" + gdjs.evtTools.string.newLine() + "Dona nobis pacem");
 }
 }
 
@@ -575,7 +617,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 8);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 8);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -625,17 +667,17 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 }
 {runtimeScene.getScene().getVariables().getFromIndex(3).setString("Cristo mi centro");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setString(" DO SOL LAm FA SOL\nCOMO EL PADRE ME AMÓ YO OS HE AMADO\nDO SOL LAm FA SOL DO\nPERMANECED EN MI AMOR, PERMANECED EN MI AMOR.\nLAm DO FA SOL DO\nSi guardáis mis palabras y como hermanos os amáis\nMIm LAm FA SOL\ncompartiréis con alegría el don de la fraternidad.\nLAm DO FA SOL DO\nSi os ponéis en camino, sirviendo siempre a la verdad\nMIm LAm FA SOL\nfruto daréis en abundancia, mi amor se manifestará.\nESTRIBILLO\nNo veréis amor tan grande como aquel que os mostré.\nYo doy la vida por vosotros, amad como yo os amé.\nSi hacéis lo que os mando y os queréis de corazón,\ncompartiréis mi pleno gozo, de amar, como Él me amó.");
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString("INTRO ---------- DO       SOL      lam      FA       SOL      DO" + gdjs.evtTools.string.newLine() + "DO       SOL7     LAm      FA       REm      SOL7" + gdjs.evtTools.string.newLine() + "Como el Padre me amó, yo os he amado," + gdjs.evtTools.string.newLine() + "DO       SOL7     LAm      FA       SOL7     DO" + gdjs.evtTools.string.newLine() + "permaneced en mi amor, permaneced, en mi amor" + gdjs.evtTools.string.newLine() + "LAm      DO       FA       SOL7     DO" + gdjs.evtTools.string.newLine() + "Si guardáis mis palabras, y como hermanos os amáis," + gdjs.evtTools.string.newLine() + "LAm      DO       FA       SOL7     DO" + gdjs.evtTools.string.newLine() + "compartiréis con alegría, el don de la fraternidad." + gdjs.evtTools.string.newLine() + "LAm      DO       FA       SOL7     DO" + gdjs.evtTools.string.newLine() + "Si os ponéis en camino, sirviendo siempre la verdad," + gdjs.evtTools.string.newLine() + "MIm      LAm      FA       REm      SOL7" + gdjs.evtTools.string.newLine() + "fruto daréis en abundancia, mi amor se manifestará." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL7     LAm      FA       REm      SOL7" + gdjs.evtTools.string.newLine() + "Como el Padre me amó, yo os he amado," + gdjs.evtTools.string.newLine() + "DO       SOL7     LAm      FA       SOL7     DO" + gdjs.evtTools.string.newLine() + "permaneced en mi amor, permaneced, en mi amor" + gdjs.evtTools.string.newLine() + "LAm      DO       FA       SOL7     DO" + gdjs.evtTools.string.newLine() + "No veréis amor tan grande, como aquel que os mostré," + gdjs.evtTools.string.newLine() + "MIm      LAm      FA       REm      SOL7" + gdjs.evtTools.string.newLine() + "Yo doy la vida por vosotros, amad como Yo os amé." + gdjs.evtTools.string.newLine() + "LAm      DO       FA       SOL7     DO" + gdjs.evtTools.string.newLine() + "Si hacéis lo que os mando, y os queréis de corazón," + gdjs.evtTools.string.newLine() + "MIm      LAm      FA       REm      SOL7" + gdjs.evtTools.string.newLine() + "compartiréis mi pleno gozo, de amar como Él me amó." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL7     LAm      FA       REm      SOL7" + gdjs.evtTools.string.newLine() + "Como el Padre me amó, yo os he amado," + gdjs.evtTools.string.newLine() + "DO       SOL7     LAm      FA       SOL7     DO" + gdjs.evtTools.string.newLine() + "permaneced en mi amor, permaneced, en mi amor");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(7).setString("DO FA sus2 (2)\nDO FA DO FA SOL\nCon Jesús nace y renace la alegría, no dejéis que nadie os quite la ilusión,\nFA SOL DO lam FA SOL DO DO7\nno dejéis que nadie os robe la esperanza, no dejéis que nadie mate el corazón.\n\nFA SOL DO lam FA SOL DO DO7\nLA ALEGRIA DEL EVANGELIO, RIEGA EL MUNDO CON SU AMOR,\nFA SOL DO lam FA SOL\nBUENA NOTICIA QUE DA VIDA; LLENA TU VIDA DE DIOS\nFA SOL DO\nLLENA TU VIDA DE DIOS.\nDO FA DO FA SOL\nPrimavera de una Iglesia que confía, en el que hizo todo nuevo por Amor,\nFA SOL DO lam FA SOL DO DO7\nque se mancha y crece cerca del que es pobre, ¡casa abierta, pueblo, hermanos, y canción!\nFA SOL DO lam FA SOL DO DO7\nLA ALEGRIA DEL EVANGELIO, RIEGA EL MUNDO CON SU AMOR,\nFA SOL DO lam FA SOL\nBUENA NOTICIA QUE DA VIDA; LLENA TU VIDA DE DIOS\nFA SOL DO\nLLENA TU VIDA DE DIOS.\nDO FA DO FA SOL\nLa ternura y el cariño de María, nos empuja y nos anima en la misión:\nFA SOL DO lam FA SOL DO DO7\nanunciar el Reino que ya está naciendo, confesar que Jesucristo es el Señor.\n\nFA SOL DO lam FA SOL DO DO7\nLA ALEGRIA DEL EVANGELIO, RIEGA EL MUNDO CON SU AMOR,\nFA SOL DO lam FA SOL\nBUENA NOTICIA QUE DA VIDA; LLENA TU VIDA DE DIOS\nFA SOL DO lam FA SOL DO DO7\nLA ALEGRIA DEL EVANGELIO, RIEGA EL MUNDO CON SU AMOR,\nFA SOL DO lam FA SOL\nBUENA NOTICIA QUE DA VIDA; LLENA TU VIDA DE DIOS\nFA SOL DO\nLLENA TU VIDA DE DIOS.");
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString("DO FA sus2 (2)" + gdjs.evtTools.string.newLine() + "DO       FA       DO       FA       SOL" + gdjs.evtTools.string.newLine() + "Con Jesús nace y renace la alegría, no dejéis que nadie os quite la ilusión," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "no dejéis que nadie os robe la esperanza, no dejéis que nadie mate el corazón." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "LA ALEGRIA DEL EVANGELIO, RIEGA EL MUNDO CON SU AMOR," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL" + gdjs.evtTools.string.newLine() + "BUENA NOTICIA QUE DA VIDA; LLENA TU VIDA DE DIOS" + gdjs.evtTools.string.newLine() + "FA       SOL      DO" + gdjs.evtTools.string.newLine() + "LLENA TU VIDA DE DIOS." + gdjs.evtTools.string.newLine() + "DO       FA       DO       FA       SOL" + gdjs.evtTools.string.newLine() + "Primavera de una Iglesia que confía, en el que hizo todo nuevo por Amor," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "que se mancha y crece cerca del que es pobre, casa abierta, pueblo, hermanos, y canción!" + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "LA ALEGRIA DEL EVANGELIO, RIEGA EL MUNDO CON SU AMOR," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL" + gdjs.evtTools.string.newLine() + "BUENA NOTICIA QUE DA VIDA; LLENA TU VIDA DE DIOS" + gdjs.evtTools.string.newLine() + "FA       SOL      DO" + gdjs.evtTools.string.newLine() + "LLENA TU VIDA DE DIOS." + gdjs.evtTools.string.newLine() + "DO       FA       DO       FA       SOL" + gdjs.evtTools.string.newLine() + "La ternura y el cariño de María, nos empuja y nos anima en la misión:" + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "anunciar el Reino que ya está naciendo, confesar que Jesucristo es el Señor." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "LA ALEGRIA DEL EVANGELIO, RIEGA EL MUNDO CON SU AMOR," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL" + gdjs.evtTools.string.newLine() + "BUENA NOTICIA QUE DA VIDA; LLENA TU VIDA DE DIOS" + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL      DO       DO7" + gdjs.evtTools.string.newLine() + "LA ALEGRIA DEL EVANGELIO, RIEGA EL MUNDO CON SU AMOR," + gdjs.evtTools.string.newLine() + "FA       SOL      DO       lam      FA       SOL" + gdjs.evtTools.string.newLine() + "BUENA NOTICIA QUE DA VIDA; LLENA TU VIDA DE DIOS" + gdjs.evtTools.string.newLine() + "FA       SOL      DO" + gdjs.evtTools.string.newLine() + "LLENA TU VIDA DE DIOS.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(8).setString("LAm MIm LAm MIm\nHoy te quiero contar Jesús amigo, que contigo estoy feliz,\n LAm MIm FA SOL\nSi tengo tu amistad lo tengo todo, pues Tú estás dentro de mí.\n DO SOL FA SOL\nDespués de comulgar me haces como Tú, me llenas con Tu paz,\n DO SOL FA SOL\nEn cada pedacito de este pan, completo estás, y así te das.\n LAm MIm FA SOL\nEstas ahí por mí, porque conoces, que sin Ti pequeño soy,\n DO SOL FA SOL\nDe ahora en adelante, nada nos separará, ya lo verás.\n DO FA SOL\nTE ESCONDES EN EL PAN, Y AUNQUE NO TE PUEDO VER,\n DO LAm FA SOL\nTE PUEDO ACOMPAÑAR, ES MI LUGAR PREFERIDO.\n DO FA SOL\nHOY QUIERO COMULGAR, ABRIRTE MI CORAZÓN,\n DO LAm FA SOL\nASÍ DE PAR EN PAR, ERES MI MEJOR AMIGO.\nDos mil años atrás a tus amigos invitaste a cenar\ny ahí les prometiste que con ellos por siempre ibas a estar\nY ahora cada vez que el sacerdote eleva el pan en el altar\nMe pongo de rodillas porque sé que en esa hostia Tú estas\nESTRIBILLO\nME VUELVES A SALVAR COMO LO HICISTE EN LA CRUZ\nEN CADA MISA TÚ REPITES TU SACRIFICIO\nHOY QUIERO COMULGAR, ABRIRTE MI CORAZON\nASI, DE PAR EN PAR, ERES MI MEJOR AMIGO, JESÚS");
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString("INTRO      lam      SOL      FA       FA" + gdjs.evtTools.string.newLine() + "lam      SOL      FA       FA       SOL" + gdjs.evtTools.string.newLine() + "Hoy te quiero contar Jesús amigo, que contigo estoy feliz," + gdjs.evtTools.string.newLine() + "lam      SOL      FA       SOL" + gdjs.evtTools.string.newLine() + "Si tengo tu amistad lo tengo todo, pues Tú estás dentro de mí." + gdjs.evtTools.string.newLine() + "DO       SOL      FA       SOL" + gdjs.evtTools.string.newLine() + "Después de comulgar me haces como Tú, me llenas con Tu paz," + gdjs.evtTools.string.newLine() + "DO       SOL      FA       SOL" + gdjs.evtTools.string.newLine() + "En cada pedacito de este pan, completo estás, y así te das." + gdjs.evtTools.string.newLine() + "lam      SOL      FA       SOL" + gdjs.evtTools.string.newLine() + "Estás ahí por mí, porque conoces, que sin Ti pequeño soy," + gdjs.evtTools.string.newLine() + "DO       SOL      FA       SOL" + gdjs.evtTools.string.newLine() + "De ahora en adelante, nada nos separará, ya lo verás." + gdjs.evtTools.string.newLine() + "DO       FA       SOL" + gdjs.evtTools.string.newLine() + "TE ESCONDES EN EL PAN, Y AUNQUE NO TE PUEDO VER," + gdjs.evtTools.string.newLine() + "DO       lam      FA       SOL" + gdjs.evtTools.string.newLine() + "TE PUEDO ACOMPAÑAR, ES MI LUGAR PREFERIDO." + gdjs.evtTools.string.newLine() + "DO       FA       SOL" + gdjs.evtTools.string.newLine() + "HOY QUIERO COMULGAR, ABRIRTE MI CORAZÓN," + gdjs.evtTools.string.newLine() + "DO       lam      FA       SOL" + gdjs.evtTools.string.newLine() + "ASÍ DE PAR EN PAR, ERES MI MEJOR AMIGO." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Dos mil años atrás a tus amigos, invitaste a cenar," + gdjs.evtTools.string.newLine() + "y ahí les prometiste que con ellos, por siempre ibas a estar." + gdjs.evtTools.string.newLine() + "Y ahora cada vez que el sacerdote, eleva el pan en el altar," + gdjs.evtTools.string.newLine() + "Me pongo de rodillas porque sé que, en esa hostia Tú estás." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       FA       SOL" + gdjs.evtTools.string.newLine() + "Te escondes en el pan, y aunque no te puedo ver" + gdjs.evtTools.string.newLine() + "DO       lam      FA       SOL" + gdjs.evtTools.string.newLine() + "Te puedo acompañar, es mi lugar preferido" + gdjs.evtTools.string.newLine() + "DO       FA       SOL" + gdjs.evtTools.string.newLine() + "Hoy quiero comulgar, abrirte mi corazón" + gdjs.evtTools.string.newLine() + "DO       lam      FA       SOL" + gdjs.evtTools.string.newLine() + "Así de par en par, eres mi mejor amigo" + gdjs.evtTools.string.newLine() + "DO       FA       SOL" + gdjs.evtTools.string.newLine() + "Me vuelves a salvar, como lo hiciste en la cruz" + gdjs.evtTools.string.newLine() + "lam      SOL      FA       LA..." + gdjs.evtTools.string.newLine() + "En cada misa Tú repites tu sacrificio" + gdjs.evtTools.string.newLine() + "DO       SOL      FA       SOL      LA       RE" + gdjs.evtTools.string.newLine() + "Hoy quiero comulgar, abrirte mi corazón" + gdjs.evtTools.string.newLine() + "Así de par en par, eres mi mejor amigo... Jesús");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(9).setString("mim lam DO\nSeñor, no soy nada. ¿Por qué me has\nSI7 lam RE\nllamado?. Has pasado por mi puerta y bien\nSOL SI7 mim DO\nsabes, que soy pobre, y soy débil. ¿Por qué\nlam SI7\nte has fijado en mí?\n\nmim DO\nMe has seducido Señor, con tu mirada.\nRE\nMe has hablado al corazón y me has\nSOL SI7\nquerido. Es imposible conocerte y no\nmim DO lam\namarte. Es imposible amarte y no\nSI7 mim\nseguirte. ¡Me has seducido Señor!\n\nmim lam DO\nSeñor, yo te sigo, y quiero darte lo que\nSI7 lam RE\npides, aunque hay veces que me cuesta\nSOL SI7 mim DO\ndarlo todo. Tú lo sabes, yo soy tuyo. Camina,\nlam SI7\nSeñor, junto a mí.\n\nMe has seducido Señor,…………...\n\nmim lam DO\nSeñor, hoy tu nombre, es más que\nSI7 lam RE\npalabras; es tu voz que hoy resuena en mi\nSOL SI7 mim\ninterior, y me habla en el silencio. ¿Qué\nDO lam SI7\nquieres que haga por TI?");
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString("(+5)" + gdjs.evtTools.string.newLine() + "mim      lam      DO" + gdjs.evtTools.string.newLine() + "Señor, no soy nada. Por qué me has" + gdjs.evtTools.string.newLine() + "SI7      lam      RE" + gdjs.evtTools.string.newLine() + "llamado? Has pasado por mi puerta y bien" + gdjs.evtTools.string.newLine() + "SOL      SI7      mim      DO" + gdjs.evtTools.string.newLine() + "sabes, que soy pobre, y soy débil. Por qué" + gdjs.evtTools.string.newLine() + "lam      SI7" + gdjs.evtTools.string.newLine() + "te has fijado en mí?" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "mim      lam      DO" + gdjs.evtTools.string.newLine() + "Me has seducido Señor, con tu mirada." + gdjs.evtTools.string.newLine() + "RE" + gdjs.evtTools.string.newLine() + "Me has hablado al corazón y me has" + gdjs.evtTools.string.newLine() + "SOL      SI7" + gdjs.evtTools.string.newLine() + "querido. Es imposible conocerte y no" + gdjs.evtTools.string.newLine() + "mim      DO       lam" + gdjs.evtTools.string.newLine() + "amarte. Es imposible amarte y no" + gdjs.evtTools.string.newLine() + "SI7      mim" + gdjs.evtTools.string.newLine() + "seguirte. Me has seducido Señor!" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "mim      lam      DO" + gdjs.evtTools.string.newLine() + "Señor, yo te sigo, y quiero darte lo que" + gdjs.evtTools.string.newLine() + "SI7      lam      RE" + gdjs.evtTools.string.newLine() + "pides, aunque hay veces que me cuesta" + gdjs.evtTools.string.newLine() + "SOL      SI7      mim      DO" + gdjs.evtTools.string.newLine() + "darlo todo. Tú lo sabes, yo soy tuyo. Camina," + gdjs.evtTools.string.newLine() + "lam      SI7" + gdjs.evtTools.string.newLine() + "Señor, junto a mí." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Me has seducido Señor,................" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "mim      lam      DO" + gdjs.evtTools.string.newLine() + "Señor, hoy tu nombre, es más que" + gdjs.evtTools.string.newLine() + "SI7      lam      RE" + gdjs.evtTools.string.newLine() + "palabras; es tu voz que hoy resuena en mi" + gdjs.evtTools.string.newLine() + "SOL      SI7      mim" + gdjs.evtTools.string.newLine() + "interior, y me habla en el silencio. Qué" + gdjs.evtTools.string.newLine() + "DO       lam      SI7" + gdjs.evtTools.string.newLine() + "quieres que haga por TI?");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(10).setString("DO SOL FA DO\nTodo mi ser canta hoy, por las cosas que hay en mí.\nSOL FA DO\nGracias te doy, mi Señor, tú me haces tan feliz.\nFA SOL lam MI FA DO SOL\nTú me has regalado tu amistad, confío en ti, me llenas de tu paz.\nFA SOL lam\nTú me haces sentir tu gran bondad,\nMI FA DO SOL DO SOL7\nyo cantaré por siempre tu fidelidad.\nDO SOL rem lam\nGLORIA A TI, SEÑOR POR TU BONDAD.\nFA SOL lam MI FA DO rem SOL7\nGLORIA, GLORIA, SIEMPRE CANTARÉ TU FIDELIDAD.\nDO SOL rem lam\nGLORIA A TI, SEÑOR POR TU BONDAD.\nFA SOL lam MI FA DO SOL7 DO\nGLORIA, GLORIA, SIEMPRE CANTARÉ TU FIDELIDAD.\nSOL FA DO\nSiempre a tu lado estaré, alabando tu bondad.\nSOL FA DO\nA mis hermanos diré, el gran gozo que hallo en ti.\nFA SOL lam MI FA DO SOL\nEn ti podrán siempre encontrar fidelidad, confianza y amistad.\nFA SOL lam MI FA DO SOL DO SOL7\nNunca fallará tu gran amor ni tu perdón, me quieres tal como soy.\n\nDO SOL rem lam\nGLORIA A TI, SEÑOR POR TU BONDAD.\nFA SOL lam MI FA DO rem SOL7\nGLORIA, GLORIA, SIEMPRE CANTARÉ TU FIDELIDAD.\nDO SOL rem lam\nGLORIA A TI, SEÑOR POR TU BONDAD.\nFA SOL lam MI FA DO SOL7 DO\nGLORIA, GLORIA, SIEMPRE CANTARÉ TU FIDELIDAD.");
+{runtimeScene.getScene().getVariables().getFromIndex(10).setString("+2 (+3 si hay saxo)" + gdjs.evtTools.string.newLine() + "INTRO -----DO FA SOL DO LA rem SOL DO Lab SIb7 DO" + gdjs.evtTools.string.newLine() + "DO       SOL      FA       DO" + gdjs.evtTools.string.newLine() + "Todo mi ser canta hoy, por las cosas que hay en mí." + gdjs.evtTools.string.newLine() + "SOL      FA       DO" + gdjs.evtTools.string.newLine() + "Gracias te doy, mi Señor, tú me haces tan feliz." + gdjs.evtTools.string.newLine() + "FA       SOL      lam      MI       FA       DO       SOL" + gdjs.evtTools.string.newLine() + "Tú me has regalado tu amistad, confío en ti, me llenas de tu paz." + gdjs.evtTools.string.newLine() + "FA       SOL      lam" + gdjs.evtTools.string.newLine() + "Tú me haces sentir tu gran bondad," + gdjs.evtTools.string.newLine() + "MI       FA       DO       SOL      DO       SOL7" + gdjs.evtTools.string.newLine() + "yo cantaré por siempre tu fidelidad." + gdjs.evtTools.string.newLine() + "DO       SOL      rem      lam" + gdjs.evtTools.string.newLine() + "GLORIA A TI, SEÑOR POR TU BONDAD." + gdjs.evtTools.string.newLine() + "FA       SOL      lam      MI       FA       DO       rem      SOL7" + gdjs.evtTools.string.newLine() + "GLORIA, GLORIA, SIEMPRE CANTARÉ TU FIDELIDAD." + gdjs.evtTools.string.newLine() + "DO       SOL      rem      lam" + gdjs.evtTools.string.newLine() + "GLORIA A TI, SEÑOR POR TU BONDAD." + gdjs.evtTools.string.newLine() + "FA       SOL      lam      MI       FA       DO       SOL7     DO" + gdjs.evtTools.string.newLine() + "GLORIA, GLORIA, SIEMPRE CANTARÉ TU FIDELIDAD." + gdjs.evtTools.string.newLine() + "SOL      FA       DO" + gdjs.evtTools.string.newLine() + "Siempre a tu lado estaré, alabando tu bondad." + gdjs.evtTools.string.newLine() + "SOL      FA       DO" + gdjs.evtTools.string.newLine() + "A mis hermanos diré, el gran gozo que hallo en ti." + gdjs.evtTools.string.newLine() + "FA       SOL      lam      MI       FA       DO       SOL" + gdjs.evtTools.string.newLine() + "En ti podrán siempre encontrar fidelidad, confianza y amistad." + gdjs.evtTools.string.newLine() + "FA       SOL      lam      MI       FA       DO       SOL      DO       SOL7" + gdjs.evtTools.string.newLine() + "Nunca fallará tu gran amor ni tu perdón, me quieres tal como soy." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "DO       SOL      rem      lam" + gdjs.evtTools.string.newLine() + "GLORIA A TI, SEÑOR POR TU BONDAD." + gdjs.evtTools.string.newLine() + "FA       SOL      lam      MI       FA       DO       rem      SOL7" + gdjs.evtTools.string.newLine() + "GLORIA, GLORIA, SIEMPRE CANTARÉ TU FIDELIDAD." + gdjs.evtTools.string.newLine() + "DO       SOL      rem      lam" + gdjs.evtTools.string.newLine() + "GLORIA A TI, SEÑOR POR TU BONDAD." + gdjs.evtTools.string.newLine() + "FA       SOL      lam      MI       FA       DO       SOL7     DO" + gdjs.evtTools.string.newLine() + "GLORIA, GLORIA, SIEMPRE CANTARÉ TU FIDELIDAD.");
 }
-{runtimeScene.getScene().getVariables().getFromIndex(11).setString("FA SOL DO FA SOL DO\nQuise vagar por tus veredas sin entregar mi voluntad\nFA SOL DO LAm FA SOL\natado a mil cosas pequeñas que se hicieron las dueñas de toda mi verdad.\nFA SOL DO FA SOL DO\nEn tu mirada vi las fuerzas para romper con lo que soy\nFA SOL DO LAm FA SOL\npara gozarme en tu presencia, ofrendar mi vida entera y ser tuyo desde hoy.\n FA SOL DO MIm LAm\nCRISTO MI CENTRO, MI ESPERANZA, MI SENTIDO, MI CALOR.\n FA SOL DO MIm LAm\nES MI CONTEXTO, ÉL ES MI CASA, MI SOSIEGO, MI VALOR.\n FA SOL DO MIm LAm\nY DEJARÉ CUANTO ME APARTE DE LA VIDA QUE ME DAS,\n FA SOL FA SOL\nMI LIBERTAD ESTÁ EN TUS MANOS, ERES MI FELICIDAD.\nDesde el encuentro en tu Palabra mi nueva vida vi nacer\ny mi oración se hizo alabanza, aquí nadie se cansa de compartir la fe.\nY me llamaste hacia los hombres a descubrirte en su dolor\na consagrarme a los más pobres, a abrir mis horizontes testigos de tu amor.");
+{runtimeScene.getScene().getVariables().getFromIndex(11).setString("FA       SOL      DO       FA       SOL      DO" + gdjs.evtTools.string.newLine() + "Quise vagar por tus veredas sin entregar mi voluntad" + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm      FA       SOL" + gdjs.evtTools.string.newLine() + "atado a mil cosas pequeñas que se hicieron las dueñas de toda mi verdad." + gdjs.evtTools.string.newLine() + "FA       SOL      DO       FA       SOL      DO" + gdjs.evtTools.string.newLine() + "En tu mirada vi las fuerzas para romper con lo que soy" + gdjs.evtTools.string.newLine() + "FA       SOL      DO       LAm      FA       SOL" + gdjs.evtTools.string.newLine() + "para gozarme en tu presencia, ofrendar mi vida entera y ser tuyo desde hoy." + gdjs.evtTools.string.newLine() + "FA       SOL      DO       MIm      LAm" + gdjs.evtTools.string.newLine() + "CRISTO MI CENTRO, MI ESPERANZA, MI SENTIDO, MI CALOR." + gdjs.evtTools.string.newLine() + "FA       SOL      DO       MIm      LAm" + gdjs.evtTools.string.newLine() + "ES MI CONTEXTO, ÉL ES MI CASA, MI SOSIEGO, MI VALOR." + gdjs.evtTools.string.newLine() + "FA       SOL      DO       MIm      LAm" + gdjs.evtTools.string.newLine() + "Y DEJARÉ CUANTO ME APARTE DE LA VIDA QUE ME DAS," + gdjs.evtTools.string.newLine() + "FA       SOL      FA       SOL" + gdjs.evtTools.string.newLine() + "MI LIBERTAD ESTÁ EN TUS MANOS, ERES MI FELICIDAD." + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Desde el encuentro en tu Palabra mi nueva vida vi nacer" + gdjs.evtTools.string.newLine() + "y mi oración se hizo alabanza, aquí nadie se cansa de compartir la fe." + gdjs.evtTools.string.newLine() + "Y me llamaste hacia los hombres a descubrirte en su dolor" + gdjs.evtTools.string.newLine() + "a consagrarme a los más pobres, a abrir mis horizontes testigos de tu amor.");
 }
 }
 
@@ -647,7 +689,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 9);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 9);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -719,7 +761,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 10);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 10);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -791,7 +833,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 11);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 11);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -863,7 +905,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 12);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 12);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -935,7 +977,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 13);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 13);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -1007,7 +1049,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 14);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 14);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -1079,7 +1121,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 15);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 15);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -1151,7 +1193,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 16);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 16);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("boton6"), gdjs.lista_32can_32orCode.GDboton6Objects2);
@@ -1224,7 +1266,7 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 18);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 18);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
@@ -1296,13 +1338,77 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orC
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 17);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 17);
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("boton3"), gdjs.lista_32can_32orCode.GDboton3Objects1);
-gdjs.copyArray(runtimeScene.getObjects("boton4"), gdjs.lista_32can_32orCode.GDboton4Objects1);
-gdjs.copyArray(runtimeScene.getObjects("boton5"), gdjs.lista_32can_32orCode.GDboton5Objects1);
-gdjs.copyArray(runtimeScene.getObjects("boton6"), gdjs.lista_32can_32orCode.GDboton6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton3"), gdjs.lista_32can_32orCode.GDboton3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton4"), gdjs.lista_32can_32orCode.GDboton4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton5"), gdjs.lista_32can_32orCode.GDboton5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton6"), gdjs.lista_32can_32orCode.GDboton6Objects2);
+gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cancion"), gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cancion2"), gdjs.lista_32can_32orCode.GDtexto_9595cancion2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cancion3"), gdjs.lista_32can_32orCode.GDtexto_9595cancion3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cancion4"), gdjs.lista_32can_32orCode.GDtexto_9595cancion4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cancion5"), gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects2);
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDcancioneroObjects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDcancioneroObjects2[i].getBehavior("Text").setText("Via crucis/Via lucis");
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects2[i].getBehavior("Text").setText("Via crucis");
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion2Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion2Objects2[i].getBehavior("Text").setText("Via lucis");
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDboton3Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDboton3Objects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDboton4Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDboton4Objects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDboton5Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDboton5Objects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDboton6Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDboton6Objects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion3Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion3Objects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion4Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion4Objects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects2[i].hide();
+}
+}
+{for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects2.length ;i < len;++i) {
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects2[i].hide();
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 18);
+}
+if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.GDcancioneroObjects1);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion"), gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects1);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion2"), gdjs.lista_32can_32orCode.GDtexto_9595cancion2Objects1);
@@ -1311,48 +1417,56 @@ gdjs.copyArray(runtimeScene.getObjects("texto_cancion4"), gdjs.lista_32can_32orC
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion5"), gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects1);
 gdjs.copyArray(runtimeScene.getObjects("texto_cancion6"), gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects1);
 {for(var i = 0, len = gdjs.lista_32can_32orCode.GDcancioneroObjects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDcancioneroObjects1[i].getBehavior("Text").setText("Via crucis/Via lucis");
+    gdjs.lista_32can_32orCode.GDcancioneroObjects1[i].getBehavior("Text").setText("Shemá");
 }
 }
 {for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects1[i].getBehavior("Text").setText("Via crucis");
+    gdjs.lista_32can_32orCode.GDtexto_9595cancionObjects1[i].getBehavior("Text").setText("Enséñame");
 }
 }
 {for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion2Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDtexto_9595cancion2Objects1[i].getBehavior("Text").setText("Via lucis");
-}
-}
-{for(var i = 0, len = gdjs.lista_32can_32orCode.GDboton3Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDboton3Objects1[i].hide();
-}
-}
-{for(var i = 0, len = gdjs.lista_32can_32orCode.GDboton4Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDboton4Objects1[i].hide();
-}
-}
-{for(var i = 0, len = gdjs.lista_32can_32orCode.GDboton5Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDboton5Objects1[i].hide();
-}
-}
-{for(var i = 0, len = gdjs.lista_32can_32orCode.GDboton6Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDboton6Objects1[i].hide();
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion2Objects1[i].getBehavior("Text").setText("La puerta está abierta");
 }
 }
 {for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion3Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDtexto_9595cancion3Objects1[i].hide();
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion3Objects1[i].getBehavior("Text").setText("Alegres y contentos");
 }
 }
 {for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion4Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDtexto_9595cancion4Objects1[i].hide();
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion4Objects1[i].getBehavior("Text").setText("Hoy te doy gracias");
 }
 }
 {for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects1[i].hide();
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects1[i].getBehavior("Text").setText("No miro atrás");
 }
 }
 {for(var i = 0, len = gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects1.length ;i < len;++i) {
-    gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects1[i].hide();
+    gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects1[i].getBehavior("Text").setText("Mi talento");
 }
+}
+{runtimeScene.getScene().getVariables().getFromIndex(0).setString("Enséñame");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(2).setString("La puerta está abierta");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(4).setString("Alegres y contentos");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(5).setString("Hoy te doy gracias");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(6).setString("No miro atrás");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(3).setString("Mi talento");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(1).setString("Lam          Fa          Do-Sol" + gdjs.evtTools.string.newLine() + "Camino despacio camino sin prisa" + gdjs.evtTools.string.newLine() + "Lam          Fa          Do-Sol" + gdjs.evtTools.string.newLine() + "Te tengo a mi lado no pienso parar" + gdjs.evtTools.string.newLine() + "Lam          Fa          Do-Sol" + gdjs.evtTools.string.newLine() + "Grito con fuerza dentro de este abismo" + gdjs.evtTools.string.newLine() + "Lam          Fa          Do-Sol" + gdjs.evtTools.string.newLine() + "No se como hacerlo, enséñame a andar" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Lam   Fa  Do-Sol" + gdjs.evtTools.string.newLine() + "Enséñame Enséñame" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Se que no estoy, necesito saberlo" + gdjs.evtTools.string.newLine() + "Yo te confío, te quiero buscar" + gdjs.evtTools.string.newLine() + "Pero juro volver a sentirme tranquilo" + gdjs.evtTools.string.newLine() + "Pero juro que puedo mucho más" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Enséñame, Enséñame" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Fa          Sol          Lam" + gdjs.evtTools.string.newLine() + "Miento, estoy perdido y no encuentro" + gdjs.evtTools.string.newLine() + "Lam          Sol          Fa" + gdjs.evtTools.string.newLine() + "Ese salida en tus tiempos" + gdjs.evtTools.string.newLine() + "Fa          Sol          Lam Sol" + gdjs.evtTools.string.newLine() + "Y sé que no puedo parar" + gdjs.evtTools.string.newLine() + "Miento, cuando te digo perfecto" + gdjs.evtTools.string.newLine() + "Me digo no puedo parar" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Enséñame, Enséñame" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Quiero volver a verte" + gdjs.evtTools.string.newLine() + "Volver a ti" + gdjs.evtTools.string.newLine() + "Te buscaré sin miedo" + gdjs.evtTools.string.newLine() + "Seguir en ti");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(7).setString("Mim          Do" + gdjs.evtTools.string.newLine() + "Saber confiar" + gdjs.evtTools.string.newLine() + "Sol          Si7" + gdjs.evtTools.string.newLine() + "Poder respirar tranquilo en el mar" + gdjs.evtTools.string.newLine() + "Porque vive en mi" + gdjs.evtTools.string.newLine() + "Porque su voluntad me hace resistir" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Cuando llegan los miedos" + gdjs.evtTools.string.newLine() + "Mis cimiento mi guarida" + gdjs.evtTools.string.newLine() + "Tu seguridad" + gdjs.evtTools.string.newLine() + "me descubre la nueva vida" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Do          Sol" + gdjs.evtTools.string.newLine() + "Siempre está" + gdjs.evtTools.string.newLine() + "Si          Mim" + gdjs.evtTools.string.newLine() + "Deja que empiece a pasar" + gdjs.evtTools.string.newLine() + "Siempre está" + gdjs.evtTools.string.newLine() + "Que haría él en mi lugar" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Do          Sol" + gdjs.evtTools.string.newLine() + "Sueña y despierta" + gdjs.evtTools.string.newLine() + "Si          Mim" + gdjs.evtTools.string.newLine() + "Porque Cristo vive en ti" + gdjs.evtTools.string.newLine() + "La puerta está abierta" + gdjs.evtTools.string.newLine() + "Bienvenido a ser feliz" + gdjs.evtTools.string.newLine() + "Un tesoro un misterio que descubrir" + gdjs.evtTools.string.newLine() + "Un regalo para ti" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Dejarse llevar" + gdjs.evtTools.string.newLine() + "Andar por el mundo para iluminar" + gdjs.evtTools.string.newLine() + "Él muestra su plan en mi" + gdjs.evtTools.string.newLine() + "Todo lo hace nuevo para vivir" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Cuando llegan los miedos" + gdjs.evtTools.string.newLine() + "Saber cuando y donde podré sanar" + gdjs.evtTools.string.newLine() + "Yo te seguiré" + gdjs.evtTools.string.newLine() + "Porque este camino me llena");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(8).setString("Do          Sol" + gdjs.evtTools.string.newLine() + "Alegres y contentos" + gdjs.evtTools.string.newLine() + "Re          Mim" + gdjs.evtTools.string.newLine() + "Nos quiere nuestro Dios" + gdjs.evtTools.string.newLine() + "Do          Sol" + gdjs.evtTools.string.newLine() + "Porque así armaremos lío" + gdjs.evtTools.string.newLine() + "Re" + gdjs.evtTools.string.newLine() + "Desde el corazón" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Sirviendo a los más pobres" + gdjs.evtTools.string.newLine() + "San Vicente nos verá" + gdjs.evtTools.string.newLine() + "Como una sola familia" + gdjs.evtTools.string.newLine() + "Y en comunidad" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Do          Sol" + gdjs.evtTools.string.newLine() + "Así juntos creceremos" + gdjs.evtTools.string.newLine() + "Do          Sol" + gdjs.evtTools.string.newLine() + "Compartiendo nuestro pan" + gdjs.evtTools.string.newLine() + "Lam          Mim" + gdjs.evtTools.string.newLine() + "Con una sola misión" + gdjs.evtTools.string.newLine() + "(Fa) Re" + gdjs.evtTools.string.newLine() + "La de amar" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "El bien no hace ruido" + gdjs.evtTools.string.newLine() + "El ruido no hace bien" + gdjs.evtTools.string.newLine() + "Solo miren con amor" + gdjs.evtTools.string.newLine() + "Haciendo el plan de Dios" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Buscando su presencia" + gdjs.evtTools.string.newLine() + "En cada vida" + gdjs.evtTools.string.newLine() + "Nuestra vida de servicio" + gdjs.evtTools.string.newLine() + "Su palabra llenará");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(9).setString("Do" + gdjs.evtTools.string.newLine() + "Hoy te doy gracias" + gdjs.evtTools.string.newLine() + "Fa" + gdjs.evtTools.string.newLine() + "Por estar tan cerca" + gdjs.evtTools.string.newLine() + "Do" + gdjs.evtTools.string.newLine() + "Por tu presencia" + gdjs.evtTools.string.newLine() + "Fa" + gdjs.evtTools.string.newLine() + "Que nunca se aleja" + gdjs.evtTools.string.newLine() + "Lam" + gdjs.evtTools.string.newLine() + "En este pan," + gdjs.evtTools.string.newLine() + "Mim          Fa" + gdjs.evtTools.string.newLine() + "en tu amor aquí escondido" + gdjs.evtTools.string.newLine() + "Gracias Señor" + gdjs.evtTools.string.newLine() + "Sol          Do" + gdjs.evtTools.string.newLine() + "por siempre estar conmigo" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Do          Fa" + gdjs.evtTools.string.newLine() + "Hoy te doy gracias" + gdjs.evtTools.string.newLine() + "Do          Fa" + gdjs.evtTools.string.newLine() + "Hoy te doy gracias" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Hoy te doy gracias" + gdjs.evtTools.string.newLine() + "Por tu fiel cuidado" + gdjs.evtTools.string.newLine() + "Por tus promesas" + gdjs.evtTools.string.newLine() + "Que me han guiado" + gdjs.evtTools.string.newLine() + "En cada día," + gdjs.evtTools.string.newLine() + "en cada paso que he vivido" + gdjs.evtTools.string.newLine() + "Gracias Señor" + gdjs.evtTools.string.newLine() + "por siempre estar conmigo");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(10).setString("Si sus9  Si sus6" + gdjs.evtTools.string.newLine() + "Remo mar adentro" + gdjs.evtTools.string.newLine() + "Busco el lugar" + gdjs.evtTools.string.newLine() + "En mi caminar" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Lam          Si sus6" + gdjs.evtTools.string.newLine() + "Te siento tan cerca" + gdjs.evtTools.string.newLine() + "No miro atrás" + gdjs.evtTools.string.newLine() + "Eres mi fuerza" + gdjs.evtTools.string.newLine() + "Gracias por estar" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Eres mi barca" + gdjs.evtTools.string.newLine() + "En este mar" + gdjs.evtTools.string.newLine() + "Eres mis alas" + gdjs.evtTools.string.newLine() + "Cuando he de volar");
+}
+{runtimeScene.getScene().getVariables().getFromIndex(11).setString("La          Re" + gdjs.evtTools.string.newLine() + "Cuanto amor me das" + gdjs.evtTools.string.newLine() + "Mi          La" + gdjs.evtTools.string.newLine() + "cuanto amor recibo de ti" + gdjs.evtTools.string.newLine() + "Re" + gdjs.evtTools.string.newLine() + "fuerzas para andar" + gdjs.evtTools.string.newLine() + "Mi          La" + gdjs.evtTools.string.newLine() + "y para compartir" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Re" + gdjs.evtTools.string.newLine() + "Dios nos da cada talento" + gdjs.evtTools.string.newLine() + "Mi          La" + gdjs.evtTools.string.newLine() + "por que debemos trabajar" + gdjs.evtTools.string.newLine() + "para que pueda su reino" + gdjs.evtTools.string.newLine() + "crecer cada día más" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "y aunque a veces siento como" + gdjs.evtTools.string.newLine() + "mi talento está enterrado" + gdjs.evtTools.string.newLine() + "Dios me mira firmemente" + gdjs.evtTools.string.newLine() + "me dice que él está a mi lado" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Re" + gdjs.evtTools.string.newLine() + "yo le entrego mi talento" + gdjs.evtTools.string.newLine() + "Mi          La" + gdjs.evtTools.string.newLine() + "que me llene de su luz" + gdjs.evtTools.string.newLine() + "todos somos instrumentos" + gdjs.evtTools.string.newLine() + "Mi          La" + gdjs.evtTools.string.newLine() + "Seguidores de Jesús" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Cuanto amor me das" + gdjs.evtTools.string.newLine() + "cuanto amor recibo de ti" + gdjs.evtTools.string.newLine() + "fuerzas para andar" + gdjs.evtTools.string.newLine() + "y para compartir" + gdjs.evtTools.string.newLine() + gdjs.evtTools.string.newLine() + "Él es sol de mediodía" + gdjs.evtTools.string.newLine() + "Él es un nuevo comienzo" + gdjs.evtTools.string.newLine() + "Siento a Dios como camina" + gdjs.evtTools.string.newLine() + "ayudando en el sendero");
 }
 }
 
@@ -1388,7 +1502,7 @@ gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1396,11 +1510,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString("");
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString("");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1414,7 +1528,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1422,11 +1536,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(7).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(7).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString("");
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString("");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1440,7 +1554,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(4).getAsString());
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(4).getAsString());
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1448,11 +1562,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(8).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(8).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(4).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(4).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString("");
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString("");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1466,7 +1580,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(5).getAsString());
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(5).getAsString());
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1474,11 +1588,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(9).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(9).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(5).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(5).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString("");
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString("");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1492,7 +1606,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(6).getAsString());
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(6).getAsString());
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1500,11 +1614,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(10).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(10).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(6).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(6).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString("");
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString("");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1518,7 +1632,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1526,11 +1640,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(11).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(11).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(3).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString("");
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString("");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1591,11 +1705,11 @@ for (var i = 0, k = 0, l = gdjs.lista_32can_32orCode.GDboton1Objects1.length;i<l
 gdjs.lista_32can_32orCode.GDboton1Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 17);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 17);
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(1);
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista via", false);
 }
@@ -1621,9 +1735,9 @@ for (var i = 0, k = 0, l = gdjs.lista_32can_32orCode.GDboton1Objects1.length;i<l
 }
 gdjs.lista_32can_32orCode.GDboton1Objects1.length = k;
 if (!elseEventsChainSatisfied && isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsString());
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1651,11 +1765,11 @@ for (var i = 0, k = 0, l = gdjs.lista_32can_32orCode.GDboton2Objects1.length;i<l
 gdjs.lista_32can_32orCode.GDboton2Objects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(16).getAsNumber() == 17);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(17).getAsNumber() == 17);
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(2);
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista via", false);
 }
@@ -1681,9 +1795,9 @@ for (var i = 0, k = 0, l = gdjs.lista_32can_32orCode.GDboton2Objects1.length;i<l
 }
 gdjs.lista_32can_32orCode.GDboton2Objects1.length = k;
 if (!elseEventsChainSatisfied && isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(runtimeScene.getScene().getVariables().getFromIndex(7).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(7).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1709,9 +1823,9 @@ for (var i = 0, k = 0, l = gdjs.lista_32can_32orCode.GDboton3Objects1.length;i<l
 }
 gdjs.lista_32can_32orCode.GDboton3Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(8)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(8)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(4)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(4)));
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1735,9 +1849,9 @@ for (var i = 0, k = 0, l = gdjs.lista_32can_32orCode.GDboton4Objects1.length;i<l
 }
 gdjs.lista_32can_32orCode.GDboton4Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(9)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(9)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(5)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(5)));
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1761,9 +1875,9 @@ for (var i = 0, k = 0, l = gdjs.lista_32can_32orCode.GDboton5Objects1.length;i<l
 }
 gdjs.lista_32can_32orCode.GDboton5Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(10)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(10)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(6)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(6)));
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1787,9 +1901,9 @@ for (var i = 0, k = 0, l = gdjs.lista_32can_32orCode.GDboton6Objects1.length;i<l
 }
 gdjs.lista_32can_32orCode.GDboton6Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(18).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(11)));
+{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(11)));
 }
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)));
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString(gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(3)));
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1804,7 +1918,7 @@ gdjs.copyArray(runtimeScene.getObjects("atras"), gdjs.lista_32can_32orCode.GDatr
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsString() == "menu cancionero");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(21).getAsString() == "menu cancionero");
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1831,7 +1945,7 @@ gdjs.copyArray(runtimeScene.getObjects("atras"), gdjs.lista_32can_32orCode.GDatr
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsString() == "menu oraciones");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(21).getAsString() == "menu oraciones");
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1858,7 +1972,7 @@ gdjs.copyArray(runtimeScene.getObjects("atras"), gdjs.lista_32can_32orCode.GDatr
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(20).getAsString() == "via");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(21).getAsString() == "via");
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -1887,7 +2001,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -2315,7 +2429,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -2743,7 +2857,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -3171,7 +3285,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -3599,7 +3713,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "en");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "en");
 }
 }
 if (isConditionTrue_0) {
@@ -3621,7 +3735,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "de");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "de");
 }
 }
 if (isConditionTrue_0) {
@@ -3643,7 +3757,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "fr");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "fr");
 }
 }
 if (isConditionTrue_0) {
@@ -3662,7 +3776,7 @@ gdjs.copyArray(runtimeScene.getObjects("cancionero"), gdjs.lista_32can_32orCode.
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(1).getAsString() != "");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() != "");
 }
 if (isConditionTrue_0) {
 

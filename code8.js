@@ -96,7 +96,7 @@ gdjs.menu_32oracionesCode.GDDrawerFijoObjects2= [];
 
 
 gdjs.menu_32oracionesCode.mapOfGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595fundamentalObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595ma_959595241ana_95959595y_95959595nocheObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595momento_95959595del_95959595diaObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595virgenObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595novenaObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595viaObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595espiritu_95959595santoObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595petici_959595243n_95959595y_95959595amparoObjects1Objects = Hashtable.newFrom({"boton_fundamental": gdjs.menu_32oracionesCode.GDboton_9595fundamentalObjects1, "boton_mañana_y_noche": gdjs.menu_32oracionesCode.GDboton_9595ma_95241ana_9595y_9595nocheObjects1, "boton_momento_del_dia": gdjs.menu_32oracionesCode.GDboton_9595momento_9595del_9595diaObjects1, "boton_virgen": gdjs.menu_32oracionesCode.GDboton_9595virgenObjects1, "boton_novena": gdjs.menu_32oracionesCode.GDboton_9595novenaObjects1, "boton_via": gdjs.menu_32oracionesCode.GDboton_9595viaObjects1, "boton_espiritu_santo": gdjs.menu_32oracionesCode.GDboton_9595espiritu_9595santoObjects1, "boton_petición_y_amparo": gdjs.menu_32oracionesCode.GDboton_9595petici_95243n_9595y_9595amparoObjects1});
-gdjs.menu_32oracionesCode.userFunc0x1cbc978 = function GDJSInlineCode(runtimeScene) {
+gdjs.menu_32oracionesCode.userFunc0x1438de0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   const norm = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const CAT = [
@@ -130,7 +130,7 @@ gdjs.menu_32oracionesCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.menu_32oracionesCode.userFunc0x1cbc978(runtimeScene);
+gdjs.menu_32oracionesCode.userFunc0x1438de0(runtimeScene);
 
 }
 
@@ -207,9 +207,9 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
 if (isConditionTrue_0) {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (runtimeScene.getScene().getVariables().getFromIndex(15).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + ((runtimeScene.getScene().getVariables().getFromIndex(15).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) * 0.55), "", 0);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(16).setNumber(runtimeScene.getScene().getVariables().getFromIndex(15).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
+{runtimeScene.getScene().getVariables().getFromIndex(16).setNumber((runtimeScene.getScene().getVariables().getFromIndex(15).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) * 0.55);
 }
 {runtimeScene.getScene().getVariables().getFromIndex(15).setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
 }
@@ -226,13 +226,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(16).getAsNumber()) > 2);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(16).getAsNumber()) > 4);
 }
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0) + (runtimeScene.getScene().getVariables().getFromIndex(16).getAsNumber()), "", 0);
 }
-{runtimeScene.getScene().getVariables().getFromIndex(16).mul(0.88);
+{runtimeScene.getScene().getVariables().getFromIndex(16).mul(0.8);
 }
 }
 
@@ -463,6 +463,11 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDAtrasObjects1.length;i<l;
 }
 gdjs.menu_32oracionesCode.GDAtrasObjects1.length = k;
 if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+}
+if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Escena principal", false);
 }
 }
@@ -486,13 +491,18 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595fundamentalObje
 gdjs.menu_32oracionesCode.GDboton_9595fundamentalObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34839124);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31809092);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(11);
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(11);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -517,13 +527,18 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595ma_95241ana_959
 gdjs.menu_32oracionesCode.GDboton_9595ma_95241ana_9595y_9595nocheObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34840556);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31811180);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(12);
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(12);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -548,13 +563,18 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595momento_9595del
 gdjs.menu_32oracionesCode.GDboton_9595momento_9595del_9595diaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34841612);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31813228);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(13);
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(13);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -579,13 +599,18 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595viaObjects1.len
 gdjs.menu_32oracionesCode.GDboton_9595viaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34843236);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31814836);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(17);
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(17);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -610,13 +635,18 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595virgenObjects1.
 gdjs.menu_32oracionesCode.GDboton_9595virgenObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34844548);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31816516);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(14);
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(14);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -641,13 +671,18 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595espiritu_9595sa
 gdjs.menu_32oracionesCode.GDboton_9595espiritu_9595santoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34845660);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31818340);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(15);
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(15);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -672,13 +707,18 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595novenaObjects1.
 gdjs.menu_32oracionesCode.GDboton_9595novenaObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34847284);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31819948);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(16);
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(16);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -703,13 +743,18 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDboton_9595petici_95243n_9
 gdjs.menu_32oracionesCode.GDboton_9595petici_95243n_9595y_9595amparoObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34848364);
+{isConditionTrue_0 = (Math.abs(runtimeScene.getScene().getVariables().getFromIndex(17).getAsNumber() - gdjs.evtTools.input.getCursorY(runtimeScene, "", 0)) < 30);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31821772);
+}
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(18);
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(18);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -726,7 +771,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -1249,7 +1294,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -1772,7 +1817,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -2295,7 +2340,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -2818,7 +2863,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -2848,7 +2893,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -2878,7 +2923,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -2908,7 +2953,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -2938,7 +2983,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -2968,7 +3013,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -2998,7 +3043,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -3028,7 +3073,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -3058,7 +3103,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "en");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "en");
 }
 }
 if (isConditionTrue_0) {
@@ -3080,7 +3125,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "de");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "de");
 }
 }
 if (isConditionTrue_0) {
@@ -3102,7 +3147,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(2).getAsString() == "fr");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "fr");
 }
 }
 if (isConditionTrue_0) {
@@ -3375,11 +3420,11 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDResBus1Objects1.length;i<
 }
 gdjs.menu_32oracionesCode.GDResBus1Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString(runtimeScene.getScene().getVariables().getFromIndex(13).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(13).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -3403,11 +3448,11 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDResBus2Objects1.length;i<
 }
 gdjs.menu_32oracionesCode.GDResBus2Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString(runtimeScene.getScene().getVariables().getFromIndex(12).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(12).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -3431,11 +3476,11 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDResBus3Objects1.length;i<
 }
 gdjs.menu_32oracionesCode.GDResBus3Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString(runtimeScene.getScene().getVariables().getFromIndex(11).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(11).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -3459,11 +3504,11 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDResBus4Objects1.length;i<
 }
 gdjs.menu_32oracionesCode.GDResBus4Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString(runtimeScene.getScene().getVariables().getFromIndex(10).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(10).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -3487,11 +3532,11 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDResBus5Objects1.length;i<
 }
 gdjs.menu_32oracionesCode.GDResBus5Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString(runtimeScene.getScene().getVariables().getFromIndex(9).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(9).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -3515,11 +3560,11 @@ for (var i = 0, k = 0, l = gdjs.menu_32oracionesCode.GDResBus6Objects1.length;i<
 }
 gdjs.menu_32oracionesCode.GDResBus6Objects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(16).setNumber(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(1).setString(runtimeScene.getScene().getVariables().getFromIndex(8).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(8).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("menu oraciones");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu oraciones");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }

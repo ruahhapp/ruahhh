@@ -47,6 +47,8 @@ gdjs.elegirCode.GDSALMOObjects1= [];
 gdjs.elegirCode.GDSALMOObjects2= [];
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects1= [];
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects2= [];
+gdjs.elegirCode.GDNewSprite10Objects1= [];
+gdjs.elegirCode.GDNewSprite10Objects2= [];
 
 
 gdjs.elegirCode.eventsList0 = function(runtimeScene) {
@@ -59,7 +61,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -405,7 +407,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -751,7 +753,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -1097,7 +1099,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -1450,9 +1452,9 @@ for (var i = 0, k = 0, l = gdjs.elegirCode.GDprimeraObjects1.length;i<l;++i) {
 }
 gdjs.elegirCode.GDprimeraObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString("PRIMERA LECTURA");
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString("PRIMERA LECTURA");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("elegir");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("elegir");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1476,9 +1478,9 @@ for (var i = 0, k = 0, l = gdjs.elegirCode.GDsalmoObjects1.length;i<l;++i) {
 }
 gdjs.elegirCode.GDsalmoObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString("SALMO");
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString("SALMO");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("elegir");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("elegir");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1502,9 +1504,9 @@ for (var i = 0, k = 0, l = gdjs.elegirCode.GDevangelioObjects1.length;i<l;++i) {
 }
 gdjs.elegirCode.GDevangelioObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(19).setString("EVANGELIO");
+{runtimeScene.getGame().getVariables().getFromIndex(20).setString("EVANGELIO");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("elegir");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("elegir");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1515,9 +1517,21 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs.elegirCode.GDNewSprite10Objects1);
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.elegirCode.GDNewSprite10Objects1.length;i<l;++i) {
+    if ( gdjs.elegirCode.GDNewSprite10Objects1[i].getBehavior("ButtonFSM").IsClicked(null) ) {
+        isConditionTrue_0 = true;
+        gdjs.elegirCode.GDNewSprite10Objects1[k] = gdjs.elegirCode.GDNewSprite10Objects1[i];
+        ++k;
+    }
+}
+gdjs.elegirCode.GDNewSprite10Objects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Escena modo misa", false);
+}
 }
 
 }
@@ -1574,6 +1588,8 @@ gdjs.elegirCode.GDSALMOObjects1.length = 0;
 gdjs.elegirCode.GDSALMOObjects2.length = 0;
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects1.length = 0;
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects2.length = 0;
+gdjs.elegirCode.GDNewSprite10Objects1.length = 0;
+gdjs.elegirCode.GDNewSprite10Objects2.length = 0;
 
 gdjs.elegirCode.eventsList0(runtimeScene);
 gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length = 0;
@@ -1622,6 +1638,8 @@ gdjs.elegirCode.GDSALMOObjects1.length = 0;
 gdjs.elegirCode.GDSALMOObjects2.length = 0;
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects1.length = 0;
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects2.length = 0;
+gdjs.elegirCode.GDNewSprite10Objects1.length = 0;
+gdjs.elegirCode.GDNewSprite10Objects2.length = 0;
 
 
 return;
