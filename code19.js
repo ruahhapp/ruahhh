@@ -139,6 +139,75 @@ elseEventsChainSatisfied = true;
 }
 
 };gdjs.visor_32santoCode.eventsList1 = function(runtimeScene) {
+{
+
+let elseEventsChainSatisfied = false;
+
+{
+
+gdjs.copyArray(gdjs.visor_32santoCode.GDtitulo_9595santoObjects1, gdjs.visor_32santoCode.GDtitulo_9595santoObjects2);
+
+
+elseEventsChainSatisfied = false;
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.string.strLen((( gdjs.visor_32santoCode.GDtitulo_9595santoObjects2.length === 0 ) ? "" :gdjs.visor_32santoCode.GDtitulo_9595santoObjects2[0].getBehavior("Text").getText())) > 30);
+}
+if (isConditionTrue_0) {
+/* Reuse gdjs.visor_32santoCode.GDtitulo_9595santoObjects2 */
+{for(var i = 0, len = gdjs.visor_32santoCode.GDtitulo_9595santoObjects2.length ;i < len;++i) {
+    gdjs.visor_32santoCode.GDtitulo_9595santoObjects2[i].setCharacterSize(48);
+}
+}
+elseEventsChainSatisfied = true;
+}
+
+}
+
+
+{
+
+gdjs.copyArray(gdjs.visor_32santoCode.GDtitulo_9595santoObjects1, gdjs.visor_32santoCode.GDtitulo_9595santoObjects2);
+
+
+if (!elseEventsChainSatisfied) {
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.string.strLen((( gdjs.visor_32santoCode.GDtitulo_9595santoObjects2.length === 0 ) ? "" :gdjs.visor_32santoCode.GDtitulo_9595santoObjects2[0].getBehavior("Text").getText())) > 20);
+}
+if (!elseEventsChainSatisfied && isConditionTrue_0) {
+/* Reuse gdjs.visor_32santoCode.GDtitulo_9595santoObjects2 */
+{for(var i = 0, len = gdjs.visor_32santoCode.GDtitulo_9595santoObjects2.length ;i < len;++i) {
+    gdjs.visor_32santoCode.GDtitulo_9595santoObjects2[i].setCharacterSize(60);
+}
+}
+elseEventsChainSatisfied = true;
+}
+}
+
+}
+
+
+{
+
+
+if (!elseEventsChainSatisfied) {
+let isConditionTrue_0 = false;
+if (!elseEventsChainSatisfied) {
+/* Reuse gdjs.visor_32santoCode.GDtitulo_9595santoObjects1 */
+{for(var i = 0, len = gdjs.visor_32santoCode.GDtitulo_9595santoObjects1.length ;i < len;++i) {
+    gdjs.visor_32santoCode.GDtitulo_9595santoObjects1[i].setCharacterSize(72);
+}
+}
+elseEventsChainSatisfied = true;
+}
+}
+
+}
+
+}
+
+};gdjs.visor_32santoCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -1005,6 +1074,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Cuerpo_santo"), gdjs.visor_32santoCode.GDCuerpo_9595santoObjects1);
 gdjs.copyArray(runtimeScene.getObjects("SliderTexto"), gdjs.visor_32santoCode.GDSliderTextoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("titulo_santo"), gdjs.visor_32santoCode.GDtitulo_9595santoObjects1);
 {for(var i = 0, len = gdjs.visor_32santoCode.GDCuerpo_9595santoObjects1.length ;i < len;++i) {
     gdjs.visor_32santoCode.GDCuerpo_9595santoObjects1[i].setWrapping(true);
 }
@@ -1013,10 +1083,10 @@ gdjs.copyArray(runtimeScene.getObjects("SliderTexto"), gdjs.visor_32santoCode.GD
     gdjs.visor_32santoCode.GDCuerpo_9595santoObjects1[i].setWrappingWidth(950);
 }
 }
-{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(36);
+{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(52);
 }
 {for(var i = 0, len = gdjs.visor_32santoCode.GDCuerpo_9595santoObjects1.length ;i < len;++i) {
-    gdjs.visor_32santoCode.GDCuerpo_9595santoObjects1[i].setCharacterSize(36);
+    gdjs.visor_32santoCode.GDCuerpo_9595santoObjects1[i].setCharacterSize(52);
 }
 }
 {for(var i = 0, len = gdjs.visor_32santoCode.GDSliderTextoObjects1.length ;i < len;++i) {
@@ -1025,6 +1095,17 @@ gdjs.copyArray(runtimeScene.getObjects("SliderTexto"), gdjs.visor_32santoCode.GD
 }
 {runtimeScene.getScene().getVariables().getFromIndex(0).setNumber((( gdjs.visor_32santoCode.GDSliderTextoObjects1.length === 0 ) ? 0 :gdjs.visor_32santoCode.GDSliderTextoObjects1[0].Value(null)));
 }
+{for(var i = 0, len = gdjs.visor_32santoCode.GDtitulo_9595santoObjects1.length ;i < len;++i) {
+    gdjs.visor_32santoCode.GDtitulo_9595santoObjects1[i].setWrapping(true);
+}
+}
+{for(var i = 0, len = gdjs.visor_32santoCode.GDtitulo_9595santoObjects1.length ;i < len;++i) {
+    gdjs.visor_32santoCode.GDtitulo_9595santoObjects1[i].setWrappingWidth(950);
+}
+}
+
+{ //Subevents
+gdjs.visor_32santoCode.eventsList1(runtimeScene);} //End of subevents
 }
 
 }
@@ -1216,7 +1297,7 @@ gdjs.visor_32santoCode.GDLblTamObjects1.length = 0;
 gdjs.visor_32santoCode.GDLblTamObjects2.length = 0;
 gdjs.visor_32santoCode.GDLblTamObjects3.length = 0;
 
-gdjs.visor_32santoCode.eventsList1(runtimeScene);
+gdjs.visor_32santoCode.eventsList2(runtimeScene);
 gdjs.visor_32santoCode.GDtitulo_9595santoObjects1.length = 0;
 gdjs.visor_32santoCode.GDtitulo_9595santoObjects2.length = 0;
 gdjs.visor_32santoCode.GDtitulo_9595santoObjects3.length = 0;

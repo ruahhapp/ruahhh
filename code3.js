@@ -384,7 +384,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32Rosario_32dolorCode.mapOfGDgdjs_9546Escena_959532Rosario_959532dolorCode_9546GDbot_959595243n_95959595otro_95959595ave_95959595Mar_959595237a_95959595Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(30823060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31247852);
 }
 }
 }
@@ -425,7 +425,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32Rosario_32dolorCode.mapOfGDgdjs_9546Escena_959532Rosario_959532dolorCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(30835772);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31260564);
 }
 }
 }
@@ -2600,6 +2600,54 @@ for(var i = 0, len = gdjs.Escena_32Rosario_32dolorCode.GDbola_95951Objects1.leng
 for(var i = 0, len = gdjs.Escena_32Rosario_32dolorCode.GDBola7Objects1.length ;i < len;++i) {
     gdjs.Escena_32Rosario_32dolorCode.GDBola7Objects1[i].getBehavior("Effect").setEffectDoubleParameter("TonoExtra", "hue", -150);
 }
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+{gdjs.evtsExt__PinchGesture__EnableCameraPinch.func(runtimeScene, true, null);
+}
+{gdjs.evtsExt__PinchGesture__SetCameraPinchLayer.func(runtimeScene, "", null);
+}
+{gdjs.evtsExt__PinchGesture__SetCameraPinchConstraint.func(runtimeScene, "Zoom only", null);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.camera.getCameraZoom(runtimeScene, "", 0) > 3);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 3, "", 0);
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (gdjs.evtTools.camera.getCameraZoom(runtimeScene, "", 0) < 1);
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.camera.setCameraZoom(runtimeScene, 1, "", 0);
 }
 }
 
