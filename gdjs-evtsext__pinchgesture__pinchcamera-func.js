@@ -143,7 +143,7 @@ gdjs.evtsExt__PinchGesture__PinchCamera.eventsList2(runtimeScene, eventsFunction
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30019556);
+{isConditionTrue_0 = eventsFunctionContext.getOnceTriggers().triggerOnce(30040476);
 }
 if (isConditionTrue_0) {
 {eventsFunctionContext.sceneVariablesForExtension.getFromIndex(3).setNumber(gdjs.evtTools.camera.getCameraX(runtimeScene, eventsFunctionContext.getArgument("Layer"), 0));

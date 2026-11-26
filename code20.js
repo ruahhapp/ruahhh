@@ -111,7 +111,9 @@ for (var i = 0, k = 0, l = gdjs.temaCode.GDTemaVerdeObjects1.length;i<l;++i) {
 gdjs.temaCode.GDTemaVerdeObjects1.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("MarcaTema"), gdjs.temaCode.GDMarcaTemaObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(4).setString("verde");
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("verde");
+}
+{gdjs.evtTools.storage.writeStringInJSONFile("ruah", "tema", runtimeScene.getGame().getVariables().getFromIndex(5).getAsString());
 }
 {for(var i = 0, len = gdjs.temaCode.GDMarcaTemaObjects1.length ;i < len;++i) {
     gdjs.temaCode.GDMarcaTemaObjects1[i].setX(540);
@@ -142,7 +144,9 @@ for (var i = 0, k = 0, l = gdjs.temaCode.GDTemaAzulObjects1.length;i<l;++i) {
 gdjs.temaCode.GDTemaAzulObjects1.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("MarcaTema"), gdjs.temaCode.GDMarcaTemaObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(4).setString("azul");
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("azul");
+}
+{gdjs.evtTools.storage.writeStringInJSONFile("ruah", "tema", runtimeScene.getGame().getVariables().getFromIndex(5).getAsString());
 }
 {for(var i = 0, len = gdjs.temaCode.GDMarcaTemaObjects1.length ;i < len;++i) {
     gdjs.temaCode.GDMarcaTemaObjects1[i].setX(1070);
@@ -173,7 +177,9 @@ for (var i = 0, k = 0, l = gdjs.temaCode.GDTemaAmarilloObjects1.length;i<l;++i) 
 gdjs.temaCode.GDTemaAmarilloObjects1.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("MarcaTema"), gdjs.temaCode.GDMarcaTemaObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(4).setString("amarillo");
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("amarillo");
+}
+{gdjs.evtTools.storage.writeStringInJSONFile("ruah", "tema", runtimeScene.getGame().getVariables().getFromIndex(5).getAsString());
 }
 {for(var i = 0, len = gdjs.temaCode.GDMarcaTemaObjects1.length ;i < len;++i) {
     gdjs.temaCode.GDMarcaTemaObjects1[i].setX(1070);
@@ -204,7 +210,9 @@ for (var i = 0, k = 0, l = gdjs.temaCode.GDTemaRosaObjects1.length;i<l;++i) {
 gdjs.temaCode.GDTemaRosaObjects1.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("MarcaTema"), gdjs.temaCode.GDMarcaTemaObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(4).setString("rosa");
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("rosa");
+}
+{gdjs.evtTools.storage.writeStringInJSONFile("ruah", "tema", runtimeScene.getGame().getVariables().getFromIndex(5).getAsString());
 }
 {for(var i = 0, len = gdjs.temaCode.GDMarcaTemaObjects1.length ;i < len;++i) {
     gdjs.temaCode.GDMarcaTemaObjects1[i].setX(540);
@@ -227,7 +235,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -253,7 +261,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -279,7 +287,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -305,7 +313,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -344,7 +352,7 @@ gdjs.copyArray(runtimeScene.getObjects("EtiquetaRosa"), gdjs.temaCode.GDEtiqueta
 gdjs.copyArray(runtimeScene.getObjects("EtiquetaVerde"), gdjs.temaCode.GDEtiquetaVerdeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("IdiomaHeader"), gdjs.temaCode.GDIdiomaHeaderObjects1);
 gdjs.copyArray(runtimeScene.getObjects("MarcaIdioma"), gdjs.temaCode.GDMarcaIdiomaObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(3).setString("es");
+{runtimeScene.getGame().getVariables().getFromIndex(4).setString("es");
 }
 {for(var i = 0, len = gdjs.temaCode.GDMarcaIdiomaObjects1.length ;i < len;++i) {
     gdjs.temaCode.GDMarcaIdiomaObjects1[i].setX(131);
@@ -400,7 +408,7 @@ gdjs.copyArray(runtimeScene.getObjects("EtiquetaRosa"), gdjs.temaCode.GDEtiqueta
 gdjs.copyArray(runtimeScene.getObjects("EtiquetaVerde"), gdjs.temaCode.GDEtiquetaVerdeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("IdiomaHeader"), gdjs.temaCode.GDIdiomaHeaderObjects1);
 gdjs.copyArray(runtimeScene.getObjects("MarcaIdioma"), gdjs.temaCode.GDMarcaIdiomaObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(3).setString("en");
+{runtimeScene.getGame().getVariables().getFromIndex(4).setString("en");
 }
 {for(var i = 0, len = gdjs.temaCode.GDMarcaIdiomaObjects1.length ;i < len;++i) {
     gdjs.temaCode.GDMarcaIdiomaObjects1[i].setX(423);
@@ -456,7 +464,7 @@ gdjs.copyArray(runtimeScene.getObjects("EtiquetaRosa"), gdjs.temaCode.GDEtiqueta
 gdjs.copyArray(runtimeScene.getObjects("EtiquetaVerde"), gdjs.temaCode.GDEtiquetaVerdeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("IdiomaHeader"), gdjs.temaCode.GDIdiomaHeaderObjects1);
 gdjs.copyArray(runtimeScene.getObjects("MarcaIdioma"), gdjs.temaCode.GDMarcaIdiomaObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(3).setString("de");
+{runtimeScene.getGame().getVariables().getFromIndex(4).setString("de");
 }
 {for(var i = 0, len = gdjs.temaCode.GDMarcaIdiomaObjects1.length ;i < len;++i) {
     gdjs.temaCode.GDMarcaIdiomaObjects1[i].setX(715);
@@ -512,7 +520,7 @@ gdjs.copyArray(runtimeScene.getObjects("EtiquetaRosa"), gdjs.temaCode.GDEtiqueta
 gdjs.copyArray(runtimeScene.getObjects("EtiquetaVerde"), gdjs.temaCode.GDEtiquetaVerdeObjects1);
 gdjs.copyArray(runtimeScene.getObjects("IdiomaHeader"), gdjs.temaCode.GDIdiomaHeaderObjects1);
 gdjs.copyArray(runtimeScene.getObjects("MarcaIdioma"), gdjs.temaCode.GDMarcaIdiomaObjects1);
-{runtimeScene.getGame().getVariables().getFromIndex(3).setString("fr");
+{runtimeScene.getGame().getVariables().getFromIndex(4).setString("fr");
 }
 {for(var i = 0, len = gdjs.temaCode.GDMarcaIdiomaObjects1.length ;i < len;++i) {
     gdjs.temaCode.GDMarcaIdiomaObjects1[i].setX(1007);
@@ -555,7 +563,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "es");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "es");
 }
 }
 if (isConditionTrue_0) {
@@ -581,7 +589,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "en");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "en");
 }
 }
 if (isConditionTrue_0) {
@@ -632,7 +640,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "de");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "de");
 }
 }
 if (isConditionTrue_0) {
@@ -683,7 +691,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "fr");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "fr");
 }
 }
 if (isConditionTrue_0) {

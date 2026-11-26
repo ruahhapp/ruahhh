@@ -61,7 +61,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -407,7 +407,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -753,7 +753,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -1099,7 +1099,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -1452,9 +1452,9 @@ for (var i = 0, k = 0, l = gdjs.elegirCode.GDprimeraObjects1.length;i<l;++i) {
 }
 gdjs.elegirCode.GDprimeraObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("PRIMERA LECTURA");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("PRIMERA LECTURA");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("elegir");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("elegir");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1478,9 +1478,9 @@ for (var i = 0, k = 0, l = gdjs.elegirCode.GDsalmoObjects1.length;i<l;++i) {
 }
 gdjs.elegirCode.GDsalmoObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("SALMO");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("SALMO");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("elegir");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("elegir");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }
@@ -1504,9 +1504,9 @@ for (var i = 0, k = 0, l = gdjs.elegirCode.GDevangelioObjects1.length;i<l;++i) {
 }
 gdjs.elegirCode.GDevangelioObjects1.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(20).setString("EVANGELIO");
+{runtimeScene.getGame().getVariables().getFromIndex(21).setString("EVANGELIO");
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("elegir");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("elegir");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "visor texto", false);
 }

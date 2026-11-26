@@ -115,7 +115,7 @@ gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects3= [];
 
 
 gdjs.menu_32cancioneroCode.mapOfGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595entradaObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDacciondegrasiabotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDofertoriobotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDsantoObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595villancicosObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDcomunion_95959595botonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDvirgenbotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595adoracionObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDaleluyaObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDcordero_95959595botonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595shemaObjects1Objects = Hashtable.newFrom({"boton_entrada": gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1, "acciondegrasiaboton": gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1, "ofertorioboton": gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1, "santo": gdjs.menu_32cancioneroCode.GDsantoObjects1, "boton_villancicos": gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1, "comunion_boton": gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1, "virgenboton": gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1, "boton_adoracion": gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1, "aleluya": gdjs.menu_32cancioneroCode.GDaleluyaObjects1, "cordero_boton": gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1, "boton_shema": gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1});
-gdjs.menu_32cancioneroCode.userFunc0xcd6bd8 = function GDJSInlineCode(runtimeScene) {
+gdjs.menu_32cancioneroCode.userFunc0x15587a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   const norm = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const CAT = [
@@ -152,7 +152,7 @@ gdjs.menu_32cancioneroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.menu_32cancioneroCode.userFunc0xcd6bd8(runtimeScene);
+gdjs.menu_32cancioneroCode.userFunc0x15587a8(runtimeScene);
 
 }
 
@@ -197,7 +197,7 @@ gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GD
 }
 
 
-};gdjs.menu_32cancioneroCode.userFunc0x26c0fb0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.menu_32cancioneroCode.userFunc0xd28c60 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   const vars = runtimeScene.getVariables();
   const email = runtimeScene.getGame().getVariables().get("EmailPropuestas").getAsString();
@@ -211,7 +211,7 @@ gdjs.menu_32cancioneroCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.menu_32cancioneroCode.userFunc0x26c0fb0(runtimeScene);
+gdjs.menu_32cancioneroCode.userFunc0xd28c60(runtimeScene);
 
 }
 
@@ -670,9 +670,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(1);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(1);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -706,9 +706,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(2);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(2);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -742,9 +742,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(3);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(3);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -778,9 +778,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(4);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(4);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -814,9 +814,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(5);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(5);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -850,9 +850,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(7);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(7);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -886,9 +886,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(8);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(8);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -922,9 +922,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(9);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(9);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -958,9 +958,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(10);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(10);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -994,9 +994,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(6);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(6);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -1013,7 +1013,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "verde");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "verde");
 }
 }
 if (isConditionTrue_0) {
@@ -1365,7 +1365,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "azul");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "azul");
 }
 }
 if (isConditionTrue_0) {
@@ -1717,7 +1717,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "amarillo");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "amarillo");
 }
 }
 if (isConditionTrue_0) {
@@ -2069,7 +2069,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "rosa");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "rosa");
 }
 }
 if (isConditionTrue_0) {
@@ -2421,7 +2421,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "en");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "en");
 }
 }
 if (isConditionTrue_0) {
@@ -2443,7 +2443,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "de");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "de");
 }
 }
 if (isConditionTrue_0) {
@@ -2465,7 +2465,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(3).getAsString() == "fr");
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(4).getAsString() == "fr");
 }
 }
 if (isConditionTrue_0) {
@@ -2743,11 +2743,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(8).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(runtimeScene.getScene().getVariables().getFromIndex(8).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(14).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(3).setString(runtimeScene.getScene().getVariables().getFromIndex(14).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -2776,11 +2776,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(runtimeScene.getScene().getVariables().getFromIndex(7).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(13).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(3).setString(runtimeScene.getScene().getVariables().getFromIndex(13).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -2809,11 +2809,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(runtimeScene.getScene().getVariables().getFromIndex(6).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(12).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(3).setString(runtimeScene.getScene().getVariables().getFromIndex(12).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -2842,11 +2842,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(runtimeScene.getScene().getVariables().getFromIndex(5).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(11).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(3).setString(runtimeScene.getScene().getVariables().getFromIndex(11).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -2875,11 +2875,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(10).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(3).setString(runtimeScene.getScene().getVariables().getFromIndex(10).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -2908,11 +2908,11 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber());
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(2).setString(runtimeScene.getScene().getVariables().getFromIndex(9).getAsString());
+{runtimeScene.getGame().getVariables().getFromIndex(3).setString(runtimeScene.getScene().getVariables().getFromIndex(9).getAsString());
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
@@ -3208,9 +3208,9 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(17).setNumber(18);
+{runtimeScene.getGame().getVariables().getFromIndex(18).setNumber(18);
 }
-{runtimeScene.getGame().getVariables().getFromIndex(21).setString("menu cancionero");
+{runtimeScene.getGame().getVariables().getFromIndex(22).setString("menu cancionero");
 }
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "lista can or", false);
 }
