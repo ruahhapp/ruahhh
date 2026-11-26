@@ -96,7 +96,7 @@ gdjs.menu_32oracionesCode.GDDrawerFijoObjects2= [];
 
 
 gdjs.menu_32oracionesCode.mapOfGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595fundamentalObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595ma_959595241ana_95959595y_95959595nocheObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595momento_95959595del_95959595diaObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595virgenObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595novenaObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595viaObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595espiritu_95959595santoObjects1ObjectsGDgdjs_9546menu_959532oracionesCode_9546GDboton_95959595petici_959595243n_95959595y_95959595amparoObjects1Objects = Hashtable.newFrom({"boton_fundamental": gdjs.menu_32oracionesCode.GDboton_9595fundamentalObjects1, "boton_mañana_y_noche": gdjs.menu_32oracionesCode.GDboton_9595ma_95241ana_9595y_9595nocheObjects1, "boton_momento_del_dia": gdjs.menu_32oracionesCode.GDboton_9595momento_9595del_9595diaObjects1, "boton_virgen": gdjs.menu_32oracionesCode.GDboton_9595virgenObjects1, "boton_novena": gdjs.menu_32oracionesCode.GDboton_9595novenaObjects1, "boton_via": gdjs.menu_32oracionesCode.GDboton_9595viaObjects1, "boton_espiritu_santo": gdjs.menu_32oracionesCode.GDboton_9595espiritu_9595santoObjects1, "boton_petición_y_amparo": gdjs.menu_32oracionesCode.GDboton_9595petici_95243n_9595y_9595amparoObjects1});
-gdjs.menu_32oracionesCode.userFunc0xaa2650 = function GDJSInlineCode(runtimeScene) {
+gdjs.menu_32oracionesCode.userFunc0x1298a20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   const norm = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const CAT = [
@@ -130,7 +130,7 @@ gdjs.menu_32oracionesCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.menu_32oracionesCode.userFunc0xaa2650(runtimeScene);
+gdjs.menu_32oracionesCode.userFunc0x1298a20(runtimeScene);
 
 }
 
@@ -495,7 +495,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32245924);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32667092);
 }
 }
 }
@@ -531,7 +531,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32248012);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32669180);
 }
 }
 }
@@ -567,7 +567,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32250060);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32671228);
 }
 }
 }
@@ -603,7 +603,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32251668);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32672836);
 }
 }
 }
@@ -639,7 +639,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32253348);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32674516);
 }
 }
 }
@@ -675,7 +675,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32255172);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32676340);
 }
 }
 }
@@ -711,7 +711,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32256780);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32677948);
 }
 }
 }
@@ -747,7 +747,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32258604);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32679772);
 }
 }
 }
