@@ -36,6 +36,11 @@ gdjs.guardadosCode.GDtexto_9595vacioObjects2= [];
 gdjs.guardadosCode.GDtexto_9595vacioObjects3= [];
 gdjs.guardadosCode.GDtexto_9595vacioObjects4= [];
 gdjs.guardadosCode.GDtexto_9595vacioObjects5= [];
+gdjs.guardadosCode.GDNewSpriteObjects1= [];
+gdjs.guardadosCode.GDNewSpriteObjects2= [];
+gdjs.guardadosCode.GDNewSpriteObjects3= [];
+gdjs.guardadosCode.GDNewSpriteObjects4= [];
+gdjs.guardadosCode.GDNewSpriteObjects5= [];
 
 
 gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595fondoObjects2Objects = Hashtable.newFrom({"card_fondo": gdjs.guardadosCode.GDcard_9595fondoObjects2});
@@ -453,6 +458,11 @@ gdjs.guardadosCode.GDtexto_9595vacioObjects2.length = 0;
 gdjs.guardadosCode.GDtexto_9595vacioObjects3.length = 0;
 gdjs.guardadosCode.GDtexto_9595vacioObjects4.length = 0;
 gdjs.guardadosCode.GDtexto_9595vacioObjects5.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects1.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects2.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects3.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects4.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects5.length = 0;
 
 gdjs.guardadosCode.eventsList5(runtimeScene);
 gdjs.guardadosCode.GDtitulo_9595guardadosObjects1.length = 0;
@@ -490,6 +500,11 @@ gdjs.guardadosCode.GDtexto_9595vacioObjects2.length = 0;
 gdjs.guardadosCode.GDtexto_9595vacioObjects3.length = 0;
 gdjs.guardadosCode.GDtexto_9595vacioObjects4.length = 0;
 gdjs.guardadosCode.GDtexto_9595vacioObjects5.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects1.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects2.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects3.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects4.length = 0;
+gdjs.guardadosCode.GDNewSpriteObjects5.length = 0;
 
 
 return;

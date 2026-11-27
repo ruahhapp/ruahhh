@@ -37,9 +37,85 @@ gdjs.temaCode.GDIdiomaHeaderObjects1= [];
 gdjs.temaCode.GDIdiomaHeaderObjects2= [];
 gdjs.temaCode.GDMarcaIdiomaObjects1= [];
 gdjs.temaCode.GDMarcaIdiomaObjects2= [];
+gdjs.temaCode.GDVistaPreviaObjects1= [];
+gdjs.temaCode.GDVistaPreviaObjects2= [];
+gdjs.temaCode.GDEtiquetaPersonalizadoObjects1= [];
+gdjs.temaCode.GDEtiquetaPersonalizadoObjects2= [];
+gdjs.temaCode.GDRuedaColorObjects1= [];
+gdjs.temaCode.GDRuedaColorObjects2= [];
 
 
+gdjs.temaCode.mapOfGDgdjs_9546temaCode_9546GDRuedaColorObjects1Objects = Hashtable.newFrom({"RuedaColor": gdjs.temaCode.GDRuedaColorObjects1});
+gdjs.temaCode.userFunc0x122fcd8 = function GDJSInlineCode(runtimeScene, objects) {
+"use strict";
+  const o = objects[0];
+  const cx = o.getCenterXInScene();
+  const cy = o.getCenterYInScene();
+  const rad = Math.min(o.getWidth(), o.getHeight()) / 2;
+  const mx = gdjs.evtTools.input.getCursorX(runtimeScene, '', 0);
+  const my = gdjs.evtTools.input.getCursorY(runtimeScene, '', 0);
+  let dx = mx - cx, dy = my - cy;
+  const dist = Math.hypot(dx, dy) || 0.0001;
+  if (dist > rad) { dx *= rad / dist; dy *= rad / dist; }
+  let hue = Math.atan2(dx, -dy);
+  if (hue < 0) hue += Math.PI * 2;
+  hue /= Math.PI * 2;
+  const sat = Math.min(1, Math.hypot(dx, dy) / rad);
+  const c = sat, hh = hue * 6;
+  const x = c * (1 - Math.abs((hh % 2) - 1)), m = 1 - c;
+  let r1 = 0, g1 = 0, b1 = 0;
+  if (hh < 1) { r1 = c; g1 = x; } else if (hh < 2) { r1 = x; g1 = c; } else if (hh < 3) { g1 = c; b1 = x; } else if (hh < 4) { g1 = x; b1 = c; } else if (hh < 5) { r1 = x; b1 = c; } else { r1 = c; b1 = x; }
+  const vars = runtimeScene.getVariables();
+  vars.get('PickR').setNumber(Math.round((r1 + m) * 255));
+  vars.get('PickG').setNumber(Math.round((g1 + m) * 255));
+  vars.get('PickB').setNumber(Math.round((b1 + m) * 255));
+};
 gdjs.temaCode.eventsList0 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.temaCode.GDRuedaColorObjects1, gdjs.temaCode.GDRuedaColorObjects2);
+
+
+const objects = gdjs.temaCode.GDRuedaColorObjects2;
+gdjs.temaCode.userFunc0x122fcd8(runtimeScene, objects);
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("MarcaTema"), gdjs.temaCode.GDMarcaTemaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("VistaPrevia"), gdjs.temaCode.GDVistaPreviaObjects1);
+{runtimeScene.getGame().getVariables().getFromIndex(6).setString(gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(2).getAsNumber()) + ";" + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(1).getAsNumber()) + ";" + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber()));
+}
+{for(var i = 0, len = gdjs.temaCode.GDVistaPreviaObjects1.length ;i < len;++i) {
+    gdjs.temaCode.GDVistaPreviaObjects1[i].setColor(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+}
+{runtimeScene.getGame().getVariables().getFromIndex(5).setString("personalizado");
+}
+{gdjs.evtTools.storage.writeStringInJSONFile("ruah", "tema", runtimeScene.getGame().getVariables().getFromIndex(5).getAsString());
+}
+{gdjs.evtTools.storage.writeStringInJSONFile("ruah", "temaCustom", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+{for(var i = 0, len = gdjs.temaCode.GDMarcaTemaObjects1.length ;i < len;++i) {
+    gdjs.temaCode.GDMarcaTemaObjects1[i].setX(1000);
+}
+}
+{for(var i = 0, len = gdjs.temaCode.GDMarcaTemaObjects1.length ;i < len;++i) {
+    gdjs.temaCode.GDMarcaTemaObjects1[i].setY(1610);
+}
+}
+}
+
+}
+
+
+};gdjs.temaCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -734,6 +810,103 @@ gdjs.copyArray(runtimeScene.getObjects("MarcaIdioma"), gdjs.temaCode.GDMarcaIdio
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("EtiquetaPersonalizado"), gdjs.temaCode.GDEtiquetaPersonalizadoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("VistaPrevia"), gdjs.temaCode.GDVistaPreviaObjects1);
+{gdjs.evtTools.storage.readStringFromJSONFile("ruah", "temaCustom", runtimeScene, runtimeScene.getGame().getVariables().getFromIndex(6));
+}
+{for(var i = 0, len = gdjs.temaCode.GDEtiquetaPersonalizadoObjects1.length ;i < len;++i) {
+    gdjs.temaCode.GDEtiquetaPersonalizadoObjects1[i].getBehavior("Text").setText("Toca el circulo para elegir tu color");
+}
+}
+{for(var i = 0, len = gdjs.temaCode.GDVistaPreviaObjects1.length ;i < len;++i) {
+    gdjs.temaCode.GDVistaPreviaObjects1[i].setColor("46;125;75");
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "personalizado");
+}
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("MarcaTema"), gdjs.temaCode.GDMarcaTemaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("VistaPrevia"), gdjs.temaCode.GDVistaPreviaObjects1);
+{runtimeScene.getScene().getVariables().getFromIndex(2).setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.string.subStr(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), 0, gdjs.evtTools.string.strFind(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), ";"))));
+}
+{runtimeScene.getScene().getVariables().getFromIndex(1).setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.string.subStr(gdjs.evtTools.string.subStr(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), gdjs.evtTools.string.strFind(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), ";") + 1, gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString())), 0, gdjs.evtTools.string.strFind(gdjs.evtTools.string.subStr(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), gdjs.evtTools.string.strFind(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), ";") + 1, gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString())), ";"))));
+}
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.evtTools.common.toNumber(gdjs.evtTools.string.subStr(gdjs.evtTools.string.subStr(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), gdjs.evtTools.string.strFind(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), ";") + 1, gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString())), gdjs.evtTools.string.strFind(gdjs.evtTools.string.subStr(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), gdjs.evtTools.string.strFind(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString(), ";") + 1, gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString())), ";") + 1, gdjs.evtTools.string.strLen(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString()))));
+}
+{for(var i = 0, len = gdjs.temaCode.GDVistaPreviaObjects1.length ;i < len;++i) {
+    gdjs.temaCode.GDVistaPreviaObjects1[i].setColor(runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+}
+{for(var i = 0, len = gdjs.temaCode.GDMarcaTemaObjects1.length ;i < len;++i) {
+    gdjs.temaCode.GDMarcaTemaObjects1[i].setX(1000);
+}
+}
+{for(var i = 0, len = gdjs.temaCode.GDMarcaTemaObjects1.length ;i < len;++i) {
+    gdjs.temaCode.GDMarcaTemaObjects1[i].setY(1610);
+}
+}
+}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("RuedaColor"), gdjs.temaCode.GDRuedaColorObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.temaCode.mapOfGDgdjs_9546temaCode_9546GDRuedaColorObjects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{let isConditionTrue_1 = false;
+isConditionTrue_0 = false;
+{
+isConditionTrue_1 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+isConditionTrue_1 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+}
+}
+{
+}
+}
+}
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.temaCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
 };
 
 gdjs.temaCode.func = function(runtimeScene) {
@@ -775,8 +948,14 @@ gdjs.temaCode.GDIdiomaHeaderObjects1.length = 0;
 gdjs.temaCode.GDIdiomaHeaderObjects2.length = 0;
 gdjs.temaCode.GDMarcaIdiomaObjects1.length = 0;
 gdjs.temaCode.GDMarcaIdiomaObjects2.length = 0;
+gdjs.temaCode.GDVistaPreviaObjects1.length = 0;
+gdjs.temaCode.GDVistaPreviaObjects2.length = 0;
+gdjs.temaCode.GDEtiquetaPersonalizadoObjects1.length = 0;
+gdjs.temaCode.GDEtiquetaPersonalizadoObjects2.length = 0;
+gdjs.temaCode.GDRuedaColorObjects1.length = 0;
+gdjs.temaCode.GDRuedaColorObjects2.length = 0;
 
-gdjs.temaCode.eventsList0(runtimeScene);
+gdjs.temaCode.eventsList1(runtimeScene);
 gdjs.temaCode.GDNewSpriteObjects1.length = 0;
 gdjs.temaCode.GDNewSpriteObjects2.length = 0;
 gdjs.temaCode.GDNewSprite2Objects1.length = 0;
@@ -813,6 +992,12 @@ gdjs.temaCode.GDIdiomaHeaderObjects1.length = 0;
 gdjs.temaCode.GDIdiomaHeaderObjects2.length = 0;
 gdjs.temaCode.GDMarcaIdiomaObjects1.length = 0;
 gdjs.temaCode.GDMarcaIdiomaObjects2.length = 0;
+gdjs.temaCode.GDVistaPreviaObjects1.length = 0;
+gdjs.temaCode.GDVistaPreviaObjects2.length = 0;
+gdjs.temaCode.GDEtiquetaPersonalizadoObjects1.length = 0;
+gdjs.temaCode.GDEtiquetaPersonalizadoObjects2.length = 0;
+gdjs.temaCode.GDRuedaColorObjects1.length = 0;
+gdjs.temaCode.GDRuedaColorObjects2.length = 0;
 
 
 return;
