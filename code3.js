@@ -335,7 +335,7 @@ elseEventsChainSatisfied = true;
 
 };gdjs.Escena_32Rosario_32dolorCode.mapOfGDgdjs_9546Escena_959532Rosario_959532dolorCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects = Hashtable.newFrom({"botón_reiniciar_luminosos": gdjs.Escena_32Rosario_32dolorCode.GDbot_95243n_9595reiniciar_9595luminososObjects1});
 gdjs.Escena_32Rosario_32dolorCode.mapOfGDgdjs_9546Escena_959532Rosario_959532dolorCode_9546GDatrasObjects1Objects = Hashtable.newFrom({"atras": gdjs.Escena_32Rosario_32dolorCode.GDatrasObjects1});
-gdjs.Escena_32Rosario_32dolorCode.userFunc0x157e330 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Escena_32Rosario_32dolorCode.userFunc0x9c77d8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -402,12 +402,12 @@ objects.push.apply(objects,gdjs.Escena_32Rosario_32dolorCode.GDvolverObjects1);
 objects.push.apply(objects,gdjs.Escena_32Rosario_32dolorCode.GDBola7Objects1);
 objects.push.apply(objects,gdjs.Escena_32Rosario_32dolorCode.GDNewSpriteObjects1);
 objects.push.apply(objects,gdjs.Escena_32Rosario_32dolorCode.GDarriba_9595tapaObjects1);
-gdjs.Escena_32Rosario_32dolorCode.userFunc0x157e330(runtimeScene, objects);
+gdjs.Escena_32Rosario_32dolorCode.userFunc0x9c77d8(runtimeScene, objects);
 
 }
 
 
-};gdjs.Escena_32Rosario_32dolorCode.userFunc0x26a86f0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Escena_32Rosario_32dolorCode.userFunc0x9c7cb0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -442,7 +442,7 @@ const objects = [];
 objects.push.apply(objects,gdjs.Escena_32Rosario_32dolorCode.GDTexto_9595dolorosoObjects1);
 objects.push.apply(objects,gdjs.Escena_32Rosario_32dolorCode.GDNewTextObjects1);
 objects.push.apply(objects,gdjs.Escena_32Rosario_32dolorCode.GDnumeritoObjects1);
-gdjs.Escena_32Rosario_32dolorCode.userFunc0x26a86f0(runtimeScene, objects);
+gdjs.Escena_32Rosario_32dolorCode.userFunc0x9c7cb0(runtimeScene, objects);
 
 }
 
@@ -496,7 +496,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32Rosario_32dolorCode.mapOfGDgdjs_9546Escena_959532Rosario_959532dolorCode_9546GDbot_959595243n_95959595otro_95959595ave_95959595Mar_959595237a_95959595Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31694588);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34693284);
 }
 }
 }
@@ -537,7 +537,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32Rosario_32dolorCode.mapOfGDgdjs_9546Escena_959532Rosario_959532dolorCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31707300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34705996);
 }
 }
 }

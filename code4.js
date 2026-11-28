@@ -335,7 +335,7 @@ elseEventsChainSatisfied = true;
 
 };gdjs.Misterios_32gloriososCode.mapOfGDgdjs_9546Misterios_959532gloriososCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects = Hashtable.newFrom({"botón_reiniciar_luminosos": gdjs.Misterios_32gloriososCode.GDbot_95243n_9595reiniciar_9595luminososObjects1});
 gdjs.Misterios_32gloriososCode.mapOfGDgdjs_9546Misterios_959532gloriososCode_9546GDatrasObjects1Objects = Hashtable.newFrom({"atras": gdjs.Misterios_32gloriososCode.GDatrasObjects1});
-gdjs.Misterios_32gloriososCode.userFunc0x1700fa8 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Misterios_32gloriososCode.userFunc0x18ff8b0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -400,12 +400,12 @@ objects.push.apply(objects,gdjs.Misterios_32gloriososCode.GDbola_95951Objects1);
 objects.push.apply(objects,gdjs.Misterios_32gloriososCode.GDvolverObjects1);
 objects.push.apply(objects,gdjs.Misterios_32gloriososCode.GDBola7Objects1);
 objects.push.apply(objects,gdjs.Misterios_32gloriososCode.GDNewSpriteObjects1);
-gdjs.Misterios_32gloriososCode.userFunc0x1700fa8(runtimeScene, objects);
+gdjs.Misterios_32gloriososCode.userFunc0x18ff8b0(runtimeScene, objects);
 
 }
 
 
-};gdjs.Misterios_32gloriososCode.userFunc0x1095b38 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Misterios_32gloriososCode.userFunc0x1569840 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -440,7 +440,7 @@ const objects = [];
 objects.push.apply(objects,gdjs.Misterios_32gloriososCode.GDTexto_9595dolorosoObjects1);
 objects.push.apply(objects,gdjs.Misterios_32gloriososCode.GDNewTextObjects1);
 objects.push.apply(objects,gdjs.Misterios_32gloriososCode.GDnumeritoObjects1);
-gdjs.Misterios_32gloriososCode.userFunc0x1095b38(runtimeScene, objects);
+gdjs.Misterios_32gloriososCode.userFunc0x1569840(runtimeScene, objects);
 
 }
 
@@ -494,7 +494,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32gloriososCode.mapOfGDgdjs_9546Misterios_959532gloriososCode_9546GDbot_959595243n_95959595otro_95959595ave_95959595Mar_959595237a_95959595Objects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31873948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34911652);
 }
 }
 }
@@ -535,7 +535,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Misterios_32gloriososCode.mapOfGDgdjs_9546Misterios_959532gloriososCode_9546GDbot_959595243n_95959595reiniciar_95959595luminososObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(31886660);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(34924364);
 }
 }
 }

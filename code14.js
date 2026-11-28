@@ -1653,7 +1653,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.lista_32can_32orCode.userFunc0xba5680 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.lista_32can_32orCode.userFunc0xfd6eb8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -1710,12 +1710,12 @@ objects.push.apply(objects,gdjs.lista_32can_32orCode.GDtapitaObjects1);
 objects.push.apply(objects,gdjs.lista_32can_32orCode.GDNewSprite2Objects1);
 objects.push.apply(objects,gdjs.lista_32can_32orCode.GDNewSprite3Objects1);
 objects.push.apply(objects,gdjs.lista_32can_32orCode.GDNewSprite4Objects1);
-gdjs.lista_32can_32orCode.userFunc0xba5680(runtimeScene, objects);
+gdjs.lista_32can_32orCode.userFunc0xfd6eb8(runtimeScene, objects);
 
 }
 
 
-};gdjs.lista_32can_32orCode.userFunc0x961020 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.lista_32can_32orCode.userFunc0x27bd230 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -1758,7 +1758,7 @@ objects.push.apply(objects,gdjs.lista_32can_32orCode.GDtexto_9595cancion3Objects
 objects.push.apply(objects,gdjs.lista_32can_32orCode.GDtexto_9595cancion4Objects1);
 objects.push.apply(objects,gdjs.lista_32can_32orCode.GDtexto_9595cancion5Objects1);
 objects.push.apply(objects,gdjs.lista_32can_32orCode.GDtexto_9595cancion6Objects1);
-gdjs.lista_32can_32orCode.userFunc0x961020(runtimeScene, objects);
+gdjs.lista_32can_32orCode.userFunc0x27bd230(runtimeScene, objects);
 
 }
 

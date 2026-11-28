@@ -561,7 +561,7 @@ elseEventsChainSatisfied = true;
 
 }
 
-};gdjs.visor_32textoCode.userFunc0x122fcb0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.visor_32textoCode.userFunc0x2b31360 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -606,12 +606,12 @@ objects.push.apply(objects,gdjs.visor_32textoCode.GDNewSprite2Objects1);
 objects.push.apply(objects,gdjs.visor_32textoCode.GDsiguienteObjects1);
 objects.push.apply(objects,gdjs.visor_32textoCode.GDanteriorObjects1);
 objects.push.apply(objects,gdjs.visor_32textoCode.GDtapar_9595textoObjects1);
-gdjs.visor_32textoCode.userFunc0x122fcb0(runtimeScene, objects);
+gdjs.visor_32textoCode.userFunc0x2b31360(runtimeScene, objects);
 
 }
 
 
-};gdjs.visor_32textoCode.userFunc0x21cc708 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.visor_32textoCode.userFunc0x1020bd0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -648,7 +648,7 @@ objects.push.apply(objects,gdjs.visor_32textoCode.GDtitulo_9595visorObjects1);
 objects.push.apply(objects,gdjs.visor_32textoCode.GDCuerpo_9595visorObjects1);
 objects.push.apply(objects,gdjs.visor_32textoCode.GDTextoEvangelioObjects1);
 objects.push.apply(objects,gdjs.visor_32textoCode.GDTexto_9595CargandoObjects1);
-gdjs.visor_32textoCode.userFunc0x21cc708(runtimeScene, objects);
+gdjs.visor_32textoCode.userFunc0x1020bd0(runtimeScene, objects);
 
 }
 

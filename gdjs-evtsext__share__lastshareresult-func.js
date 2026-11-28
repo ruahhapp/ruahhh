@@ -9,7 +9,7 @@ gdjs.evtsExt__Share__LastShareResult = {};
 gdjs.evtsExt__Share__LastShareResult.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Share__LastShareResult.userFunc0x2897368 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Share__LastShareResult.userFunc0x2c06c48 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._shareExtension = gdjs._shareExtension || {
     lastShareResult: '',
@@ -22,7 +22,7 @@ gdjs.evtsExt__Share__LastShareResult.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__Share__LastShareResult.userFunc0x2897368(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Share__LastShareResult.userFunc0x2c06c48(runtimeScene, eventsFunctionContext);
 
 }
 

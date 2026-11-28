@@ -78,7 +78,7 @@ gdjs.guardadosCode.localVariables[0].getFromIndex(0).setNumber(repeatIndex2);
 let isConditionTrue_0 = false;
 if (true)
 {
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595fondoObjects2Objects, 75, 320 + gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber() * 460, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595fondoObjects2Objects, 75, 480 + gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber() * 460, "");
 }
 {for(var i = 0, len = gdjs.guardadosCode.GDcard_9595fondoObjects2.length ;i < len;++i) {
     gdjs.guardadosCode.GDcard_9595fondoObjects2[i].setWidth(1020);
@@ -92,19 +92,19 @@ if (true)
     gdjs.guardadosCode.GDcard_9595fondoObjects2[i].returnVariable(gdjs.guardadosCode.GDcard_9595fondoObjects2[i].getVariables().getFromIndex(0)).setNumber(gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber());
 }
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595refObjects2Objects, 130, 350 + gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber() * 460, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595refObjects2Objects, 130, 510 + gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber() * 460, "");
 }
 {for(var i = 0, len = gdjs.guardadosCode.GDcard_9595refObjects2.length ;i < len;++i) {
     gdjs.guardadosCode.GDcard_9595refObjects2[i].getBehavior("Text").setText(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber()).getChild("referencia").getAsString());
 }
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595versObjects2Objects, 130, 430 + gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber() * 460, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595versObjects2Objects, 130, 590 + gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber() * 460, "");
 }
 {for(var i = 0, len = gdjs.guardadosCode.GDcard_9595versObjects2.length ;i < len;++i) {
     gdjs.guardadosCode.GDcard_9595versObjects2[i].getBehavior("Text").setText(runtimeScene.getScene().getVariables().getFromIndex(6).getChild(gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber()).getChild("versiculo").getAsString());
 }
 }
-{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595iconObjects2Objects, 950, 350 + gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber() * 460, "");
+{gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.guardadosCode.mapOfGDgdjs_9546guardadosCode_9546GDcard_95959595iconObjects2Objects, 950, 510 + gdjs.guardadosCode.localVariables[0].getFromIndex(0).getAsNumber() * 460, "");
 }
 {for(var i = 0, len = gdjs.guardadosCode.GDcard_9595iconObjects2.length ;i < len;++i) {
     gdjs.guardadosCode.GDcard_9595iconObjects2[i].setWidth(70);
@@ -374,7 +374,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 {
-{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.clamp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), 1266, Math.max(1266, 320 + gdjs.evtTools.variable.getVariableChildCount(runtimeScene.getScene().getVariables().getFromIndex(6)) * 460)), "", 0);
+{gdjs.evtTools.camera.setCameraY(runtimeScene, gdjs.evtTools.common.clamp(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), 1266, Math.max(1266, 480 + gdjs.evtTools.variable.getVariableChildCount(runtimeScene.getScene().getVariables().getFromIndex(6)) * 460)), "", 0);
 }
 }
 

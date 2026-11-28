@@ -207,7 +207,7 @@ elseEventsChainSatisfied = true;
 
 }
 
-};gdjs.visor_32santoCode.userFunc0x1118398 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.visor_32santoCode.userFunc0xd2b228 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -242,12 +242,12 @@ const objects = [];
 objects.push.apply(objects,gdjs.visor_32santoCode.GDatras_9595santoObjects1);
 objects.push.apply(objects,gdjs.visor_32santoCode.GDNewSpriteObjects1);
 objects.push.apply(objects,gdjs.visor_32santoCode.GDNewSprite2Objects1);
-gdjs.visor_32santoCode.userFunc0x1118398(runtimeScene, objects);
+gdjs.visor_32santoCode.userFunc0xd2b228(runtimeScene, objects);
 
 }
 
 
-};gdjs.visor_32santoCode.userFunc0xde99a0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.visor_32santoCode.userFunc0x184e118 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -286,7 +286,7 @@ objects.push.apply(objects,gdjs.visor_32santoCode.GDCuerpo_9595santoObjects1);
 objects.push.apply(objects,gdjs.visor_32santoCode.GDBtnMasObjects1);
 objects.push.apply(objects,gdjs.visor_32santoCode.GDBtnMenosObjects1);
 objects.push.apply(objects,gdjs.visor_32santoCode.GDLblTamObjects1);
-gdjs.visor_32santoCode.userFunc0xde99a0(runtimeScene, objects);
+gdjs.visor_32santoCode.userFunc0x184e118(runtimeScene, objects);
 
 }
 

@@ -9,7 +9,7 @@ gdjs.evtsExt__ReadPixels__onFirstSceneLoaded = {};
 gdjs.evtsExt__ReadPixels__onFirstSceneLoaded.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ReadPixels__onFirstSceneLoaded.userFunc0x28b2c00 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ReadPixels__onFirstSceneLoaded.userFunc0x2c224e0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Define an new private object javascript for this extension
 gdjs._readPixels = {};
@@ -61,7 +61,7 @@ gdjs.evtsExt__ReadPixels__onFirstSceneLoaded.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__ReadPixels__onFirstSceneLoaded.userFunc0x28b2c00(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ReadPixels__onFirstSceneLoaded.userFunc0x2c224e0(runtimeScene, eventsFunctionContext);
 
 }
 

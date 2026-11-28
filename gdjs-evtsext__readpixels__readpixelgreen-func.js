@@ -9,7 +9,7 @@ gdjs.evtsExt__ReadPixels__ReadPixelGreen = {};
 gdjs.evtsExt__ReadPixels__ReadPixelGreen.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__ReadPixels__ReadPixelGreen.userFunc0x28a2e40 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__ReadPixels__ReadPixelGreen.userFunc0x2c12720 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const canvas = runtimeScene.getGame().getRenderer().getCanvas();
 if (!canvas) return;
@@ -46,7 +46,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__ReadPixels__ReadPixelGreen.userFunc0x28a2e40(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__ReadPixels__ReadPixelGreen.userFunc0x2c12720(runtimeScene, eventsFunctionContext);
 
 }
 

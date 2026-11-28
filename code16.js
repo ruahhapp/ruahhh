@@ -42,7 +42,7 @@ gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532gener
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
-gdjs.Men_250_32en_32generalCode.userFunc0x2394d28 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Men_250_32en_32generalCode.userFunc0x1053d70 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -95,7 +95,7 @@ objects.push.apply(objects,gdjs.Men_250_32en_32generalCode.GDicono_9595calendari
 objects.push.apply(objects,gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects2);
 objects.push.apply(objects,gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects2);
 objects.push.apply(objects,gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects2);
-gdjs.Men_250_32en_32generalCode.userFunc0x2394d28(runtimeScene, objects);
+gdjs.Men_250_32en_32generalCode.userFunc0x1053d70(runtimeScene, objects);
 
 }
 

@@ -3400,7 +3400,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Calendario_32lit_250rgicoCode.userFunc0x1106a68 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Calendario_32lit_250rgicoCode.userFunc0xd65aa8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -3461,12 +3461,12 @@ objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objec
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1);
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1);
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1);
-gdjs.Calendario_32lit_250rgicoCode.userFunc0x1106a68(runtimeScene, objects);
+gdjs.Calendario_32lit_250rgicoCode.userFunc0xd65aa8(runtimeScene, objects);
 
 }
 
 
-};gdjs.Calendario_32lit_250rgicoCode.userFunc0x21d1030 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Calendario_32lit_250rgicoCode.userFunc0x1b5ef08 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -3537,7 +3537,7 @@ objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pen
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1);
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1);
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1);
-gdjs.Calendario_32lit_250rgicoCode.userFunc0x21d1030(runtimeScene, objects);
+gdjs.Calendario_32lit_250rgicoCode.userFunc0x1b5ef08(runtimeScene, objects);
 
 }
 

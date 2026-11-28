@@ -29,7 +29,7 @@ gdjs.Escena_32modo_32misaCode.GDcanta_9595tu_9595feObjects1= [];
 gdjs.Escena_32modo_32misaCode.GDcanta_9595tu_9595feObjects2= [];
 
 
-gdjs.Escena_32modo_32misaCode.userFunc0x97ee60 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Escena_32modo_32misaCode.userFunc0xf0aa38 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -78,12 +78,12 @@ objects.push.apply(objects,gdjs.Escena_32modo_32misaCode.GDNewSprite2Objects1);
 objects.push.apply(objects,gdjs.Escena_32modo_32misaCode.GDNewSprite3Objects1);
 objects.push.apply(objects,gdjs.Escena_32modo_32misaCode.GDfondo_9595de_9595verdadObjects1);
 objects.push.apply(objects,gdjs.Escena_32modo_32misaCode.GDNewSprite4Objects1);
-gdjs.Escena_32modo_32misaCode.userFunc0x97ee60(runtimeScene, objects);
+gdjs.Escena_32modo_32misaCode.userFunc0xf0aa38(runtimeScene, objects);
 
 }
 
 
-};gdjs.Escena_32modo_32misaCode.userFunc0xe6ab48 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Escena_32modo_32misaCode.userFunc0x1c8d460 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -113,7 +113,7 @@ gdjs.Escena_32modo_32misaCode.eventsList1 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.Escena_32modo_32misaCode.GDNewTextObjects1);
 
 const objects = gdjs.Escena_32modo_32misaCode.GDNewTextObjects1;
-gdjs.Escena_32modo_32misaCode.userFunc0xe6ab48(runtimeScene, objects);
+gdjs.Escena_32modo_32misaCode.userFunc0x1c8d460(runtimeScene, objects);
 
 }
 
@@ -164,7 +164,7 @@ for (var i = 0, k = 0, l = gdjs.Escena_32modo_32misaCode.GDBotonLecturasObjects1
 gdjs.Escena_32modo_32misaCode.GDBotonLecturasObjects1.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(32951156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(36183228);
 }
 }
 if (isConditionTrue_0) {

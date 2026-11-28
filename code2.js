@@ -39,7 +39,7 @@ gdjs.quien_32soyCode.GDAtrasObjects1= [];
 gdjs.quien_32soyCode.GDAtrasObjects2= [];
 
 
-gdjs.quien_32soyCode.userFunc0xc676d0 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.quien_32soyCode.userFunc0x13c9c20 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -100,7 +100,7 @@ objects.push.apply(objects,gdjs.quien_32soyCode.GDNewSprite7Objects1);
 objects.push.apply(objects,gdjs.quien_32soyCode.GDNewTiledSpriteObjects1);
 objects.push.apply(objects,gdjs.quien_32soyCode.GDNewSprite8Objects1);
 objects.push.apply(objects,gdjs.quien_32soyCode.GDAtrasObjects1);
-gdjs.quien_32soyCode.userFunc0xc676d0(runtimeScene, objects);
+gdjs.quien_32soyCode.userFunc0x13c9c20(runtimeScene, objects);
 
 }
 

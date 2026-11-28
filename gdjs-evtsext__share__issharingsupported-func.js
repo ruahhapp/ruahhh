@@ -9,7 +9,7 @@ gdjs.evtsExt__Share__IsSharingSupported = {};
 gdjs.evtsExt__Share__IsSharingSupported.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__Share__IsSharingSupported.userFunc0x28917e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Share__IsSharingSupported.userFunc0x2c010c8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = !!navigator.share;
 };
@@ -18,7 +18,7 @@ gdjs.evtsExt__Share__IsSharingSupported.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__Share__IsSharingSupported.userFunc0x28917e8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__Share__IsSharingSupported.userFunc0x2c010c8(runtimeScene, eventsFunctionContext);
 
 }
 

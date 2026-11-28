@@ -51,7 +51,7 @@ gdjs.lista_32viaCode.GDcancioneroObjects1= [];
 gdjs.lista_32viaCode.GDcancioneroObjects2= [];
 
 
-gdjs.lista_32viaCode.userFunc0x2badba0 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.lista_32viaCode.userFunc0xbc1718 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -126,7 +126,7 @@ objects.push.apply(objects,gdjs.lista_32viaCode.GDboton12Objects1);
 objects.push.apply(objects,gdjs.lista_32viaCode.GDboton13Objects1);
 objects.push.apply(objects,gdjs.lista_32viaCode.GDboton14Objects1);
 objects.push.apply(objects,gdjs.lista_32viaCode.GDboton15Objects1);
-gdjs.lista_32viaCode.userFunc0x2badba0(runtimeScene, objects);
+gdjs.lista_32viaCode.userFunc0xbc1718(runtimeScene, objects);
 
 }
 

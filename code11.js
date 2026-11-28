@@ -51,7 +51,7 @@ gdjs.elegirCode.GDNewSprite10Objects1= [];
 gdjs.elegirCode.GDNewSprite10Objects2= [];
 
 
-gdjs.elegirCode.userFunc0x16a5210 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.elegirCode.userFunc0x2aeec20 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -114,7 +114,7 @@ objects.push.apply(objects,gdjs.elegirCode.GDNewSprite6Objects1);
 objects.push.apply(objects,gdjs.elegirCode.GDNewSprite7Objects1);
 objects.push.apply(objects,gdjs.elegirCode.GDabajoObjects1);
 objects.push.apply(objects,gdjs.elegirCode.GDNewSprite8Objects1);
-gdjs.elegirCode.userFunc0x16a5210(runtimeScene, objects);
+gdjs.elegirCode.userFunc0x2aeec20(runtimeScene, objects);
 
 }
 

@@ -41,7 +41,7 @@ gdjs.Escenario_32menu_32rosarioCode.GDcanta_9595tu_9595feObjects1= [];
 gdjs.Escenario_32menu_32rosarioCode.GDcanta_9595tu_9595feObjects2= [];
 
 
-gdjs.Escenario_32menu_32rosarioCode.userFunc0x1579630 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Escenario_32menu_32rosarioCode.userFunc0xc11bb0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -104,7 +104,7 @@ objects.push.apply(objects,gdjs.Escenario_32menu_32rosarioCode.GDNewSprite6Objec
 objects.push.apply(objects,gdjs.Escenario_32menu_32rosarioCode.GDNewSprite7Objects1);
 objects.push.apply(objects,gdjs.Escenario_32menu_32rosarioCode.GDabajoObjects1);
 objects.push.apply(objects,gdjs.Escenario_32menu_32rosarioCode.GDNewSprite8Objects1);
-gdjs.Escenario_32menu_32rosarioCode.userFunc0x1579630(runtimeScene, objects);
+gdjs.Escenario_32menu_32rosarioCode.userFunc0xc11bb0(runtimeScene, objects);
 
 }
 

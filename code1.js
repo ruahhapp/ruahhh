@@ -35,7 +35,7 @@ gdjs.escena_32informaci_243nCode.GDcanta_9595tu_9595feObjects1= [];
 gdjs.escena_32informaci_243nCode.GDcanta_9595tu_9595feObjects2= [];
 
 
-gdjs.escena_32informaci_243nCode.userFunc0x25a2058 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.escena_32informaci_243nCode.userFunc0x18b0a48 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -92,7 +92,7 @@ objects.push.apply(objects,gdjs.escena_32informaci_243nCode.GDNewSprite5Objects1
 objects.push.apply(objects,gdjs.escena_32informaci_243nCode.GDNewSprite6Objects1);
 objects.push.apply(objects,gdjs.escena_32informaci_243nCode.GDNewSprite7Objects1);
 objects.push.apply(objects,gdjs.escena_32informaci_243nCode.GDNewTiledSpriteObjects1);
-gdjs.escena_32informaci_243nCode.userFunc0x25a2058(runtimeScene, objects);
+gdjs.escena_32informaci_243nCode.userFunc0x18b0a48(runtimeScene, objects);
 
 }
 

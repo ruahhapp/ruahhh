@@ -9,7 +9,7 @@ gdjs.evtsExt__PinchGesture__TransformToSceneX = {};
 gdjs.evtsExt__PinchGesture__TransformToSceneX.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0x27a68f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0xaa8860 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const x = eventsFunctionContext.getArgument("PositionX");
 const y = eventsFunctionContext.getArgument("PositionY");
@@ -32,7 +32,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0x27a68f8(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__PinchGesture__TransformToSceneX.userFunc0xaa8860(runtimeScene, eventsFunctionContext);
 
 }
 

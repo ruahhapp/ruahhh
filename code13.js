@@ -150,7 +150,7 @@ gdjs.copyArray(runtimeScene.getObjects("Cuerpo_visor"), gdjs.Visor_32viaCode.GDC
 }
 
 
-};gdjs.Visor_32viaCode.userFunc0x97aa90 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Visor_32viaCode.userFunc0x14f4750 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -195,12 +195,12 @@ objects.push.apply(objects,gdjs.Visor_32viaCode.GDNewSprite2Objects1);
 objects.push.apply(objects,gdjs.Visor_32viaCode.GDsiguienteObjects1);
 objects.push.apply(objects,gdjs.Visor_32viaCode.GDanteriorObjects1);
 objects.push.apply(objects,gdjs.Visor_32viaCode.GDtapar_9595textoObjects1);
-gdjs.Visor_32viaCode.userFunc0x97aa90(runtimeScene, objects);
+gdjs.Visor_32viaCode.userFunc0x14f4750(runtimeScene, objects);
 
 }
 
 
-};gdjs.Visor_32viaCode.userFunc0x29f4f58 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Visor_32viaCode.userFunc0x1857678 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -243,7 +243,7 @@ objects.push.apply(objects,gdjs.Visor_32viaCode.GDTexto_9595CargandoObjects1);
 objects.push.apply(objects,gdjs.Visor_32viaCode.GDBtnMasObjects1);
 objects.push.apply(objects,gdjs.Visor_32viaCode.GDBtnMenosObjects1);
 objects.push.apply(objects,gdjs.Visor_32viaCode.GDLblTamObjects1);
-gdjs.Visor_32viaCode.userFunc0x29f4f58(runtimeScene, objects);
+gdjs.Visor_32viaCode.userFunc0x1857678(runtimeScene, objects);
 
 }
 
