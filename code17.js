@@ -3400,7 +3400,7 @@ let isConditionTrue_0 = false;
 }
 
 
-};gdjs.Calendario_32lit_250rgicoCode.userFunc0xd65aa8 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Calendario_32lit_250rgicoCode.userFunc0x1b30eb8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -3461,12 +3461,12 @@ objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objec
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1);
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1);
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1);
-gdjs.Calendario_32lit_250rgicoCode.userFunc0xd65aa8(runtimeScene, objects);
+gdjs.Calendario_32lit_250rgicoCode.userFunc0x1b30eb8(runtimeScene, objects);
 
 }
 
 
-};gdjs.Calendario_32lit_250rgicoCode.userFunc0x1b5ef08 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Calendario_32lit_250rgicoCode.userFunc0x2e0d348 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -3537,12 +3537,3122 @@ objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pen
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1);
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1);
 objects.push.apply(objects,gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1);
-gdjs.Calendario_32lit_250rgicoCode.userFunc0x1b5ef08(runtimeScene, objects);
+gdjs.Calendario_32lit_250rgicoCode.userFunc0x2e0d348(runtimeScene, objects);
 
 }
 
 
 };gdjs.Calendario_32lit_250rgicoCode.eventsList22 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "azul");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_2"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2);
+gdjs.copyArray(runtimeScene.getObjects("titulo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2);
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "amarillo");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_2"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2);
+gdjs.copyArray(runtimeScene.getObjects("titulo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2);
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "rosa");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_2"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2);
+gdjs.copyArray(runtimeScene.getObjects("texto_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2);
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2);
+gdjs.copyArray(runtimeScene.getObjects("titulo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2);
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "verde");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fondo_2"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("fondo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1);
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1);
+gdjs.copyArray(runtimeScene.getObjects("titulo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1);
+gdjs.copyArray(runtimeScene.getObjects("volver_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1);
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+};gdjs.Calendario_32lit_250rgicoCode.eventsList23 = function(runtimeScene) {
 
 {
 
@@ -8559,6 +11669,571 @@ gdjs.Calendario_32lit_250rgicoCode.eventsList21(runtimeScene);} //End of subeven
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.Calendario_32lit_250rgicoCode.eventsList22(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1);
+gdjs.copyArray(runtimeScene.getObjects("etiqueta_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fondo_2"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("fondo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_adviento"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_cuaresma"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_navidad"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_pascua"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_pentecostes"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_semana_santa"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_1"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_2"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_tiempo_ordinario_3"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1);
+gdjs.copyArray(runtimeScene.getObjects("texto_triduo_pascual"), gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1);
+gdjs.copyArray(runtimeScene.getObjects("titulo"), gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1);
+gdjs.copyArray(runtimeScene.getObjects("titulo_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1);
+gdjs.copyArray(runtimeScene.getObjects("volver_calendario"), gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1);
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDvolver_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDboton_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtituloObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomNum", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtitulo_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95951Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595advientoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595navidadObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595cuaresmaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595semana_9595santaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595triduo_9595pascualObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pascuaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595pentecostesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDetiqueta_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1.length ;i < len;++i) {
+    gdjs.Calendario_32lit_250rgicoCode.GDtexto_9595tiempo_9595ordinario_95953Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+}
+}
+
+}
+
+
 };
 
 gdjs.Calendario_32lit_250rgicoCode.func = function(runtimeScene) {
@@ -8760,7 +12435,7 @@ gdjs.Calendario_32lit_250rgicoCode.GDcanta_9595tu_9595feObjects3.length = 0;
 gdjs.Calendario_32lit_250rgicoCode.GDcanta_9595tu_9595feObjects4.length = 0;
 gdjs.Calendario_32lit_250rgicoCode.GDcanta_9595tu_9595feObjects5.length = 0;
 
-gdjs.Calendario_32lit_250rgicoCode.eventsList22(runtimeScene);
+gdjs.Calendario_32lit_250rgicoCode.eventsList23(runtimeScene);
 gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects1.length = 0;
 gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects2.length = 0;
 gdjs.Calendario_32lit_250rgicoCode.GDfondo_9595calendarioObjects3.length = 0;

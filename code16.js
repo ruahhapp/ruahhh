@@ -42,7 +42,7 @@ gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532gener
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
 gdjs.Men_250_32en_32generalCode.mapOfGDgdjs_9546Men_9595250_959532en_959532generalCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Men_250_32en_32generalCode.GDNewSpriteObjects1});
-gdjs.Men_250_32en_32generalCode.userFunc0x1053d70 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.Men_250_32en_32generalCode.userFunc0x1852d78 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -95,7 +95,7 @@ objects.push.apply(objects,gdjs.Men_250_32en_32generalCode.GDicono_9595calendari
 objects.push.apply(objects,gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects2);
 objects.push.apply(objects,gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects2);
 objects.push.apply(objects,gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects2);
-gdjs.Men_250_32en_32generalCode.userFunc0x1053d70(runtimeScene, objects);
+gdjs.Men_250_32en_32generalCode.userFunc0x1852d78(runtimeScene, objects);
 
 }
 
@@ -911,6 +911,265 @@ gdjs.copyArray(runtimeScene.getObjects("icono_mapa"), gdjs.Men_250_32en_32genera
     gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
 }
 }
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+}
 }
 
 }
@@ -1226,6 +1485,265 @@ gdjs.copyArray(runtimeScene.getObjects("icono_mapa"), gdjs.Men_250_32en_32genera
 }
 {for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
     gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
 }
 }
 }
@@ -1545,6 +2063,265 @@ gdjs.copyArray(runtimeScene.getObjects("icono_mapa"), gdjs.Men_250_32en_32genera
     gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
 }
 }
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+}
 }
 
 }
@@ -1862,6 +2639,265 @@ gdjs.copyArray(runtimeScene.getObjects("icono_mapa"), gdjs.Men_250_32en_32genera
     gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
 }
 }
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").enableEffect("CustomNum", false);
+}
+}
 }
 
 }
@@ -1998,6 +3034,219 @@ if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.Men_250_32en_32generalCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Icono_cancionero"), gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Icono_modo_misa"), gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Icono_oraciones"), gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Icono_rosario"), gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1);
+gdjs.copyArray(runtimeScene.getObjects("cambiar_color"), gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fondo"), gdjs.Men_250_32en_32generalCode.GDfondoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fondo_2"), gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1);
+gdjs.copyArray(runtimeScene.getObjects("icono_apoya"), gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("icono_calendario"), gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1);
+gdjs.copyArray(runtimeScene.getObjects("icono_casita_"), gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1);
+gdjs.copyArray(runtimeScene.getObjects("icono_info"), gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("icono_mapa"), gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1);
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595casita_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595rosarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595oracionesObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595cancioneroObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDIcono_9595modo_9595misaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595mapaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595calendarioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595apoyaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDicono_9595infoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDcambiar_9595colorObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.12);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.12);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.12);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("fondo_2"), gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1);
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.12);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.12);
+}
+}
+{for(var i = 0, len = gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1.length ;i < len;++i) {
+    gdjs.Men_250_32en_32generalCode.GDfondo_95952Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.12);
+}
+}
 }
 
 }

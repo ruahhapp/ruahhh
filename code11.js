@@ -3,55 +3,79 @@ gdjs.elegirCode.localVariables = [];
 gdjs.elegirCode.idToCallbackMap = new Map();
 gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1= [];
 gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2= [];
+gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects3= [];
 gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1= [];
 gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2= [];
+gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects3= [];
 gdjs.elegirCode.GDsalmoObjects1= [];
 gdjs.elegirCode.GDsalmoObjects2= [];
+gdjs.elegirCode.GDsalmoObjects3= [];
 gdjs.elegirCode.GDevangelioObjects1= [];
 gdjs.elegirCode.GDevangelioObjects2= [];
+gdjs.elegirCode.GDevangelioObjects3= [];
 gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1= [];
 gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2= [];
+gdjs.elegirCode.GDvolver_9595a_9595inicioObjects3= [];
 gdjs.elegirCode.GDFONDOObjects1= [];
 gdjs.elegirCode.GDFONDOObjects2= [];
+gdjs.elegirCode.GDFONDOObjects3= [];
 gdjs.elegirCode.GDprimeraObjects1= [];
 gdjs.elegirCode.GDprimeraObjects2= [];
+gdjs.elegirCode.GDprimeraObjects3= [];
 gdjs.elegirCode.GDvolverObjects1= [];
 gdjs.elegirCode.GDvolverObjects2= [];
+gdjs.elegirCode.GDvolverObjects3= [];
 gdjs.elegirCode.GDNewSpriteObjects1= [];
 gdjs.elegirCode.GDNewSpriteObjects2= [];
+gdjs.elegirCode.GDNewSpriteObjects3= [];
 gdjs.elegirCode.GDNewSprite2Objects1= [];
 gdjs.elegirCode.GDNewSprite2Objects2= [];
+gdjs.elegirCode.GDNewSprite2Objects3= [];
 gdjs.elegirCode.GDNewSprite3Objects1= [];
 gdjs.elegirCode.GDNewSprite3Objects2= [];
+gdjs.elegirCode.GDNewSprite3Objects3= [];
 gdjs.elegirCode.GDNewSprite4Objects1= [];
 gdjs.elegirCode.GDNewSprite4Objects2= [];
+gdjs.elegirCode.GDNewSprite4Objects3= [];
 gdjs.elegirCode.GDNewSprite5Objects1= [];
 gdjs.elegirCode.GDNewSprite5Objects2= [];
+gdjs.elegirCode.GDNewSprite5Objects3= [];
 gdjs.elegirCode.GDNewSprite6Objects1= [];
 gdjs.elegirCode.GDNewSprite6Objects2= [];
+gdjs.elegirCode.GDNewSprite6Objects3= [];
 gdjs.elegirCode.GDNewSprite7Objects1= [];
 gdjs.elegirCode.GDNewSprite7Objects2= [];
+gdjs.elegirCode.GDNewSprite7Objects3= [];
 gdjs.elegirCode.GDabajoObjects1= [];
 gdjs.elegirCode.GDabajoObjects2= [];
+gdjs.elegirCode.GDabajoObjects3= [];
 gdjs.elegirCode.GDNewSprite8Objects1= [];
 gdjs.elegirCode.GDNewSprite8Objects2= [];
+gdjs.elegirCode.GDNewSprite8Objects3= [];
 gdjs.elegirCode.GDcancioneroObjects1= [];
 gdjs.elegirCode.GDcancioneroObjects2= [];
+gdjs.elegirCode.GDcancioneroObjects3= [];
 gdjs.elegirCode.GDcanta_9595tu_9595feObjects1= [];
 gdjs.elegirCode.GDcanta_9595tu_9595feObjects2= [];
+gdjs.elegirCode.GDcanta_9595tu_9595feObjects3= [];
 gdjs.elegirCode.GDNewSprite9Objects1= [];
 gdjs.elegirCode.GDNewSprite9Objects2= [];
+gdjs.elegirCode.GDNewSprite9Objects3= [];
 gdjs.elegirCode.GDLECTObjects1= [];
 gdjs.elegirCode.GDLECTObjects2= [];
+gdjs.elegirCode.GDLECTObjects3= [];
 gdjs.elegirCode.GDSALMOObjects1= [];
 gdjs.elegirCode.GDSALMOObjects2= [];
+gdjs.elegirCode.GDSALMOObjects3= [];
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects1= [];
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects2= [];
+gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects3= [];
 gdjs.elegirCode.GDNewSprite10Objects1= [];
 gdjs.elegirCode.GDNewSprite10Objects2= [];
+gdjs.elegirCode.GDNewSprite10Objects3= [];
 
 
-gdjs.elegirCode.userFunc0x2aeec20 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.elegirCode.userFunc0x17fb068 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -114,12 +138,1382 @@ objects.push.apply(objects,gdjs.elegirCode.GDNewSprite6Objects1);
 objects.push.apply(objects,gdjs.elegirCode.GDNewSprite7Objects1);
 objects.push.apply(objects,gdjs.elegirCode.GDabajoObjects1);
 objects.push.apply(objects,gdjs.elegirCode.GDNewSprite8Objects1);
-gdjs.elegirCode.userFunc0x2aeec20(runtimeScene, objects);
+gdjs.elegirCode.userFunc0x17fb068(runtimeScene, objects);
 
 }
 
 
 };gdjs.elegirCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "azul");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("FONDO"), gdjs.elegirCode.GDFONDOObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.elegirCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.elegirCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.elegirCode.GDNewSprite3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.elegirCode.GDNewSprite4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.elegirCode.GDNewSprite5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.elegirCode.GDNewSprite6Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.elegirCode.GDNewSprite7Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.elegirCode.GDNewSprite8Objects2);
+gdjs.copyArray(runtimeScene.getObjects("abajo"), gdjs.elegirCode.GDabajoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("botón_glosioso"), gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("evangelio"), gdjs.elegirCode.GDevangelioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_Rosario_menu_"), gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2);
+gdjs.copyArray(runtimeScene.getObjects("primera"), gdjs.elegirCode.GDprimeraObjects2);
+gdjs.copyArray(runtimeScene.getObjects("salmo"), gdjs.elegirCode.GDsalmoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver"), gdjs.elegirCode.GDvolverObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver_a_inicio"), gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2);
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "amarillo");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("FONDO"), gdjs.elegirCode.GDFONDOObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.elegirCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.elegirCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.elegirCode.GDNewSprite3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.elegirCode.GDNewSprite4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.elegirCode.GDNewSprite5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.elegirCode.GDNewSprite6Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.elegirCode.GDNewSprite7Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.elegirCode.GDNewSprite8Objects2);
+gdjs.copyArray(runtimeScene.getObjects("abajo"), gdjs.elegirCode.GDabajoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("botón_glosioso"), gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("evangelio"), gdjs.elegirCode.GDevangelioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_Rosario_menu_"), gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2);
+gdjs.copyArray(runtimeScene.getObjects("primera"), gdjs.elegirCode.GDprimeraObjects2);
+gdjs.copyArray(runtimeScene.getObjects("salmo"), gdjs.elegirCode.GDsalmoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver"), gdjs.elegirCode.GDvolverObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver_a_inicio"), gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2);
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "rosa");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("FONDO"), gdjs.elegirCode.GDFONDOObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.elegirCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.elegirCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.elegirCode.GDNewSprite3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.elegirCode.GDNewSprite4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.elegirCode.GDNewSprite5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.elegirCode.GDNewSprite6Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.elegirCode.GDNewSprite7Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.elegirCode.GDNewSprite8Objects2);
+gdjs.copyArray(runtimeScene.getObjects("abajo"), gdjs.elegirCode.GDabajoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("botón_glosioso"), gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("evangelio"), gdjs.elegirCode.GDevangelioObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondo_Rosario_menu_"), gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2);
+gdjs.copyArray(runtimeScene.getObjects("primera"), gdjs.elegirCode.GDprimeraObjects2);
+gdjs.copyArray(runtimeScene.getObjects("salmo"), gdjs.elegirCode.GDsalmoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver"), gdjs.elegirCode.GDvolverObjects2);
+gdjs.copyArray(runtimeScene.getObjects("volver_a_inicio"), gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2);
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects2.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "verde");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("FONDO"), gdjs.elegirCode.GDFONDOObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.elegirCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.elegirCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.elegirCode.GDNewSprite3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.elegirCode.GDNewSprite4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.elegirCode.GDNewSprite5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.elegirCode.GDNewSprite6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.elegirCode.GDNewSprite7Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.elegirCode.GDNewSprite8Objects1);
+gdjs.copyArray(runtimeScene.getObjects("abajo"), gdjs.elegirCode.GDabajoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("botón_glosioso"), gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("evangelio"), gdjs.elegirCode.GDevangelioObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fondo_Rosario_menu_"), gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1);
+gdjs.copyArray(runtimeScene.getObjects("primera"), gdjs.elegirCode.GDprimeraObjects1);
+gdjs.copyArray(runtimeScene.getObjects("salmo"), gdjs.elegirCode.GDsalmoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("volver"), gdjs.elegirCode.GDvolverObjects1);
+gdjs.copyArray(runtimeScene.getObjects("volver_a_inicio"), gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1);
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+};gdjs.elegirCode.eventsList2 = function(runtimeScene) {
 
 {
 
@@ -2297,6 +3691,258 @@ gdjs.elegirCode.eventsList0(runtimeScene);} //End of subevents
 }
 
 
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.elegirCode.eventsList1(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("FONDO"), gdjs.elegirCode.GDFONDOObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.elegirCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.elegirCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite3"), gdjs.elegirCode.GDNewSprite3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite4"), gdjs.elegirCode.GDNewSprite4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite5"), gdjs.elegirCode.GDNewSprite5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite6"), gdjs.elegirCode.GDNewSprite6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite7"), gdjs.elegirCode.GDNewSprite7Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite8"), gdjs.elegirCode.GDNewSprite8Objects1);
+gdjs.copyArray(runtimeScene.getObjects("abajo"), gdjs.elegirCode.GDabajoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("botón_glosioso"), gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("evangelio"), gdjs.elegirCode.GDevangelioObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fondo_Rosario_menu_"), gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1);
+gdjs.copyArray(runtimeScene.getObjects("primera"), gdjs.elegirCode.GDprimeraObjects1);
+gdjs.copyArray(runtimeScene.getObjects("salmo"), gdjs.elegirCode.GDsalmoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("volver"), gdjs.elegirCode.GDvolverObjects1);
+gdjs.copyArray(runtimeScene.getObjects("volver_a_inicio"), gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1);
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDsalmoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDsalmoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDevangelioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDevangelioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDFONDOObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDFONDOObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDprimeraObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDprimeraObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDvolverObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDvolverObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite3Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite3Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite4Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite4Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite5Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite5Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite6Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite6Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite7Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite7Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDabajoObjects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDabajoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.elegirCode.GDNewSprite8Objects1.length ;i < len;++i) {
+    gdjs.elegirCode.GDNewSprite8Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+}
+}
+
+}
+
+
 };
 
 gdjs.elegirCode.func = function(runtimeScene) {
@@ -2304,102 +3950,150 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length = 0;
 gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length = 0;
+gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects3.length = 0;
 gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length = 0;
 gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length = 0;
+gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects3.length = 0;
 gdjs.elegirCode.GDsalmoObjects1.length = 0;
 gdjs.elegirCode.GDsalmoObjects2.length = 0;
+gdjs.elegirCode.GDsalmoObjects3.length = 0;
 gdjs.elegirCode.GDevangelioObjects1.length = 0;
 gdjs.elegirCode.GDevangelioObjects2.length = 0;
+gdjs.elegirCode.GDevangelioObjects3.length = 0;
 gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length = 0;
 gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length = 0;
+gdjs.elegirCode.GDvolver_9595a_9595inicioObjects3.length = 0;
 gdjs.elegirCode.GDFONDOObjects1.length = 0;
 gdjs.elegirCode.GDFONDOObjects2.length = 0;
+gdjs.elegirCode.GDFONDOObjects3.length = 0;
 gdjs.elegirCode.GDprimeraObjects1.length = 0;
 gdjs.elegirCode.GDprimeraObjects2.length = 0;
+gdjs.elegirCode.GDprimeraObjects3.length = 0;
 gdjs.elegirCode.GDvolverObjects1.length = 0;
 gdjs.elegirCode.GDvolverObjects2.length = 0;
+gdjs.elegirCode.GDvolverObjects3.length = 0;
 gdjs.elegirCode.GDNewSpriteObjects1.length = 0;
 gdjs.elegirCode.GDNewSpriteObjects2.length = 0;
+gdjs.elegirCode.GDNewSpriteObjects3.length = 0;
 gdjs.elegirCode.GDNewSprite2Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite2Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite2Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite3Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite3Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite3Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite4Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite4Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite4Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite5Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite5Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite5Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite6Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite6Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite6Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite7Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite7Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite7Objects3.length = 0;
 gdjs.elegirCode.GDabajoObjects1.length = 0;
 gdjs.elegirCode.GDabajoObjects2.length = 0;
+gdjs.elegirCode.GDabajoObjects3.length = 0;
 gdjs.elegirCode.GDNewSprite8Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite8Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite8Objects3.length = 0;
 gdjs.elegirCode.GDcancioneroObjects1.length = 0;
 gdjs.elegirCode.GDcancioneroObjects2.length = 0;
+gdjs.elegirCode.GDcancioneroObjects3.length = 0;
 gdjs.elegirCode.GDcanta_9595tu_9595feObjects1.length = 0;
 gdjs.elegirCode.GDcanta_9595tu_9595feObjects2.length = 0;
+gdjs.elegirCode.GDcanta_9595tu_9595feObjects3.length = 0;
 gdjs.elegirCode.GDNewSprite9Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite9Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite9Objects3.length = 0;
 gdjs.elegirCode.GDLECTObjects1.length = 0;
 gdjs.elegirCode.GDLECTObjects2.length = 0;
+gdjs.elegirCode.GDLECTObjects3.length = 0;
 gdjs.elegirCode.GDSALMOObjects1.length = 0;
 gdjs.elegirCode.GDSALMOObjects2.length = 0;
+gdjs.elegirCode.GDSALMOObjects3.length = 0;
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects1.length = 0;
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects2.length = 0;
+gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects3.length = 0;
 gdjs.elegirCode.GDNewSprite10Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite10Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite10Objects3.length = 0;
 
-gdjs.elegirCode.eventsList1(runtimeScene);
+gdjs.elegirCode.eventsList2(runtimeScene);
 gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects1.length = 0;
 gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects2.length = 0;
+gdjs.elegirCode.GDfondo_9595Rosario_9595menu_9595Objects3.length = 0;
 gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects1.length = 0;
 gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects2.length = 0;
+gdjs.elegirCode.GDbot_95243n_9595glosiosoObjects3.length = 0;
 gdjs.elegirCode.GDsalmoObjects1.length = 0;
 gdjs.elegirCode.GDsalmoObjects2.length = 0;
+gdjs.elegirCode.GDsalmoObjects3.length = 0;
 gdjs.elegirCode.GDevangelioObjects1.length = 0;
 gdjs.elegirCode.GDevangelioObjects2.length = 0;
+gdjs.elegirCode.GDevangelioObjects3.length = 0;
 gdjs.elegirCode.GDvolver_9595a_9595inicioObjects1.length = 0;
 gdjs.elegirCode.GDvolver_9595a_9595inicioObjects2.length = 0;
+gdjs.elegirCode.GDvolver_9595a_9595inicioObjects3.length = 0;
 gdjs.elegirCode.GDFONDOObjects1.length = 0;
 gdjs.elegirCode.GDFONDOObjects2.length = 0;
+gdjs.elegirCode.GDFONDOObjects3.length = 0;
 gdjs.elegirCode.GDprimeraObjects1.length = 0;
 gdjs.elegirCode.GDprimeraObjects2.length = 0;
+gdjs.elegirCode.GDprimeraObjects3.length = 0;
 gdjs.elegirCode.GDvolverObjects1.length = 0;
 gdjs.elegirCode.GDvolverObjects2.length = 0;
+gdjs.elegirCode.GDvolverObjects3.length = 0;
 gdjs.elegirCode.GDNewSpriteObjects1.length = 0;
 gdjs.elegirCode.GDNewSpriteObjects2.length = 0;
+gdjs.elegirCode.GDNewSpriteObjects3.length = 0;
 gdjs.elegirCode.GDNewSprite2Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite2Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite2Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite3Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite3Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite3Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite4Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite4Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite4Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite5Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite5Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite5Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite6Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite6Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite6Objects3.length = 0;
 gdjs.elegirCode.GDNewSprite7Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite7Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite7Objects3.length = 0;
 gdjs.elegirCode.GDabajoObjects1.length = 0;
 gdjs.elegirCode.GDabajoObjects2.length = 0;
+gdjs.elegirCode.GDabajoObjects3.length = 0;
 gdjs.elegirCode.GDNewSprite8Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite8Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite8Objects3.length = 0;
 gdjs.elegirCode.GDcancioneroObjects1.length = 0;
 gdjs.elegirCode.GDcancioneroObjects2.length = 0;
+gdjs.elegirCode.GDcancioneroObjects3.length = 0;
 gdjs.elegirCode.GDcanta_9595tu_9595feObjects1.length = 0;
 gdjs.elegirCode.GDcanta_9595tu_9595feObjects2.length = 0;
+gdjs.elegirCode.GDcanta_9595tu_9595feObjects3.length = 0;
 gdjs.elegirCode.GDNewSprite9Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite9Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite9Objects3.length = 0;
 gdjs.elegirCode.GDLECTObjects1.length = 0;
 gdjs.elegirCode.GDLECTObjects2.length = 0;
+gdjs.elegirCode.GDLECTObjects3.length = 0;
 gdjs.elegirCode.GDSALMOObjects1.length = 0;
 gdjs.elegirCode.GDSALMOObjects2.length = 0;
+gdjs.elegirCode.GDSALMOObjects3.length = 0;
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects1.length = 0;
 gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects2.length = 0;
+gdjs.elegirCode.GDEVANGELIO_9595TEXTObjects3.length = 0;
 gdjs.elegirCode.GDNewSprite10Objects1.length = 0;
 gdjs.elegirCode.GDNewSprite10Objects2.length = 0;
+gdjs.elegirCode.GDNewSprite10Objects3.length = 0;
 
 
 return;

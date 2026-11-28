@@ -115,7 +115,7 @@ gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects3= [];
 
 
 gdjs.menu_32cancioneroCode.mapOfGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595entradaObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDacciondegrasiabotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDofertoriobotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDsantoObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595villancicosObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDcomunion_95959595botonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDvirgenbotonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595adoracionObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDaleluyaObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDcordero_95959595botonObjects1ObjectsGDgdjs_9546menu_959532cancioneroCode_9546GDboton_95959595shemaObjects1Objects = Hashtable.newFrom({"boton_entrada": gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1, "acciondegrasiaboton": gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1, "ofertorioboton": gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1, "santo": gdjs.menu_32cancioneroCode.GDsantoObjects1, "boton_villancicos": gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1, "comunion_boton": gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1, "virgenboton": gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1, "boton_adoracion": gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1, "aleluya": gdjs.menu_32cancioneroCode.GDaleluyaObjects1, "cordero_boton": gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1, "boton_shema": gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1});
-gdjs.menu_32cancioneroCode.userFunc0x12719a8 = function GDJSInlineCode(runtimeScene) {
+gdjs.menu_32cancioneroCode.userFunc0xa97218 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   const norm = (s) => (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   const CAT = [
@@ -152,7 +152,7 @@ gdjs.menu_32cancioneroCode.eventsList0 = function(runtimeScene) {
 {
 
 
-gdjs.menu_32cancioneroCode.userFunc0x12719a8(runtimeScene);
+gdjs.menu_32cancioneroCode.userFunc0xa97218(runtimeScene);
 
 }
 
@@ -197,7 +197,7 @@ gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GD
 }
 
 
-};gdjs.menu_32cancioneroCode.userFunc0xb09c30 = function GDJSInlineCode(runtimeScene) {
+};gdjs.menu_32cancioneroCode.userFunc0x1ca0b88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
   const vars = runtimeScene.getVariables();
   const email = runtimeScene.getGame().getVariables().get("EmailPropuestas").getAsString();
@@ -211,7 +211,7 @@ gdjs.menu_32cancioneroCode.eventsList1 = function(runtimeScene) {
 {
 
 
-gdjs.menu_32cancioneroCode.userFunc0xb09c30(runtimeScene);
+gdjs.menu_32cancioneroCode.userFunc0x1ca0b88(runtimeScene);
 
 }
 
@@ -288,7 +288,7 @@ elseEventsChainSatisfied = true;
 
 }
 
-};gdjs.menu_32cancioneroCode.userFunc0xc90b90 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.menu_32cancioneroCode.userFunc0xb92060 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -316,8 +316,16 @@ gdjs.menu_32cancioneroCode.eventsList3 = function(runtimeScene) {
 {
 
 gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects1);
 gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects1);
 gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1);
@@ -351,12 +359,20 @@ objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDtapaObjects1);
 objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
 objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
 objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1);
-gdjs.menu_32cancioneroCode.userFunc0xc90b90(runtimeScene, objects);
+objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDResBus6Objects1);
+objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
+objects.push.apply(objects,gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.menu_32cancioneroCode.userFunc0xb92060(runtimeScene, objects);
 
 }
 
 
-};gdjs.menu_32cancioneroCode.userFunc0x12c61c8 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.menu_32cancioneroCode.userFunc0x132f150 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const gv = runtimeScene.getGame().getVariables();
   const ct = gv.get('ColorTema').getAsString();
@@ -386,12 +402,2090 @@ gdjs.menu_32cancioneroCode.eventsList4 = function(runtimeScene) {
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects1);
 
 const objects = gdjs.menu_32cancioneroCode.GDNewTextObjects1;
-gdjs.menu_32cancioneroCode.userFunc0x12c61c8(runtimeScene, objects);
+gdjs.menu_32cancioneroCode.userFunc0x132f150(runtimeScene, objects);
 
 }
 
 
 };gdjs.menu_32cancioneroCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "azul");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects2);
+gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_entrada"), gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_shema"), gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_villancicos"), gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2);
+gdjs.copyArray(runtimeScene.getObjects("comunion_boton"), gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("cordero_boton"), gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondofondo"), gdjs.menu_32cancioneroCode.GDfondofondoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ofertorioboton"), gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("santo"), gdjs.menu_32cancioneroCode.GDsantoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("segundo_fondo_oraciones_"), gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2);
+gdjs.copyArray(runtimeScene.getObjects("tapa"), gdjs.menu_32cancioneroCode.GDtapaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("virgenboton"), gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2);
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "amarillo");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects2);
+gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_entrada"), gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_shema"), gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_villancicos"), gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2);
+gdjs.copyArray(runtimeScene.getObjects("comunion_boton"), gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("cordero_boton"), gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondofondo"), gdjs.menu_32cancioneroCode.GDfondofondoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ofertorioboton"), gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("santo"), gdjs.menu_32cancioneroCode.GDsantoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("segundo_fondo_oraciones_"), gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2);
+gdjs.copyArray(runtimeScene.getObjects("tapa"), gdjs.menu_32cancioneroCode.GDtapaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("virgenboton"), gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2);
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "rosa");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects2);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects2);
+gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_entrada"), gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_shema"), gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("boton_villancicos"), gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2);
+gdjs.copyArray(runtimeScene.getObjects("comunion_boton"), gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("cordero_boton"), gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("fondofondo"), gdjs.menu_32cancioneroCode.GDfondofondoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("ofertorioboton"), gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2);
+gdjs.copyArray(runtimeScene.getObjects("santo"), gdjs.menu_32cancioneroCode.GDsantoObjects2);
+gdjs.copyArray(runtimeScene.getObjects("segundo_fondo_oraciones_"), gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2);
+gdjs.copyArray(runtimeScene.getObjects("tapa"), gdjs.menu_32cancioneroCode.GDtapaObjects2);
+gdjs.copyArray(runtimeScene.getObjects("virgenboton"), gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2);
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("RosaMedio", true);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects2.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects2[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(5).getAsString() == "verde");
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_entrada"), gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_shema"), gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_villancicos"), gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1);
+gdjs.copyArray(runtimeScene.getObjects("comunion_boton"), gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("cordero_boton"), gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fondofondo"), gdjs.menu_32cancioneroCode.GDfondofondoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ofertorioboton"), gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("santo"), gdjs.menu_32cancioneroCode.GDsantoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("segundo_fondo_oraciones_"), gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1);
+gdjs.copyArray(runtimeScene.getObjects("tapa"), gdjs.menu_32cancioneroCode.GDtapaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("virgenboton"), gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1);
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("AzulMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("AmarilloMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("RosaMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", false);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", false);
+}
+}
+}
+
+}
+
+
+};gdjs.menu_32cancioneroCode.eventsList6 = function(runtimeScene) {
 {
 
 let elseEventsChainSatisfied = false;
@@ -1121,9 +3215,17 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects1);
 gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects1);
 gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1);
@@ -1189,6 +3291,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
@@ -1240,6 +3366,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -1293,6 +3443,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
@@ -1344,6 +3518,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -1397,6 +3595,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
@@ -1449,6 +3671,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
@@ -1492,9 +3738,17 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects1);
 gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects1);
 gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1);
@@ -1560,6 +3814,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
@@ -1611,6 +3889,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", true);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -1664,6 +3966,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
@@ -1715,6 +4041,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -1768,6 +4118,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
@@ -1820,6 +4194,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", true);
@@ -1863,9 +4261,17 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects1);
 gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects1);
 gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1);
@@ -1931,6 +4337,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
@@ -1982,6 +4412,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -2035,6 +4489,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", true);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
@@ -2086,6 +4564,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", true);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -2139,6 +4641,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
@@ -2191,6 +4717,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
@@ -2234,9 +4784,17 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects1);
 gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects1);
 gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1);
@@ -2302,6 +4860,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
@@ -2353,6 +4935,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -2406,6 +5012,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
@@ -2457,6 +5087,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -2510,6 +5164,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", true);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
@@ -2561,6 +5239,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", true);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
@@ -3425,9 +6127,17 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
 gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
 gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects1);
 gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1);
 gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects1);
 gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1);
@@ -3497,6 +6207,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
@@ -3548,6 +6282,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AzulClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -3601,6 +6359,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
@@ -3652,6 +6434,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("AmarilloClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -3705,6 +6511,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaOscuro", false);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
@@ -3756,6 +6586,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("RosaClaro", false);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
@@ -3833,6 +6687,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomOscuro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(2).getAsString());
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
@@ -3884,6 +6762,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomMedio", "newColor", runtimeScene.getGame().getVariables().getFromIndex(6).getAsString());
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -3937,6 +6839,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").setEffectStringParameter("CustomClaro", "newColor", runtimeScene.getScene().getVariables().getFromIndex(1).getAsString());
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
@@ -3988,6 +6914,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("CustomOscuro", true);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
@@ -4041,6 +6991,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
 }
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("CustomMedio", true);
+}
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
@@ -4092,6 +7066,30 @@ for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i <
 }
 for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
     gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").enableEffect("CustomClaro", true);
 }
 }
 {for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
@@ -4178,6 +7176,379 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("boton_entrada"), gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1);
 {runtimeScene.getScene().getVariables().getFromIndex(0).setString("PIXEL=" + gdjs.evtTools.common.toString(gdjs.evtsExt__ReadPixels__ReadPixelRed.func(runtimeScene, (( gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length === 0 ) ? 0 :gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[0].getPointX("")) + 45, (( gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length === 0 ) ? 0 :gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[0].getCenterYInScene()) - gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), null)) + ";" + gdjs.evtTools.common.toString(gdjs.evtsExt__ReadPixels__ReadPixelGreen.func(runtimeScene, (( gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length === 0 ) ? 0 :gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[0].getPointX("")) + 45, (( gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length === 0 ) ? 0 :gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[0].getCenterYInScene()) - gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), null)) + ";" + gdjs.evtTools.common.toString(gdjs.evtsExt__ReadPixels__ReadPixelBlue.func(runtimeScene, (( gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length === 0 ) ? 0 :gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[0].getPointX("")) + 45, (( gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length === 0 ) ? 0 :gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[0].getCenterYInScene()) - gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0), null)) + " camY=" + gdjs.evtTools.common.toString(gdjs.evtTools.camera.getCameraY(runtimeScene, "", 0)));
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.menu_32cancioneroCode.eventsList5(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("Atras"), gdjs.menu_32cancioneroCode.GDAtrasObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerFijo"), gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("DrawerResultados"), gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs.menu_32cancioneroCode.GDNewSpriteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite2"), gdjs.menu_32cancioneroCode.GDNewSprite2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewText"), gdjs.menu_32cancioneroCode.GDNewTextObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus1"), gdjs.menu_32cancioneroCode.GDResBus1Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus2"), gdjs.menu_32cancioneroCode.GDResBus2Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus3"), gdjs.menu_32cancioneroCode.GDResBus3Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus4"), gdjs.menu_32cancioneroCode.GDResBus4Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus5"), gdjs.menu_32cancioneroCode.GDResBus5Objects1);
+gdjs.copyArray(runtimeScene.getObjects("ResBus6"), gdjs.menu_32cancioneroCode.GDResBus6Objects1);
+gdjs.copyArray(runtimeScene.getObjects("acciondegrasiaboton"), gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("aleluya"), gdjs.menu_32cancioneroCode.GDaleluyaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_adoracion"), gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_entrada"), gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_shema"), gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("boton_villancicos"), gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1);
+gdjs.copyArray(runtimeScene.getObjects("comunion_boton"), gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("cordero_boton"), gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("fondofondo"), gdjs.menu_32cancioneroCode.GDfondofondoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("ofertorioboton"), gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1);
+gdjs.copyArray(runtimeScene.getObjects("santo"), gdjs.menu_32cancioneroCode.GDsantoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("segundo_fondo_oraciones_"), gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1);
+gdjs.copyArray(runtimeScene.getObjects("tapa"), gdjs.menu_32cancioneroCode.GDtapaObjects1);
+gdjs.copyArray(runtimeScene.getObjects("virgenboton"), gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1);
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDfondofondoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDfondofondoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595entradaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDacciondegrasiabotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDofertoriobotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDsantoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDsantoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595adoracionObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDaleluyaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDaleluyaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcordero_9595botonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDcomunion_9595botonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDvirgenbotonObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595villancicosObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDAtrasObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDAtrasObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDtapaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDtapaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSpriteObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewSprite2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewSprite2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus1Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus1Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus2Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus2Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus3Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus3Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus4Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus4Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus5Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus5Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDResBus6Objects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDResBus6Objects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerResultadosObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+for(var i = 0, len = gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDDrawerFijoObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AzulClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").setEffectDoubleParameter("AmarilloClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").setEffectDoubleParameter("RosaClaro", "epsilon", 0.08);
+}
+}
+{for(var i = 0, len = gdjs.menu_32cancioneroCode.GDNewTextObjects1.length ;i < len;++i) {
+    gdjs.menu_32cancioneroCode.GDNewTextObjects1[i].getBehavior("Effect").setEffectDoubleParameter("CustomClaro", "epsilon", 0.08);
+}
 }
 }
 
@@ -4302,7 +7673,7 @@ gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects1.length = 0;
 gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects2.length = 0;
 gdjs.menu_32cancioneroCode.GDboton_9595shemaObjects3.length = 0;
 
-gdjs.menu_32cancioneroCode.eventsList5(runtimeScene);
+gdjs.menu_32cancioneroCode.eventsList6(runtimeScene);
 gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects1.length = 0;
 gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects2.length = 0;
 gdjs.menu_32cancioneroCode.GDsegundo_9595fondo_9595oraciones_9595Objects3.length = 0;

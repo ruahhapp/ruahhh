@@ -46,7 +46,7 @@ gdjs.temaCode.GDRuedaColorObjects2= [];
 
 
 gdjs.temaCode.mapOfGDgdjs_9546temaCode_9546GDRuedaColorObjects1Objects = Hashtable.newFrom({"RuedaColor": gdjs.temaCode.GDRuedaColorObjects1});
-gdjs.temaCode.userFunc0x1496d18 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.temaCode.userFunc0x25b59c0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
   const o = objects[0];
   const cx = o.getCenterXInScene();
@@ -78,7 +78,7 @@ gdjs.copyArray(gdjs.temaCode.GDRuedaColorObjects1, gdjs.temaCode.GDRuedaColorObj
 
 
 const objects = gdjs.temaCode.GDRuedaColorObjects2;
-gdjs.temaCode.userFunc0x1496d18(runtimeScene, objects);
+gdjs.temaCode.userFunc0x25b59c0(runtimeScene, objects);
 
 }
 
